@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-bulma": [
+        "dist/ngx-bulma"
+      ],
+      "ngx-bulma/*": [
+        "dist/ngx-bulma/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

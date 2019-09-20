@@ -2,5 +2,160 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "newProjectRoot": "projects",
-  "projects": {}
+  "projects": {
+    "ngx-bulma": {
+      "projectType": "library",
+      "root": "projects/ngx-bulma",
+      "sourceRoot": "projects/ngx-bulma/src",
+      "prefix": "bu",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/ngx-bulma/tsconfig.lib.json",
+            "project": "projects/ngx-bulma/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngx-bulma/src/test.ts",
+            "tsConfig": "projects/ngx-bulma/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-bulma/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ngx-bulma/tsconfig.lib.json",
+              "projects/ngx-bulma/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    },
+    "bulma-app": {
+      "projectType": "application",
+      "schematics": {},
+      "root": "projects/bulma-app",
+      "sourceRoot": "projects/bulma-app/src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/bulma-app",
+            "index": "projects/bulma-app/src/index.html",
+            "main": "projects/bulma-app/src/main.ts",
+            "polyfills": "projects/bulma-app/src/polyfills.ts",
+            "tsConfig": "projects/bulma-app/tsconfig.app.json",
+            "aot": false,
+            "assets": [
+              "projects/bulma-app/src/favicon.ico",
+              "projects/bulma-app/src/assets"
+            ],
+            "styles": [
+              "projects/bulma-app/src/styles.css",
+              "node_modules/bulma/css/bulma.css"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "projects/bulma-app/src/environments/environment.ts",
+                  "with": "projects/bulma-app/src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "extractCss": true,
+              "namedChunks": false,
+              "aot": true,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb",
+                  "maximumError": "10kb"
+                }
+              ]
+            }
+          }
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "browserTarget": "bulma-app:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "bulma-app:build:production"
+            }
+          }
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "bulma-app:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/bulma-app/src/test.ts",
+            "polyfills": "projects/bulma-app/src/polyfills.ts",
+            "tsConfig": "projects/bulma-app/tsconfig.spec.json",
+            "karmaConfig": "projects/bulma-app/karma.conf.js",
+            "assets": [
+              "projects/bulma-app/src/favicon.ico",
+              "projects/bulma-app/src/assets"
+            ],
+            "styles": [
+              "projects/bulma-app/src/styles.css"
+            ],
+            "scripts": []
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/bulma-app/tsconfig.app.json",
+              "projects/bulma-app/tsconfig.spec.json",
+              "projects/bulma-app/e2e/tsconfig.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        },
+        "e2e": {
+          "builder": "@angular-devkit/build-angular:protractor",
+          "options": {
+            "protractorConfig": "projects/bulma-app/e2e/protractor.conf.js",
+            "devServerTarget": "bulma-app:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "bulma-app:serve:production"
+            }
+          }
+        }
+      }
+    }},
+  "defaultProject": "ngx-bulma"
 }
