@@ -3,7 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BreadcrumbModule } from 'ngx-bulma';
+import { BreadcrumbModule,DropdownModule} from 'ngx-bulma';
+
 
 @NgModule({
   declarations: [
@@ -12,7 +13,7 @@ import { BreadcrumbModule } from 'ngx-bulma';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BreadcrumbModule
+    BreadcrumbModule,DropdownModule
   ],
   providers: [],
   bootstrap: [AppComponent]
