@@ -60,6 +60,7 @@
             ],
             "styles": [
               "projects/bulma-app/src/styles.css",
+              "node_modules/@fortawesome/fontawesome-free/css/all.css",
               "node_modules/bulma/css/bulma.css"
             ],
             "scripts": []
