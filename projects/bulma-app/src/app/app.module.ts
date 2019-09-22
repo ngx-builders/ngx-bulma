@@ -1,9 +1,15 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import {
+  BulmaBreadcrumbModule, BulmaCardModule,
+  BulmaMenuModule, BulmaModalModule,
+  BulmaNavModule, BulmaPanelModule, BulmaTabsModule
+} from 'ngx-bulma';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BreadcrumbModule } from 'ngx-bulma';
+
 
 @NgModule({
   declarations: [
@@ -12,7 +18,11 @@ import { BreadcrumbModule } from 'ngx-bulma';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BreadcrumbModule
+    BulmaBreadcrumbModule,
+    BulmaCardModule,
+    BulmaMenuModule, BulmaModalModule,
+    BulmaNavModule, BulmaPanelModule,
+    BulmaTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -6,10 +6,10 @@ import {
 
 @Component({
   selector: 'bu-breadcrumb',
-  templateUrl: './breadcrumb.component.html',
-  styleUrls: ['./breadcrumb.component.css']
+  templateUrl: './bulma-breadcrumb.component.html',
+  styleUrls: ['./bulma-breadcrumb.component.css']
 })
-export class BreadcrumbComponent implements OnInit {
+export class BulmaBreadcrumbComponent implements OnInit {
 
   @Input() data: any[];
 
