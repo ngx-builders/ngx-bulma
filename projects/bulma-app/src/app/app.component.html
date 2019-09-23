@@ -1,4 +1,13 @@
 <bu-breadcrumb [data]="data"></bu-breadcrumb>
+<!-- 
+<bu-dropdown></bu-dropdown> -->
 
-<bu-dropdown></bu-dropdown>
+<bu-select>
+     
+          <bu-option *ngFor="let food of foods">
+        {{food.viewValue}}
+          </bu-option> 
+
+</bu-select>
+external: {{external}}
 <bu-card></bu-card>
