@@ -4,6 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "build:lib": "ng build ngx-bulma",
+    "serve:app": "ng serve bulma-app -o",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
