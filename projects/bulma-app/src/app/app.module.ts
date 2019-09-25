@@ -4,11 +4,12 @@ import { NgModule } from '@angular/core';
 import {
   BulmaBreadcrumbModule, BulmaCardModule,
   BulmaMenuModule, BulmaModalModule,
-  BulmaNavModule, BulmaPanelModule, BulmaTabsModule
+  BulmaNavModule, BulmaPanelModule, BulmaTabsModule,BulmaMessageModule 
 } from 'ngx-bulma';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MessageComponent } from './message/message.component';
 import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './menu/menu.component';
 
@@ -16,6 +17,7 @@ import { MenuComponent } from './menu/menu.component';
 @NgModule({
   declarations: [
     AppComponent,
+    MessageComponent,
     HomeComponent,
     MenuComponent
   ],
@@ -26,7 +28,7 @@ import { MenuComponent } from './menu/menu.component';
     BulmaCardModule,
     BulmaMenuModule, BulmaModalModule,
     BulmaNavModule, BulmaPanelModule,
-    BulmaTabsModule
+    BulmaTabsModule,BulmaMessageModule
   ],
   providers: [],
   bootstrap: [AppComponent]
