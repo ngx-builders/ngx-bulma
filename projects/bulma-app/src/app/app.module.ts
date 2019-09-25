@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import {
   BulmaBreadcrumbModule, BulmaCardModule,
   BulmaMenuModule, BulmaModalModule,
-  BulmaNavModule, BulmaPanelModule, BulmaTabsModule,BulmaMessageModule
+  BulmaNavModule, BulmaPanelModule, BulmaTabsModule,BulmaMessageModule 
 } from 'ngx-bulma';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -17,7 +17,7 @@ import { MenuComponent } from './menu/menu.component';
 @NgModule({
   declarations: [
     AppComponent,
-    MessageComponent
+    MessageComponent,
     HomeComponent,
     MenuComponent
   ],

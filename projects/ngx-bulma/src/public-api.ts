@@ -9,3 +9,4 @@ export * from './lib/bulma-modal/index';
 export * from './lib/bulma-nav/index';
 export * from './lib/bulma-panel/index';
 export * from './lib/bulma-tabs/index';
+export * from './lib/bulma-message/index';
