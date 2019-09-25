@@ -1,2 +1,22 @@
-<bu-breadcrumb [data]="data"></bu-breadcrumb>
-<bu-card></bu-card>
+<bu-menu>
+  <bu-menu-header>
+    Menu
+  </bu-menu-header>
+  <bu-menu-list>
+    <li><a [routerLink]="['/home']" routerLinkActive="router-link-active" >Home</a></li>
+    <li><a [routerLink]="['/menu']" routerLinkActive="router-link-active" >Menu</a></li>
+    <bu-menu-list>
+      <li>
+        <a>Manage Your Team</a>
+        <ul>
+          <li><a>Members</a></li>
+          <li><a>Plugins</a></li>
+          <li><a>Add a member</a></li>
+        </ul>
+      </li>
+    </bu-menu-list>
+  </bu-menu-list>
+  <bu-menu-content>
+    <router-outlet></router-outlet>
+  </bu-menu-content>
+</bu-menu>

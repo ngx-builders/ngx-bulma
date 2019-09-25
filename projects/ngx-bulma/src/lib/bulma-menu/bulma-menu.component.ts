@@ -1,9 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'bu-menu',
   templateUrl: './bulma-menu.component.html',
-  styleUrls: ['./bulma-menu.component.css']
+  styleUrls: ['./bulma-menu.component.css'],
+  encapsulation: ViewEncapsulation.None
 })
 export class BulmaMenuComponent implements OnInit {
 
