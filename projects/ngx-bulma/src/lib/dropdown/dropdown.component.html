@@ -1,15 +1,12 @@
-<div class="field">
-  <label class="label">Subject</label>
-  <div class="control">
+
     <div class="select">
       <!-- <select [(ngModel)]="value">
         <option>Select dropdown</option>
         <option>With options</option>
       </select> -->
-      <select>
+      <select >
           
-          <bu-option></bu-option>
+          <ng-content select="bu-option"></ng-content>
       </select>
     </div>
-  </div>
-</div>
+  
