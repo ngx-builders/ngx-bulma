@@ -13,6 +13,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { MessageComponent } from './message/message.component';
 import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './menu/menu.component';
+import { CardComponent } from './card/card.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { MenuComponent } from './menu/menu.component';
     NavbarComponent,
     MessageComponent,
     HomeComponent,
-    MenuComponent
+    MenuComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

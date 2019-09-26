@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./message-header.component.css']
 })
 export class MessageHeaderComponent implements OnInit {
-
+  showMyContainer: boolean = true;
   constructor() { }
 
   ngOnInit() {
   }
-
+ 
 }

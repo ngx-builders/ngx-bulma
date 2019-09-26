@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MessageComponent implements OnInit {
 
+  showMyContainer: boolean = true;
   constructor() { }
 
   ngOnInit() {
