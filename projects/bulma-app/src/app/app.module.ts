@@ -2,9 +2,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import {
-  BulmaBreadcrumbModule, BulmaCardModule,
-  BulmaMenuModule, BulmaModalModule,
-  BulmaNavModule, BulmaPanelModule, BulmaTabsModule,BulmaMessageModule
+  BreadcrumbModule, CardModule,
+  MenuModule, ModalModule,
+  NavbarModule, PanelModule, TabsModule, MessageModule
 } from 'ngx-bulma';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -26,11 +26,11 @@ import { MenuComponent } from './menu/menu.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BulmaBreadcrumbModule,
-    BulmaCardModule,
-    BulmaMenuModule, BulmaModalModule,
-    BulmaNavModule, BulmaPanelModule,
-    BulmaTabsModule,BulmaMessageModule
+    BreadcrumbModule,
+    CardModule,
+    MenuModule, ModalModule,
+    NavbarModule, PanelModule,
+    TabsModule, MessageModule
   ],
   providers: [],
   bootstrap: [AppComponent]

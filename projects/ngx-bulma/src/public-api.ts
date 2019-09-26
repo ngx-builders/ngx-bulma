@@ -2,11 +2,11 @@
  * Public API Surface of ngx-bulma
  */
 
-export * from './lib/bulma-breadcrumb/index';
-export * from './lib/bulma-card/index';
-export * from './lib/bulma-menu/index';
-export * from './lib/bulma-modal/index';
-export * from './lib/bulma-nav/index';
-export * from './lib/bulma-panel/index';
-export * from './lib/bulma-tabs/index';
-export * from './lib/bulma-message/index';
+export * from './lib/breadcrumb/index';
+export * from './lib/card/index';
+export * from './lib/menu/index';
+export * from './lib/modal/index';
+export * from './lib/navbar/index';
+export * from './lib/panel/index';
+export * from './lib/tabs/index';
+export * from './lib/message/index';
