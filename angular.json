@@ -8,6 +8,15 @@
       "root": "projects/ngx-bulma",
       "sourceRoot": "projects/ngx-bulma/src",
       "prefix": "bu",
+      "schematics": {
+        "@schematics/angular:component": {
+          "viewEncapsulation": "None",
+          "changeDetection": "OnPush",
+          "entryComponent": true,
+          "export": true,
+          "prefix": "Bulma"
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
