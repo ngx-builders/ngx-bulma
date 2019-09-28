@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { DropdownComponent } from './dropdown.component';
+import { BulmaDropdownComponent } from './dropdown.component';
 
 
 
 @NgModule({
-  declarations: [DropdownComponent],
+  declarations: [BulmaDropdownComponent],
   imports: [
     CommonModule
   ]
-  ,exports:[DropdownComponent]
+  ,exports:[BulmaDropdownComponent]
 })
-export class DropdownModule { }
+export class BulmaDropdownModule { }

@@ -4,13 +4,15 @@ import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './menu/menu.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { MessageComponent } from './message/message.component';
+import { CardComponent } from './card/card.component';
 
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'menu', component: MenuComponent },
   { path: 'navbar', component: NavbarComponent },
-  { path: 'message', component: MessageComponent }
+  { path: 'message', component: MessageComponent },
+  { path: 'card', component: CardComponent }
 ];
 
 @NgModule({

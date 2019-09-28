@@ -1,13 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-message',
+  selector: 'bu-bulma-message',
   templateUrl: './message.component.html',
   styleUrls: ['./message.component.css']
 })
-export class MessageComponent implements OnInit {
+export class BulmaMessageComponent implements OnInit {
 
-  showMyContainer: boolean = true;
   constructor() { }
 
   ngOnInit() {
