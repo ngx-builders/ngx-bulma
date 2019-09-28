@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewEncapsulation, ChangeDetectionStrategy } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation, ChangeDetectionStrategy, Input } from '@angular/core';
 
 @Component({
   selector: 'bu-modal',
@@ -9,6 +9,8 @@ import { Component, OnInit, ViewEncapsulation, ChangeDetectionStrategy } from '@
 })
 export class BulmaModalComponent implements OnInit {
 
+  @Input() open=false;
+  
   constructor() { }
 
   ngOnInit() {

@@ -5,6 +5,7 @@ import { MenuComponent } from './menu/menu.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { MessageComponent } from './message/message.component';
 import { CardComponent } from './card/card.component';
+import {ModelComponent} from './model/model.component';
 
 
 const routes: Routes = [
@@ -12,7 +13,8 @@ const routes: Routes = [
   { path: 'menu', component: MenuComponent },
   { path: 'navbar', component: NavbarComponent },
   { path: 'message', component: MessageComponent },
-  { path: 'card', component: CardComponent }
+  { path: 'card', component: CardComponent },
+  { path: 'model', component: ModelComponent }
 ];
 
 @NgModule({

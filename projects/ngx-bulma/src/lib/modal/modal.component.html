@@ -1,1 +1,10 @@
-<p>bulma-modal works!</p>
+<div class="modal" [ngClass]="{  'is-active' : open }">
+
+
+    <ng-content select="bu-model-head"></ng-content>
+        <ng-content select="bu-model-content"></ng-content>
+            <ng-content select="bu-model-footer"></ng-content>
+
+
+
+</div>

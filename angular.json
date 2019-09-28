@@ -12,9 +12,9 @@
         "@schematics/angular:component": {
           "viewEncapsulation": "None",
           "changeDetection": "OnPush",
-          "entryComponent": true,
+          "entryComponent": false,
           "export": true,
-          "prefix": "Bulma"
+          "prefix": "bu"
         }
       },
       "architect": {

@@ -5,8 +5,7 @@ import {
   BulmaBreadcrumbModule, BulmaCardModule,
   BulmaMenuModule, BulmaModalModule,
   BulmaNavbarModule, BulmaPanelModule, BulmaTabsModule,
-  BulmaMessageModule
-} from 'ngx-bulma';
+  BulmaMessageModule} from 'ngx-bulma';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,6 +14,7 @@ import { MessageComponent } from './message/message.component';
 import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './menu/menu.component';
 import { CardComponent } from './card/card.component';
+import { ModelComponent } from './model/model.component';
 
 
 @NgModule({
@@ -24,7 +24,8 @@ import { CardComponent } from './card/card.component';
     MessageComponent,
     HomeComponent,
     MenuComponent,
-    CardComponent
+    CardComponent,
+    ModelComponent
   ],
   imports: [
     BrowserModule,
