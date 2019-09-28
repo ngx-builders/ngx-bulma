@@ -1,13 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PaginationComponent } from './pagination.component';
+import { BulmaPaginationComponent } from './pagination.component';
 
 
 
 @NgModule({
-  declarations: [PaginationComponent],
+  declarations: [BulmaPaginationComponent],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [BulmaPaginationComponent]
 })
-export class PaginationModule { }
+export class BulmaPaginationModule { }

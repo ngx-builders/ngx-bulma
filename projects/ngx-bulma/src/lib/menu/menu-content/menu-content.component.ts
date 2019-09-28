@@ -6,7 +6,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   styleUrls: ['./menu-content.component.css'],
   encapsulation: ViewEncapsulation.None
 })
-export class MenuContentComponent implements OnInit {
+export class BulmaMenuContentComponent implements OnInit {
 
   constructor() { }
 

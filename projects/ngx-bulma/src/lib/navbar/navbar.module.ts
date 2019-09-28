@@ -1,17 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NavbarComponent } from './navbar.component';
-import { NavbarBrandComponent } from './navbar-brand/navbar-brand.component';
-import { NavbarItemComponent } from './navbar-item/navbar-item.component';
+import { BulmaNavbarComponent } from './navbar.component';
+import { BulmaNavbarBrandComponent } from './navbar-brand/navbar-brand.component';
+import { BulmaNavbarItemComponent } from './navbar-item/navbar-item.component';
 
 
 
 @NgModule({
-  declarations: [NavbarComponent, NavbarBrandComponent, NavbarItemComponent],
+  declarations: [BulmaNavbarComponent, BulmaNavbarBrandComponent, BulmaNavbarItemComponent],
   imports: [
     CommonModule
   ],
-  exports: [NavbarComponent,
-    NavbarBrandComponent, NavbarItemComponent]
+  exports: [BulmaNavbarComponent,
+    BulmaNavbarBrandComponent, BulmaNavbarItemComponent]
 })
-export class NavbarModule { }
+export class BulmaNavbarModule { }

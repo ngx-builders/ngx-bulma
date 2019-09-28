@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './navbar-brand.component.html',
   styleUrls: ['./navbar-brand.component.css']
 })
-export class NavbarBrandComponent implements OnInit {
+export class BulmaNavbarBrandComponent implements OnInit {
 
   constructor() { }
 

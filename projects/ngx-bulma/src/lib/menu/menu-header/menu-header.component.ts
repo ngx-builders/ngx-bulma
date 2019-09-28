@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './menu-header.component.html',
   styleUrls: ['./menu-header.component.css']
 })
-export class MenuHeaderComponent implements OnInit {
+export class BulmaMenuHeaderComponent implements OnInit {
 
   constructor() { }
 

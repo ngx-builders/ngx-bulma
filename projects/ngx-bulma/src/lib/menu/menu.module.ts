@@ -1,22 +1,22 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MenuComponent } from './menu.component';
-import { MenuListComponent } from './menu-list/menu-list.component';
-import { MenuContentComponent } from './menu-content/menu-content.component';
-import { MenuHeaderComponent } from './menu-header/menu-header.component';
+import { BulmaMenuComponent } from './menu.component';
+import { BulmaMenuListComponent } from './menu-list/menu-list.component';
+import { BulmaMenuContentComponent } from './menu-content/menu-content.component';
+import { BulmaMenuHeaderComponent } from './menu-header/menu-header.component';
 
 
 
 @NgModule({
-  declarations: [MenuComponent,
-    MenuListComponent,
-    MenuContentComponent,
-    MenuHeaderComponent],
+  declarations: [BulmaMenuComponent,
+    BulmaMenuListComponent,
+    BulmaMenuContentComponent,
+    BulmaMenuHeaderComponent],
   imports: [
     CommonModule
   ],
-  exports: [MenuComponent, MenuListComponent,
-    MenuContentComponent,
-    MenuHeaderComponent]
+  exports: [BulmaMenuComponent, BulmaMenuListComponent,
+    BulmaMenuContentComponent,
+    BulmaMenuHeaderComponent]
 })
-export class MenuModule { }
+export class BulmaMenuModule { }

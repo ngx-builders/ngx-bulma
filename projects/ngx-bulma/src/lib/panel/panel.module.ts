@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PanelComponent } from './panel.component';
+import { BulmaPanelComponent } from './panel.component';
 
 
 
 @NgModule({
-  declarations: [PanelComponent],
+  declarations: [BulmaPanelComponent],
   imports: [
     CommonModule
   ],
-  exports: [PanelComponent]
+  exports: [BulmaPanelComponent]
 })
-export class PanelModule { }
+export class BulmaPanelModule { }

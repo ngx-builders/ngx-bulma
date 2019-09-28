@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './message-content.component.html',
   styleUrls: ['./message-content.component.css']
 })
-export class MessageContentComponent implements OnInit {
+export class BulmaMessageContentComponent implements OnInit {
 
   constructor() { }
 

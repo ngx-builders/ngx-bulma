@@ -5,11 +5,11 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './message-header.component.html',
   styleUrls: ['./message-header.component.css']
 })
-export class MessageHeaderComponent implements OnInit {
+export class BulmaMessageHeaderComponent implements OnInit {
   showMyContainer: boolean = true;
   constructor() { }
 
   ngOnInit() {
   }
- 
+
 }

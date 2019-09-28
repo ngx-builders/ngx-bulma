@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './card-header.component.html',
   styleUrls: ['./card-header.component.css']
 })
-export class CardHeaderComponent implements OnInit {
+export class BulmaCardHeaderComponent implements OnInit {
 
   constructor() { }
 

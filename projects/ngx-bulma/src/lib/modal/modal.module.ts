@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ModalComponent } from './modal.component';
+import { BulmaModalComponent } from './modal.component';
 
 
 
 @NgModule({
-  declarations: [ModalComponent],
+  declarations: [BulmaModalComponent],
   imports: [
     CommonModule
   ],
-  exports: [ModalComponent]
+  exports: [BulmaModalComponent]
 })
-export class ModalModule { }
+export class BulmaModalModule { }

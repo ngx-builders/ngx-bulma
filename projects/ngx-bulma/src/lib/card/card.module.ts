@@ -1,16 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CardComponent } from './card.component';
-import { CardHeaderComponent } from './card-header/card-header.component';
-import { CardContentComponent } from './card-content/card-content.component';
-import { CardFooterComponent } from './card-footer/card-footer.component';
-import { CardTitleComponent } from './card-title/card-title.component';
+import { BulmaCardComponent } from './card.component';
+import { BulmaCardHeaderComponent } from './card-header/card-header.component';
+import { BulmaCardContentComponent } from './card-content/card-content.component';
+import { BulmaCardFooterComponent } from './card-footer/card-footer.component';
+import { BulmaCardTitleComponent } from './card-title/card-title.component';
 
 @NgModule({
-  declarations: [CardComponent, CardHeaderComponent, CardContentComponent, CardFooterComponent, CardTitleComponent],
+  declarations: [BulmaCardComponent, BulmaCardHeaderComponent,
+    BulmaCardContentComponent, BulmaCardFooterComponent, BulmaCardTitleComponent],
   imports: [
     CommonModule
   ],
-  exports: [CardComponent,CardHeaderComponent,CardContentComponent,CardFooterComponent,CardTitleComponent]
+  exports: [BulmaCardComponent, BulmaCardHeaderComponent,
+    BulmaCardContentComponent, BulmaCardFooterComponent, BulmaCardTitleComponent]
 })
-export class CardModule { }
+export class BulmaCardModule { }
