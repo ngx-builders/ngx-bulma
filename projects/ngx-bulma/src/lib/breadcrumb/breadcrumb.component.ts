@@ -1,13 +1,17 @@
 import {
   Component, OnInit,
   Input, Output,
-  EventEmitter
+  EventEmitter,
+  ViewEncapsulation,
+  ChangeDetectionStrategy
 } from '@angular/core';
 
 @Component({
   selector: 'bu-breadcrumb',
   templateUrl: './breadcrumb.component.html',
-  styleUrls: ['./breadcrumb.component.css']
+  styleUrls: ['./breadcrumb.component.css'],
+  encapsulation: ViewEncapsulation.None,
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class BulmaBreadcrumbComponent implements OnInit {
 

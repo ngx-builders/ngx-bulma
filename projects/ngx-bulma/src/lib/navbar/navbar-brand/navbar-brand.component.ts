@@ -1,9 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation, ChangeDetectionStrategy } from '@angular/core';
 
 @Component({
   selector: 'bu-nav-brand',
   templateUrl: './navbar-brand.component.html',
-  styleUrls: ['./navbar-brand.component.css']
+  styleUrls: ['./navbar-brand.component.css'],
+  encapsulation: ViewEncapsulation.None,
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class BulmaNavbarBrandComponent implements OnInit {
 
