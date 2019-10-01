@@ -1,10 +1,11 @@
 <div class="modal" [ngClass]="{  'is-active' : open }">
 
-
+    <div class="modal-background"></div>
+    <div class="modal-card">
     <ng-content select="bu-model-head"></ng-content>
         <ng-content select="bu-model-content"></ng-content>
             <ng-content select="bu-model-footer"></ng-content>
-
+    </div>
 
 
 </div>

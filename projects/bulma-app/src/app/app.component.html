@@ -1,28 +1,80 @@
+<html>
+<body>
+  <div id="app">
+    
+<nav class="nav has-shadow">
+  <div class="container">
+    <div class="nav-left">
+      <bu-nav>
+        <bu-nav-brand>
+          <a class="navbar-item" href="https://bulma.io">
+            <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+          </a>
+        </bu-nav-brand>
+        <bu-nav-item>
+          <a class="navbar-item">
+            Home
+          </a>
+          <a class="navbar-item">
+            Documentation
+          </a>
+        </bu-nav-item>
+      </bu-nav>
+    </div>
+    <label for="menu-toggle" class="nav-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <input type="checkbox" id="menu-toggle" class="is-hidden"/>
+    <div class="nav-right nav-menu">
+      
+      
+    </div>
+  </div>
+</nav>
 
-<bu-menu>
-    <bu-menu-header>
-      Menu
-    </bu-menu-header>
-    <bu-menu-list>
+<section class="main-content columns is-fullheight">
+  
+  <aside class="column is-2 is-narrow-mobile is-fullheight section is-hidden-mobile">
+    <p class="menu-label is-hidden-touch">Navigation</p>
+    <ul class="menu-list">
       <li><a [routerLink]="['/home']" routerLinkActive="router-link-active" >Home</a></li>
       <li><a [routerLink]="['/menu']" routerLinkActive="router-link-active" >Menu</a></li>
       <li><a [routerLink]="['/navbar']" routerLinkActive="router-link-active" >NavBar</a></li>
       <li><a [routerLink]="['/message']" routerLinkActive="router-link-active" >message</a></li>
       <li><a [routerLink]="['/card']" routerLinkActive="router-link-active" >card</a></li>
       <li><a [routerLink]="['/model']" routerLinkActive="router-link-active" >model</a></li>
+    </ul>
+  </aside>
 
-      <bu-menu-list>
-        <li>
-          <a>Manage Your Team</a>
-          <ul>
-            <li><a>Members</a></li>
-            <li><a>Plugins</a></li>
-            <li><a>Add a member</a></li>
-          </ul>
-        </li>
-      </bu-menu-list>
-    </bu-menu-list>
-    <bu-menu-content>
-      <router-outlet></router-outlet>
-    </bu-menu-content>
-  </bu-menu>
+  <div class="container column is-10">
+    <div class="section">
+
+      <div class="card">
+        <div class="card-header"><p class="card-header-title">Header</p></div>
+        <div class="card-content"><div class="content">
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+      </div>
+      <br />
+      
+  
+      
+    </div>
+  </div>
+  
+</section>
+
+<footer class="footer is-hidden">
+  <div class="container">
+    <div class="content has-text-centered">
+      <p>Hello</p>
+    </div>
+  </div>
+</footer>
+    
+  </div>
+</body>
+</html>
