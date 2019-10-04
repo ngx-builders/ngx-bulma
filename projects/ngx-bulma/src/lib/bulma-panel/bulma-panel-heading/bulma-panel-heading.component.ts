@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'bu-bulma-panel-heading',
+  selector: 'bu-panel-heading',
   templateUrl: './bulma-panel-heading.component.html',
   styleUrls: ['./bulma-panel-heading.component.css']
 })
