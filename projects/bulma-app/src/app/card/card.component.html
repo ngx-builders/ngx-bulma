@@ -1,7 +1,46 @@
+<bu-card-header>
+<bu-card-title> 
+                <h3 style="font-style: italic">Card Component Demo</h3>
+        </bu-card-title>
+</bu-card-header>
+<br>
+<br>
+<p>
+                To display a card component in your app and verify that everything works.
+    
+                You need to import the BulmaCardModule that you want to display by adding the following lines to your app.module.ts file.
+        </p>
+        <pre><code><div  [innerHtml]="card"></div></code></pre>
+              <p>
+                   To use the bulmacard component in your Angular application. 
+              </p>
+<p><code style="color: darkgray">&lt;bu-card&gt;</code> A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options. If you’re familiar with Bootstrap 3, cards replace our old panels, wells, and thumbnails. Similar functionality to those components is available as modifier classes for cards</p>
+<br>
+<p>Add below components sequentially for using bulma card component.</p>
+<code style="color: darkgray">&lt;bu-card&gt;</code>
+<br>
+                <span style="margin-left: 30px"><code style="color: darkgray">&lt;bu-card-header&gt;</code></span>
+<br>
+<span style="margin-left: 50px">    <code style="color: darkgray">&lt;bu-card-title&gt;
+                                              Component title.....
+                                              &lt;/bu-card-title&gt;
+                        </code></span><br>
+                        <code style="color: darkgray;margin-left: 30px">&lt;/bu-card-header&gt; </code>  
+                        <br>
+                        <code style="color: darkgray;margin-left: 45px">&lt;bu-card-content&gt;   
+                        Content......</code>
+                        <code style="color: darkgray;margin-left: 30px">&lt;/bu-card-content&gt; </code> 
+                        <br> 
+                        <span style="margin-left: 30px"><code style="color: darkgray">&lt;bu-card-footer&gt;</code></span><br>
+                                <code p style="margin-left:40px;color:darkgray">Footer.....</code><br>
+                        <span style="margin-left: 30px"><code style="color: darkgray">&lt;/bu-card-footer&gt;</code></span><br>
+<code style="color: darkgray">&lt;/bu-card&gt;</code>    
+<br>       
+<br>             
 <bu-card>
         <bu-card-header>
-                <bu-card-title>
-                        Compone
+                <bu-card-title> 
+                        Component
                 </bu-card-title>
                       <a href="#" class="card-header-icon" aria-label="more options">
                         <span class="icon">
@@ -23,3 +62,38 @@
     <a href="#" class="card-footer-item">Delete</a>
         </bu-card-footer>
 </bu-card>
+<br>
+
+<h3 style="font-style: italic">Basic Card Details</h3>
+
+<p>The most basic card needs only an <code style="color: darkgray">&lt;bu-card&gt;</code>   element with some content. However, Bulma components provides a number of preset sections that you can use inside of an
+        <code style="color: darkgray">&lt;/bu-card&gt;</code>
+
+        <table>
+                        <thead>
+                        <tr>
+                        <th>Element</th>
+                        <th>Description</th>
+                        </tr>
+                        </thead>
+                        <tbody><tr>
+                        <td><code style="color: darkgray">&lt;bu-card-header&gt;</code></td>
+                        <td>Card Header</td>
+                        </tr>
+                        <tr>
+                        <td><code style="color: darkgray">&lt;bu-card-title&gt;</code></td>
+                        <td>Card Title</td>
+                        </tr>
+                        <tr>
+                        <td><code style="color: darkgray">&lt;bu-card-content&gt;</code></td>
+                        <td>Primary card content. Intended for blocks of text</td>
+                        </tr>
+                        
+                       
+                        <tr>
+                        <td><code style="color: darkgray">&lt;bu-card-footer&gt;</code></td>
+                        <td>Section anchored to the bottom of the card</td>
+                        </tr>
+                        </tbody></table>
+
+        

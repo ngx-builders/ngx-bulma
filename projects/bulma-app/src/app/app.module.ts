@@ -15,6 +15,8 @@ import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './menu/menu.component';
 import { CardComponent } from './card/card.component';
 import { ModelComponent } from './model/model.component';
+import { IntroductionComponent } from './introduction/introduction.component';
+import { GettingstartedComponent } from './gettingstarted/gettingstarted.component';
 
 
 @NgModule({
@@ -25,7 +27,9 @@ import { ModelComponent } from './model/model.component';
     HomeComponent,
     MenuComponent,
     CardComponent,
-    ModelComponent
+    ModelComponent,
+    IntroductionComponent,
+    GettingstartedComponent
   ],
   imports: [
     BrowserModule,

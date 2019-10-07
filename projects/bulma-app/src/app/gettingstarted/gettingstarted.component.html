@@ -1,0 +1,38 @@
+<p>Getting Started with ngx2-bulma</p>
+
+<p>This guide explains how to setup your Angular project to begin using ngx2-bulma.
+ It includes information on prerequisites, installing ngx2-bulma, 
+ and optionally displaying a sample ngx2-bulma component in your application to verify your setup.
+ <p>
+
+<p><em>Angular Resources</em></p>
+
+<p>If you are new to Angular or getting started with a new Angular application, see <a href="https://angular.io/start">Angular's full Getting Started Guide</a>
+ and <a href="https://angular.io/guide/setup-local">Setting up your environment</a>.</p>
+
+ <h3 id="install-ngx2-bulma" class="docs-header-link">
+        <span header-link="install-ngx2-bulma"><a aria-label="Link to this heading" class="docs-markdown-a" title="Link to this heading" aria-describedby="install-ngx2-bulma" ></a></span>
+        Install ngx2-bulma
+      </h3>
+      <p>Use the npm command to  install ngx2-bulma in your application 
+         to set up your Angular project with ngx2-bulma by running the following commands:</p>
+         <pre><code class="language-bash">npm install ngx2-bulma</code></pre>  
+         <pre><code class="language-bash">npm install bulma</code></pre>  
+
+    <p>Add your bulma css in your in angular.json</p>
+    <pre><code class="language-bash">
+            "styles": [
+            "projects/bulma-app/src/styles.css",
+            "node_modules/bulma/css/bulma.css"
+          ],
+    </code></pre>  
+    <h3>Display a ngx2-bulma component</h3>
+    <p>
+            Let's display a card component in your app and verify that everything works.
+
+            You need to import the BulmaCardModule that you want to display by adding the following lines to your app.module.ts file.
+    </p>
+    <pre><code><div  [innerHtml]="card"></div></code></pre>
+          <p>
+               Once you done all the above setup,now you can use the bulmacard component in your Angular application 
+          </p>
