@@ -6,10 +6,14 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { MessageComponent } from './message/message.component';
 import { CardComponent } from './card/card.component';
 import {ModelComponent} from './model/model.component';
+import {IntroductionComponent} from './introduction/introduction.component';
+import {GettingstartedComponent} from './gettingstarted/gettingstarted.component';
 import { PanelComponent } from './panel/panel.component';
 
 
 const routes: Routes = [
+  { path: '', component: IntroductionComponent },
+  {path:'gettingstarted', component:GettingstartedComponent },
   { path: 'home', component: HomeComponent },
   { path: 'menu', component: MenuComponent },
   { path: 'navbar', component: NavbarComponent },

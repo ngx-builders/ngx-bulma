@@ -15,6 +15,8 @@ import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './menu/menu.component';
 import { CardComponent } from './card/card.component';
 import { ModelComponent } from './model/model.component';
+import { IntroductionComponent } from './introduction/introduction.component';
+import { GettingstartedComponent } from './gettingstarted/gettingstarted.component';
 import { PanelComponent } from './panel/panel.component';
 
 
@@ -27,6 +29,8 @@ import { PanelComponent } from './panel/panel.component';
     MenuComponent,
     CardComponent,
     ModelComponent,
+    IntroductionComponent,
+    GettingstartedComponent,
     PanelComponent
   ],
   imports: [
