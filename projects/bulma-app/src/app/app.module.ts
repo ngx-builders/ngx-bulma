@@ -15,6 +15,7 @@ import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './menu/menu.component';
 import { CardComponent } from './card/card.component';
 import { ModelComponent } from './model/model.component';
+import { PanelComponent } from './panel/panel.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { ModelComponent } from './model/model.component';
     HomeComponent,
     MenuComponent,
     CardComponent,
-    ModelComponent
+    ModelComponent,
+    PanelComponent
   ],
   imports: [
     BrowserModule,
