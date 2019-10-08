@@ -1,4 +1,4 @@
-https://github.com/santoshyadav198613/ngx-bulma/workflows/Node%20CI/badge.svg
+![](https://github.com/santoshyadav198613/ngx-bulma/workflows/Node%20CI/badge.svg)
 # NgxBulma
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.2.
