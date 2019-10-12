@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BulmaPanelBlockComponent } from './bulma-panel-block.component';
+import { BulmaPanelHeadingComponent } from './panel-heading.component';
 
-describe('BulmaPanelBlockComponent', () => {
-  let component: BulmaPanelBlockComponent;
-  let fixture: ComponentFixture<BulmaPanelBlockComponent>;
+describe('BulmaPanelHeadingComponent', () => {
+  let component: BulmaPanelHeadingComponent;
+  let fixture: ComponentFixture<BulmaPanelHeadingComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ BulmaPanelBlockComponent ]
+      declarations: [ BulmaPanelHeadingComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(BulmaPanelBlockComponent);
+    fixture = TestBed.createComponent(BulmaPanelHeadingComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

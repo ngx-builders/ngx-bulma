@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BulmaPanelTabsComponent } from './bulma-panel-tabs.component';
+import { BulmaPanelTabsComponent } from './panel-tabs.component';
 
 describe('BulmaPanelTabsComponent', () => {
   let component: BulmaPanelTabsComponent;
