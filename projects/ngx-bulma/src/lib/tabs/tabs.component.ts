@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewEncapsulation, ChangeDetectionStrategy } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation, ChangeDetectionStrategy, ContentChildren, QueryList } from '@angular/core';
 
 @Component({
   selector: 'bu-tabs',
@@ -7,11 +7,5 @@ import { Component, OnInit, ViewEncapsulation, ChangeDetectionStrategy } from '@
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class BulmaTabsComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class BulmaTabsComponent {
 }
