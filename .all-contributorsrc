@@ -1,0 +1,23 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "santoshyadav198613",
+      "name": "Santosh Yadav",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/11923975?v=4",
+      "profile": "https://www.santoshyadav.dev",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "ngx-bulma",
+  "projectOwner": "santoshyadav198613",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
