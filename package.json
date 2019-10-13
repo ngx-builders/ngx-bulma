@@ -6,6 +6,7 @@
     "start": "ng serve",
     "build:lib": "ng build ngx-bulma",
     "serve:app": "ng serve bulma-app -o",
+    "build-docs": "npm run build:lib && ng build bulma-app",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
