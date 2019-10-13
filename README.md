@@ -1,4 +1,5 @@
 ![](https://github.com/santoshyadav198613/ngx-bulma/workflows/Node%20CI/badge.svg)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 # NgxBulma
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.2.
@@ -26,3 +27,19 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/ankitsaini345"><img src="https://avatars2.githubusercontent.com/u/37847177?v=4" width="100px;" alt="Ankit Saini"/><br /><sub><b>Ankit Saini</b></sub></a><br /><a href="https://github.com/santoshyadav198613/ngx-bulma/commits?author=ankitsaini345" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
