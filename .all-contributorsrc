@@ -1,0 +1,23 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "haroon786",
+      "name": "HaroonJ",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/20164301?v=4",
+      "profile": "https://github.com/haroon786",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "ngx-bulma",
+  "projectOwner": "santoshyadav198613",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
