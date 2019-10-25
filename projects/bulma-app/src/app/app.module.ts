@@ -18,6 +18,7 @@ import { ModelComponent } from './model/model.component';
 import { IntroductionComponent } from './introduction/introduction.component';
 import { GettingstartedComponent } from './gettingstarted/gettingstarted.component';
 import { PanelComponent } from './panel/panel.component';
+import { TabComponent } from './tab/tab.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { PanelComponent } from './panel/panel.component';
     ModelComponent,
     IntroductionComponent,
     GettingstartedComponent,
-    PanelComponent
+    PanelComponent,
+    TabComponent
   ],
   imports: [
     BrowserModule,

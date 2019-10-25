@@ -9,6 +9,7 @@ import {ModelComponent} from './model/model.component';
 import {IntroductionComponent} from './introduction/introduction.component';
 import {GettingstartedComponent} from './gettingstarted/gettingstarted.component';
 import { PanelComponent } from './panel/panel.component';
+import { TabComponent } from './tab/tab.component';
 
 
 const routes: Routes = [
@@ -20,7 +21,8 @@ const routes: Routes = [
   { path: 'message', component: MessageComponent },
   { path: 'card', component: CardComponent },
   { path: 'model', component: ModelComponent },
-  { path: 'panel', component: PanelComponent }
+  { path: 'panel', component: PanelComponent },
+  { path: 'tab', component: TabComponent }
 ];
 
 @NgModule({
