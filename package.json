@@ -26,7 +26,8 @@
     "font-awesome": "^4.7.0",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
-    "zone.js": "~0.9.1"
+    "zone.js": "~0.9.1",
+    "core-js": "^2.5.4"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.803.5",
@@ -51,6 +52,13 @@
     "ts-node": "~7.0.0",
     "tsickle": "^0.37.0",
     "tslint": "~5.15.0",
-    "typescript": "~3.5.3"
+    "typescript": "~3.5.3",
+    "jest-preset-angular": "7.0.0",
+    "@nrwl/jest": "8.7.0",
+    "jest": "24.1.0",
+    "@types/jest": "24.0.9",
+    "ts-jest": "24.0.0",
+    "cypress": "3.4.1",
+    "@nrwl/cypress": "8.7.0"
   }
 }
