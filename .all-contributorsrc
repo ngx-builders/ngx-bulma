@@ -1,0 +1,41 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "haroon786",
+      "name": "HaroonJ",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/20164301?v=4",
+      "profile": "https://github.com/haroon786",
+      "contributions": [
+        "code"
+      ]
+    },
+      {
+      "login": "ankitsaini345",
+      "name": "Ankit Saini",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/37847177?v=4",
+      "profile": "https://github.com/ankitsaini345",
+      "contributions": [
+        "code"
+      ]
+    },
+     {
+      "login": "santoshyadav198613",
+      "name": "Santosh Yadav",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/11923975?v=4",
+      "profile": "https://www.santoshyadav.dev",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "ngx-bulma",
+  "projectOwner": "santoshyadav198613",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
