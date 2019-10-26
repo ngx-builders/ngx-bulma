@@ -1,8 +1,14 @@
-<bu-nav>
+<markdown [src]="'assets/docs/navbar/navbar.md'" (load)="onLoad($event)" (error)="onError($event)"></markdown>
+
+
+
+<bu-card-header>
+   <bu-nav>
   <bu-nav-brand>
     <a class="navbar-item" href="https://bulma.io">
       <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
     </a>
+    
   </bu-nav-brand>
   <bu-nav-item>
     <a class="navbar-item">
@@ -13,3 +19,4 @@
     </a>
   </bu-nav-item>
 </bu-nav>
+</bu-card-header>

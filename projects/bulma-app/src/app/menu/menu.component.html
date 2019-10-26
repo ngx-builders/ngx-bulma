@@ -1,2 +1,13 @@
-Menu
-A simple menu, for any type of vertical navigation
+<markdown [src]="'assets/docs/menu/menu.md'" (load)="onLoad($event)" (error)="onError($event)"></markdown>
+
+<aside class="menu">
+    <bu-menu-header>
+        General
+    </bu-menu-header>
+    <bu-menu-list>
+            
+           
+            <img src="assets/images/dashboard.png" style="float: left;margin-top: 10px;margin-right:3px;"><i class="icon-dashboard"></i><a>Dashboard</a>
+            <img src="assets/images/support.png" style="float: left;margin-top: 10px;margin-right:3px;">  <a>Customers</a>
+    </bu-menu-list>
+  </aside>
