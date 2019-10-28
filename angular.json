@@ -63,7 +63,8 @@
             "aot": false,
             "assets": [
               "projects/bulma-app/src/favicon.ico",
-              "projects/bulma-app/src/assets"
+              "projects/bulma-app/src/assets",
+              "projects/bulma-app/src/_redirects"
             ],
             "styles": [
               "projects/bulma-app/src/styles.css",
