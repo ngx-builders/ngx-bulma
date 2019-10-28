@@ -1,5 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { MarkdownModule, MarkedOptions } from 'ngx-markdown';
+import {HttpClientModule,HttpClient} from '@angular/common/http';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faEnvelope, faKey } from '@fortawesome/free-solid-svg-icons';
+
 
 import {
   BulmaBreadcrumbModule, BulmaCardModule,
@@ -42,7 +47,9 @@ import { TabComponent } from './tab/tab.component';
     BulmaCardModule,
     BulmaMenuModule, BulmaModalModule,
     BulmaNavbarModule, BulmaPanelModule,
-    BulmaTabsModule, BulmaMessageModule
+    BulmaTabsModule, BulmaMessageModule,
+    HttpClientModule,
+    MarkdownModule.forRoot({ loader: HttpClient })
   ],
   providers: [],
   bootstrap: [AppComponent]
