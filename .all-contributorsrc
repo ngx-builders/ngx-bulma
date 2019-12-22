@@ -14,7 +14,7 @@
         "code"
       ]
     },
-      {
+    {
       "login": "ankitsaini345",
       "name": "Ankit Saini",
       "avatar_url": "https://avatars2.githubusercontent.com/u/37847177?v=4",
@@ -23,11 +23,20 @@
         "code"
       ]
     },
-     {
+    {
       "login": "santoshyadav198613",
       "name": "Santosh Yadav",
       "avatar_url": "https://avatars3.githubusercontent.com/u/11923975?v=4",
       "profile": "https://www.santoshyadav.dev",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "AnkitSharma-007",
+      "name": "Ankit",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/33789321?v=4",
+      "profile": "https://ankitsharmablogs.com/",
       "contributions": [
         "code"
       ]
@@ -37,5 +46,6 @@
   "projectName": "ngx-bulma",
   "projectOwner": "santoshyadav198613",
   "repoType": "github",
-  "repoHost": "https://github.com"
+  "repoHost": "https://github.com",
+  "skipCi": true
 }
