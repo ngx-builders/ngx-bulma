@@ -1,17 +1,29 @@
-html, body, #app {
-    height: 100%;
-  }
-  #app {
-    min-height: 100%;
-    /* //display: flex;
-    //flex-direction: column; */
-  }
+.app{
+  margin: 35px;
+}
   
-  .footer {
-    margin-top: -12px;
+.footer {
+  margin-top: -12px;
+}
+@media screen and (max-width: 768px) {
+  #menu-toggle:checked + .nav-menu {
+    display: block;
   }
-  @media screen and (max-width: 768px) {
-    #menu-toggle:checked + .nav-menu {
-      display: block;
-    }
-  }
+}
+
+aside{
+  position: fixed;
+  width: 250px;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.doc-container{
+  margin-right: 0;
+}

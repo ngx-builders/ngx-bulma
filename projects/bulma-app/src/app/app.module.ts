@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { MarkdownModule, MarkedOptions } from 'ngx-markdown';
-import {HttpClientModule,HttpClient} from '@angular/common/http';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faEnvelope, faKey } from '@fortawesome/free-solid-svg-icons';
 
@@ -10,7 +10,8 @@ import {
   BulmaBreadcrumbModule, BulmaCardModule,
   BulmaMenuModule, BulmaModalModule,
   BulmaNavbarModule, BulmaPanelModule, BulmaTabsModule,
-  BulmaMessageModule} from 'ngx-bulma';
+  BulmaMessageModule, BulmaButtonModule
+} from 'ngx-bulma';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -24,6 +25,7 @@ import { IntroductionComponent } from './introduction/introduction.component';
 import { GettingstartedComponent } from './gettingstarted/gettingstarted.component';
 import { PanelComponent } from './panel/panel.component';
 import { TabComponent } from './tab/tab.component';
+import { ButtonComponent } from './button/button.component';
 
 
 @NgModule({
@@ -38,7 +40,8 @@ import { TabComponent } from './tab/tab.component';
     IntroductionComponent,
     GettingstartedComponent,
     PanelComponent,
-    TabComponent
+    TabComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
@@ -49,9 +52,11 @@ import { TabComponent } from './tab/tab.component';
     BulmaNavbarModule, BulmaPanelModule,
     BulmaTabsModule, BulmaMessageModule,
     HttpClientModule,
+    BulmaButtonModule,
     MarkdownModule.forRoot({ loader: HttpClient })
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  exports: [ButtonComponent]
 })
 export class AppModule { }
