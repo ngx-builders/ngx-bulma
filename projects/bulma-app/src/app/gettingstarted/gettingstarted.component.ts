@@ -14,10 +14,7 @@ export class GettingstartedComponent implements OnInit {
 
   ngOnInit() 
   {
-    this.card="import { BulmaCardModule} from 'ngx-bulma' "+'<br/>';
-    this.card+= "@NgModule({ "+ 
-    "imports: [BulmaCardModule]"
-    +"})";
+   
     
   }
 

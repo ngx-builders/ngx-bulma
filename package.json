@@ -29,8 +29,9 @@
     "bulma": "^0.7.5",
     "core-js": "^2.5.4",
     "font-awesome": "^4.7.0",
-    "ngx-semantic-version": "^1.0.0",
+    "marked": "^0.8.0",
     "ngx-markdown": "^8.2.1",
+    "ngx-semantic-version": "^1.0.0",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
