@@ -1,6 +1,13 @@
 {
   "name": "ngx2-bulma",
   "version": "0.0.1-beta1",
+  "scripts": {
+    "build": "tsc -p tsconfig.schematics.json",
+    "copy:schemas": "cp --parents schematics/*/schema.json ../../dist/ngx-bulma/",
+    "copy:collection": "cp schematics/collection.json ../../dist/ngx-bulma/schematics/collection.json",
+    "postbuild": "npm run copy:schemas && npm run copy:collection"
+  },
+  "schematics": "./schematics/collection.json",
   "peerDependencies": {
     "@angular/common": "^8.2.7",
     "@angular/core": "^8.2.7"
