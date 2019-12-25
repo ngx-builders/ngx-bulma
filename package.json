@@ -37,6 +37,7 @@
     "ngx-markdown": "^8.2.1",
     "ngx-semantic-version": "^1.0.0",
     "rxjs": "~6.4.0",
+    "schematics-utilities": "^2.0.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
   },

@@ -9,13 +9,13 @@ export class GettingstartedComponent implements OnInit {
 
   card:any
 
-  
+
   constructor() { }
 
-  ngOnInit() 
+  ngOnInit()
   {
-   
-    
+
+
   }
 
 }
