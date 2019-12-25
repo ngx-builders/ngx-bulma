@@ -8,7 +8,7 @@ import { Component, OnInit, ViewEncapsulation, ChangeDetectionStrategy } from '@
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class BulmaMessageHeaderComponent implements OnInit {
-  showMyContainer: boolean = true;
+  showMyContainer = true;
   constructor() { }
 
   ngOnInit() {

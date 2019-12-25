@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ModelComponent implements OnInit {
 
-  isModalActive: boolean = false;
+  isModalActive = false;
 
   constructor() { }
 
@@ -17,9 +17,8 @@ export class ModelComponent implements OnInit {
   toggleModal() {
     this.isModalActive = !this.isModalActive;
   }
-  closemodel()
-  {
-    this.isModalActive=false;
+  closemodel() {
+    this.isModalActive = false;
   }
 
 }

@@ -13,7 +13,7 @@ export function installPackageJsonDependencies(): Rule {
 }
 
 export function addStyleToTarget(project: WorkspaceProject, targetName: string, host: Tree,
-  assetPath: string, workspace: WorkspaceSchema) {
+                                 assetPath: string, workspace: WorkspaceSchema) {
 
   const targetOptions = getProjectTargetOptions(project, targetName);
 

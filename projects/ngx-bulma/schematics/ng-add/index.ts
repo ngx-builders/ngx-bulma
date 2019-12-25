@@ -12,12 +12,12 @@ import { addStyleToTarget, installPackageJsonDependencies } from '../utils';
 const bulmaStylePath = `./node_modules/bulma/css/bulma.min.css`;
 
 // Just return the tree
-export default function (_options: any): Rule {
+export default function(options: any): Rule {
 
   return chain([
     addPackageJsonDependencies(),
     installPackageJsonDependencies(),
-    addStyles(_options, insertBulmaStyles)
+    addStyles(options, insertBulmaStyles)
   ]);
 }
 
@@ -39,8 +39,8 @@ function addPackageJsonDependencies(): Rule {
 }
 
 
-export function addStyles(options: Schema, insertStyle: Function): (host: Tree) => Tree {
-  return function (host: Tree): Tree {
+export function addStyles(options: Schema, insertStyle: any): (host: Tree) => Tree {
+  return (host: Tree): Tree => {
     const workspace = getWorkspace(host);
     const project = getProjectFromWorkspace(workspace, options.project);
     insertStyle(project, host, workspace);

@@ -7,13 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GettingstartedComponent implements OnInit {
 
-  card:any
+  card: any;
 
 
   constructor() { }
 
-  ngOnInit()
-  {
+  ngOnInit() {
 
 
   }

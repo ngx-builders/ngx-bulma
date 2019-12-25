@@ -12,25 +12,25 @@ export class ButtonService {
     let sizeClass: string;
 
     switch (size) {
-      case "small": {
-        sizeClass = "is-small";
+      case 'small': {
+        sizeClass = 'is-small';
         break;
       }
-      case "normal": {
-        sizeClass = "is-normal";
+      case 'normal': {
+        sizeClass = 'is-normal';
         break;
       }
-      case "medium": {
-        sizeClass = "is-medium";
+      case 'medium': {
+        sizeClass = 'is-medium';
         break;
       }
-      case "large": {
-        sizeClass = "is-large";
+      case 'large': {
+        sizeClass = 'is-large';
         break;
       }
       default: {
         // TODO : Discuss the default value.
-        sizeClass = "button";
+        sizeClass = 'button';
         break;
       }
     }
@@ -42,33 +42,33 @@ export class ButtonService {
     let themeClass: string;
 
     switch (theme) {
-      case "primary": {
-        themeClass = "is-primary";
+      case 'primary': {
+        themeClass = 'is-primary';
         break;
       }
-      case "link": {
-        themeClass = "is-link";
+      case 'link': {
+        themeClass = 'is-link';
         break;
       }
-      case "info": {
-        themeClass = "is-info";
+      case 'info': {
+        themeClass = 'is-info';
         break;
       }
-      case "success": {
-        themeClass = "is-success";
+      case 'success': {
+        themeClass = 'is-success';
         break;
       }
-      case "warning": {
-        themeClass = "is-warning";
+      case 'warning': {
+        themeClass = 'is-warning';
         break;
       }
-      case "danger": {
-        themeClass = "is-danger";
+      case 'danger': {
+        themeClass = 'is-danger';
         break;
       }
       default: {
         // TODO : Discuss the default value.
-        themeClass = "button";
+        themeClass = 'button';
         break;
       }
     }
@@ -80,29 +80,29 @@ export class ButtonService {
     let colorClass: string;
 
     switch (color) {
-      case "white": {
-        colorClass = "is-white";
+      case 'white': {
+        colorClass = 'is-white';
         break;
       }
-      case "light": {
-        colorClass = "is-light";
+      case 'light': {
+        colorClass = 'is-light';
         break;
       }
-      case "dark": {
-        colorClass = "is-dark";
+      case 'dark': {
+        colorClass = 'is-dark';
         break;
       }
-      case "black": {
-        colorClass = "is-black";
+      case 'black': {
+        colorClass = 'is-black';
         break;
       }
-      case "text": {
-        colorClass = "is-text";
+      case 'text': {
+        colorClass = 'is-text';
         break;
       }
       default: {
         // TODO : Discuss the default value.
-        colorClass = "button";
+        colorClass = 'button';
         break;
       }
     }

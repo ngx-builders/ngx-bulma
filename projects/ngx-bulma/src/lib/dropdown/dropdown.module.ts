@@ -9,6 +9,6 @@ import { BulmaDropdownComponent } from './dropdown.component';
   imports: [
     CommonModule
   ]
-  ,exports:[BulmaDropdownComponent]
+  , exports: [BulmaDropdownComponent]
 })
 export class BulmaDropdownModule { }
