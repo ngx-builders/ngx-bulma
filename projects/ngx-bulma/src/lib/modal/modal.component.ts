@@ -9,8 +9,8 @@ import { Component, OnInit, ViewEncapsulation, ChangeDetectionStrategy, Input } 
 })
 export class BulmaModalComponent implements OnInit {
 
-  @Input() open=false;
-  
+  @Input() open = false;
+
   constructor() { }
 
   ngOnInit() {

@@ -7,14 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CardComponent implements OnInit {
 
-  card:any
+  card: any;
   constructor() { }
 
   ngOnInit() {
-    this.card="import { BulmaCardModule} from 'ngx-bulma' "+'<br/>';
-    this.card+= "@NgModule({ "+ 
-    "imports: [BulmaCardModule]"
-    +"})";
+    this.card = 'import { BulmaCardModule} from \'ngx-bulma\' ' + '<br/>';
+    this.card += '@NgModule({ ' +
+    'imports: [BulmaCardModule]'
+    + '})';
   }
 
 }

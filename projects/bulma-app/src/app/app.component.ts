@@ -7,12 +7,12 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  
+
   title = 'bulma-app';
   showBurgerMenu: boolean;
 
-  data = [1, 2, 3,];
+  data = [1, 2, 3, ];
 
 
-    
+
   }

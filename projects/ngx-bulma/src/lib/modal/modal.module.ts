@@ -9,11 +9,15 @@ import { BulmaModelTitleComponent } from './model-title/model-title.component';
 
 
 @NgModule({
-  declarations: [BulmaModalComponent, BulmaModelHeadComponent, BulmaModelContentComponent, BulmaModelFooterComponent, BulmaModelTitleComponent],
+  declarations: [BulmaModalComponent, BulmaModelHeadComponent,
+    BulmaModelContentComponent, BulmaModelFooterComponent,
+    BulmaModelTitleComponent],
   imports: [
     CommonModule
   ],
-  exports: [BulmaModalComponent, BulmaModelHeadComponent, BulmaModelContentComponent, BulmaModelFooterComponent, BulmaModelTitleComponent],
- 
+  exports: [BulmaModalComponent, BulmaModelHeadComponent,
+    BulmaModelContentComponent, BulmaModelFooterComponent,
+    BulmaModelTitleComponent],
+
 })
 export class BulmaModalModule { }

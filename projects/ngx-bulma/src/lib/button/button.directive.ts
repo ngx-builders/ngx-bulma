@@ -16,22 +16,22 @@ export class ButtonDirective implements OnInit {
   size: string;
 
   @Input()
-  light: boolean = false;
+  light = false;
 
   @Input()
-  fullWidth: boolean = false;
+  fullWidth = false;
 
   @Input()
-  outlined: boolean = false;
+  outlined = false;
 
   @Input()
-  inverted: boolean = false;
+  inverted = false;
 
   @Input()
-  rounded: boolean = false;
+  rounded = false;
 
   @Input()
-  loading: boolean = false;
+  loading = false;
 
   constructor(
     private el: ElementRef,
@@ -43,7 +43,7 @@ export class ButtonDirective implements OnInit {
     const themeClass = this.buttonService.getThemeClass(this.theme);
     const sizeClass = this.buttonService.getSizeClass(this.size);
 
-    this.renderer.addClass(this.el.nativeElement, "button");
+    this.renderer.addClass(this.el.nativeElement, 'button');
     this.renderer.addClass(this.el.nativeElement, colorClass);
     this.renderer.addClass(this.el.nativeElement, themeClass);
     this.renderer.addClass(this.el.nativeElement, sizeClass);
