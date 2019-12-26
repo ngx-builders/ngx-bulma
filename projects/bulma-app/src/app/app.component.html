@@ -18,18 +18,12 @@
           </bu-nav-item>
         </bu-nav>
       </div>
-      <a
-    role="button"
-    class="navbar-burger burger"
-    aria-label="menu"
-    aria-expanded="false"
-    data-target="navbarBasicExample"
-    [class.is-active]="showBurgerMenu"
-    (click)="showBurgerMenu = !showBurgerMenu">
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+        data-target="navbarBasicExample" [class.is-active]="showBurgerMenu" (click)="showBurgerMenu = !showBurgerMenu">
         <span></span>
         <span></span>
         <span></span>
-    </a>
+      </a>
       <input type="checkbox" id="menu-toggle" class="is-hidden" />
       <div class="nav-right nav-menu">
       </div>
@@ -37,26 +31,26 @@
   </nav>
 
   <section class="main-content columns is-fullheight">
-    <aside class="column is-2 is-narrow-mobile is-fullheight section is-hidden-mobile" id="navbarBasicExample" 
-    class="navbar-menu" 
-    [class.is-active]="showBurgerMenu">
-    <bu-menu-list >
-      <ul class="menu-list">
-        <li><a [routerLink]="['']" routerLinkActive="router-link-active">Introduction</a></li>
-        <li><a [routerLink]="['/gettingstarted']" routerLinkActive="router-link-active">Getting Started</a></li>
+    <aside class="column is-2 is-narrow-mobile is-fullheight section is-hidden-mobile" id="navbarBasicExample"
+      class="navbar-menu" [class.is-active]="showBurgerMenu">
+      <bu-menu-list>
+        <ul class="menu-list">
+          <li><a [routerLink]="['']" routerLinkActive="router-link-active">Introduction</a></li>
+          <li><a [routerLink]="['/gettingstarted']" routerLinkActive="router-link-active">Getting Started</a></li>
 
-        <li><a [routerLink]="['/home']" routerLinkActive="router-link-active">Home</a></li>
-        <li><a [routerLink]="['/menu']" routerLinkActive="router-link-active">Menu</a></li>
-        <li><a [routerLink]="['/navbar']" routerLinkActive="router-link-active">NavBar</a></li>
-        <li><a [routerLink]="['/message']" routerLinkActive="router-link-active">message</a></li>
-        <li><a [routerLink]="['/card']" routerLinkActive="router-link-active">card</a></li>
-        <li><a [routerLink]="['/model']" routerLinkActive="router-link-active">model</a></li>
-        <li><a [routerLink]="['/panel']" routerLinkActive="router-link-active">panel</a></li>
-        <li><a [routerLink]="['/tab']" routerLinkActive="router-link-active">Tab</a></li>
-        <li><a [routerLink]="['/button']" routerLinkActive="router-link-active">Button</a></li>
+          <li><a [routerLink]="['/home']" routerLinkActive="router-link-active">Home</a></li>
+          <li><a [routerLink]="['/menu']" routerLinkActive="router-link-active">Menu</a></li>
+          <li><a [routerLink]="['/navbar']" routerLinkActive="router-link-active">NavBar</a></li>
+          <li><a [routerLink]="['/message']" routerLinkActive="router-link-active">message</a></li>
+          <li><a [routerLink]="['/card']" routerLinkActive="router-link-active">card</a></li>
+          <li><a [routerLink]="['/model']" routerLinkActive="router-link-active">model</a></li>
+          <li><a [routerLink]="['/panel']" routerLinkActive="router-link-active">panel</a></li>
+          <li><a [routerLink]="['/tab']" routerLinkActive="router-link-active">Tab</a></li>
+          <li><a [routerLink]="['/button']" routerLinkActive="router-link-active">Button</a></li>
+          <li><a [routerLink]="['/input']" routerLinkActive="router-link-active">Input</a></li>
 
-      </ul>
-    </bu-menu-list>
+        </ul>
+      </bu-menu-list>
     </aside>
 
     <div class="container column is-10 doc-container">

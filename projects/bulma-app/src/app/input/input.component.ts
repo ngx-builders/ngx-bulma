@@ -1,13 +1,13 @@
 import { Component, OnInit, ViewEncapsulation, ChangeDetectionStrategy } from '@angular/core';
 
 @Component({
-  selector: 'bu-button',
-  templateUrl: './button.component.html',
-  styleUrls: ['./button.component.css'],
+  selector: 'app-input',
+  templateUrl: './input.component.html',
+  styleUrls: ['./input.component.scss'],
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class ButtonComponent implements OnInit {
+export class InputComponent implements OnInit {
 
   constructor() { }
 

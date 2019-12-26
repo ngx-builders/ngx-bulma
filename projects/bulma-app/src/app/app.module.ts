@@ -10,7 +10,7 @@ import {
   BulmaBreadcrumbModule, BulmaCardModule,
   BulmaMenuModule, BulmaModalModule,
   BulmaNavbarModule, BulmaPanelModule, BulmaTabsModule,
-  BulmaMessageModule, BulmaButtonModule
+  BulmaMessageModule, BulmaButtonModule, BulmaInputModule
 } from 'ngx-bulma';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -26,6 +26,7 @@ import { GettingstartedComponent } from './gettingstarted/gettingstarted.compone
 import { PanelComponent } from './panel/panel.component';
 import { TabComponent } from './tab/tab.component';
 import { ButtonComponent } from './button/button.component';
+import { InputComponent } from './input/input.component';
 
 
 @NgModule({
@@ -41,7 +42,8 @@ import { ButtonComponent } from './button/button.component';
     GettingstartedComponent,
     PanelComponent,
     TabComponent,
-    ButtonComponent
+    ButtonComponent,
+    InputComponent
   ],
   imports: [
     BrowserModule,
@@ -53,10 +55,11 @@ import { ButtonComponent } from './button/button.component';
     BulmaTabsModule, BulmaMessageModule,
     HttpClientModule,
     BulmaButtonModule,
+    BulmaInputModule,
     MarkdownModule.forRoot({ loader: HttpClient })
   ],
   providers: [],
   bootstrap: [AppComponent],
-  exports: [ButtonComponent]
+  exports: [ButtonComponent, InputComponent]
 })
 export class AppModule { }

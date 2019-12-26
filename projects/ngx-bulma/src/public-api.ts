@@ -11,3 +11,4 @@ export * from './lib/panel/index';
 export * from './lib/tabs/index';
 export * from './lib/message/index';
 export * from './lib/button/index';
+export * from './lib/input/index';

@@ -3,7 +3,7 @@ import { Component, OnInit, ViewEncapsulation, ChangeDetectionStrategy } from '@
 @Component({
   selector: 'app-button',
   templateUrl: './button.component.html',
-  styleUrls: ['./button.component.css'],
+  styleUrls: ['./button.component.scss'],
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush
 })
