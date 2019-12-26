@@ -1,3 +1,3 @@
 export interface ITheme {
-  themes: Map<string,string>;
+  themes: Map<string, string>;
 }

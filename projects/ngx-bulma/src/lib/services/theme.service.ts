@@ -1,4 +1,4 @@
-import { InjectionToken } from "@angular/core";
+import { InjectionToken } from '@angular/core';
 import { ITheme } from './itheme';
 
 export const THEME_SERVICE = new InjectionToken<ITheme>('theme');
@@ -21,4 +21,4 @@ export const THEME_VALUES: ITheme = {
     ['medium', 'is-medium'],
     ['large', 'is-large']
   ])
-}
+};
