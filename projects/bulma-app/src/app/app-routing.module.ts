@@ -1,17 +1,17 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { MenuComponent } from './menu/menu.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { MessageComponent } from './message/message.component';
+import { RouterModule, Routes } from '@angular/router';
+import { ButtonComponent } from './button/button.component';
 import { CardComponent } from './card/card.component';
-import { ModelComponent } from './model/model.component';
-import { IntroductionComponent } from './introduction/introduction.component';
 import { GettingstartedComponent } from './gettingstarted/gettingstarted.component';
+import { HomeComponent } from './home/home.component';
+import { InputComponent } from './input/input.component';
+import { IntroductionComponent } from './introduction/introduction.component';
+import { MenuComponent } from './menu/menu.component';
+import { MessageComponent } from './message/message.component';
+import { ModelComponent } from './model/model.component';
+import { NavbarComponent } from './navbar/navbar.component';
 import { PanelComponent } from './panel/panel.component';
 import { TabComponent } from './tab/tab.component';
-import { ButtonComponent } from './button/button.component';
-import { InputComponent } from './input/input.component';
 import { TextareaComponent } from './textarea/textarea.component';
 
 

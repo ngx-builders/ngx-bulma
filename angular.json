@@ -49,7 +49,11 @@
     },
     "bulma-app": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "prefix": "app"
+        }
+      },
       "root": "projects/bulma-app",
       "sourceRoot": "projects/bulma-app/src",
       "prefix": "app",

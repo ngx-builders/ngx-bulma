@@ -1,6 +1,6 @@
-import { Injectable, Inject } from '@angular/core';
-import { THEME_SERVICE } from './theme.service';
+import { Inject, Injectable } from '@angular/core';
 import { ITheme } from './itheme';
+import { THEME_SERVICE } from './theme.service';
 
 @Injectable({
   providedIn: 'root'

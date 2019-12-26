@@ -1,7 +1,7 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { InputDirective } from './input.directive';
+import { NgModule } from '@angular/core';
 import { THEME_SERVICE, THEME_VALUES } from '../services/theme.service';
+import { InputDirective } from './input.directive';
 
 @NgModule({
   declarations: [InputDirective],
