@@ -12,6 +12,7 @@ import { PanelComponent } from './panel/panel.component';
 import { TabComponent } from './tab/tab.component';
 import { ButtonComponent } from './button/button.component';
 import { InputComponent } from './input/input.component';
+import { TextareaComponent } from './textarea/textarea.component';
 
 
 const routes: Routes = [
@@ -27,6 +28,7 @@ const routes: Routes = [
   { path: 'tab', component: TabComponent },
   { path: 'button', component: ButtonComponent },
   { path: 'input', component: InputComponent },
+  { path: 'textarea', component: TextareaComponent },
 ];
 
 @NgModule({
