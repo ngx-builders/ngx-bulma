@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewEncapsulation, ChangeDetectionStrategy, ContentChildren, QueryList } from '@angular/core';
+import { ChangeDetectionStrategy, Component, ContentChildren, OnInit, QueryList, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'bu-tabs',
