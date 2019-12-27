@@ -11,6 +11,7 @@ import { MessageComponent } from './message/message.component';
 import { ModelComponent } from './model/model.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PanelComponent } from './panel/panel.component';
+import { ProgressbarComponent } from './progressbar/progressbar.component';
 import { TabComponent } from './tab/tab.component';
 import { TextareaComponent } from './textarea/textarea.component';
 
@@ -29,6 +30,7 @@ const routes: Routes = [
   { path: 'button', component: ButtonComponent },
   { path: 'input', component: InputComponent },
   { path: 'textarea', component: TextareaComponent },
+  { path: 'progress', component: ProgressbarComponent },
 ];
 
 @NgModule({
