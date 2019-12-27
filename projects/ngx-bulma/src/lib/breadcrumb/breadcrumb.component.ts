@@ -1,9 +1,9 @@
 import {
-  Component, OnInit,
-  Input, Output,
-  EventEmitter,
-  ViewEncapsulation,
-  ChangeDetectionStrategy
+  ChangeDetectionStrategy, Component,
+  EventEmitter, Input,
+  OnInit,
+  Output,
+  ViewEncapsulation
 } from '@angular/core';
 
 @Component({

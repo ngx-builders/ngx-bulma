@@ -1,6 +1,6 @@
 import {
   Directive, ElementRef,
-  Renderer2, OnInit, Input,
+  Input, OnInit, Renderer2,
 } from '@angular/core';
 import { SharedService } from '../services/shared.service';
 

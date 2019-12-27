@@ -1,7 +1,7 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ButtonDirective } from './button.directive';
+import { NgModule } from '@angular/core';
 import { THEME_SERVICE, THEME_VALUES } from '../services/theme.service';
+import { ButtonDirective } from './button.directive';
 
 @NgModule({
   declarations: [ButtonDirective],

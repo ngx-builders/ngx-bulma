@@ -1,8 +1,8 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { BulmaNavbarComponent } from './navbar.component';
+import { NgModule } from '@angular/core';
 import { BulmaNavbarBrandComponent } from './navbar-brand/navbar-brand.component';
 import { BulmaNavbarItemComponent } from './navbar-item/navbar-item.component';
+import { BulmaNavbarComponent } from './navbar.component';
 
 
 

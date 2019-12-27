@@ -1,13 +1,13 @@
-import { Rule, SchematicContext, Tree, chain } from '@angular-devkit/schematics';
+import { chain, Rule, SchematicContext, Tree } from '@angular-devkit/schematics';
 import { getWorkspace } from '@schematics/angular/utility/config';
 import {
   addPackageToPackageJson,
+  getProjectFromWorkspace,
   WorkspaceProject,
-  WorkspaceSchema,
-  getProjectFromWorkspace
+  WorkspaceSchema
 } from 'schematics-utilities';
-import { Schema } from './schema';
 import { addStyleToTarget, installPackageJsonDependencies } from '../utils';
+import { Schema } from './schema';
 
 const bulmaStylePath = `./node_modules/bulma/css/bulma.min.css`;
 
