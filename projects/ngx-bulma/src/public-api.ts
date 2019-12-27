@@ -13,3 +13,4 @@ export * from './lib/message/index';
 export * from './lib/button/index';
 export * from './lib/input/index';
 export * from './lib/textarea/index';
+export * from './lib/progressbar/index';

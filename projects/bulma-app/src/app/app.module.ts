@@ -10,8 +10,8 @@ import {
   BulmaBreadcrumbModule, BulmaButtonModule,
   BulmaCardModule, BulmaInputModule,
   BulmaMenuModule, BulmaMessageModule, BulmaModalModule,
-  BulmaNavbarModule, BulmaPanelModule, BulmaTabsModule,
-  BulmaTextareaModule
+  BulmaNavbarModule, BulmaPanelModule, BulmaProgressbarModule,
+  BulmaTabsModule, BulmaTextareaModule
 } from 'ngx-bulma';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -27,6 +27,7 @@ import { MessageComponent } from './message/message.component';
 import { ModelComponent } from './model/model.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PanelComponent } from './panel/panel.component';
+import { ProgressbarComponent } from './progressbar/progressbar.component';
 import { TabComponent } from './tab/tab.component';
 import { TextareaComponent } from './textarea/textarea.component';
 
@@ -46,7 +47,8 @@ import { TextareaComponent } from './textarea/textarea.component';
     TabComponent,
     ButtonComponent,
     InputComponent,
-    TextareaComponent
+    TextareaComponent,
+    ProgressbarComponent
   ],
   imports: [
     BrowserModule,
@@ -59,11 +61,12 @@ import { TextareaComponent } from './textarea/textarea.component';
     HttpClientModule,
     BulmaButtonModule,
     BulmaInputModule,
+    BulmaProgressbarModule,
     BulmaTextareaModule,
     MarkdownModule.forRoot({ loader: HttpClient })
   ],
   providers: [],
   bootstrap: [AppComponent],
-  exports: [ButtonComponent, InputComponent, TextareaComponent]
+  exports: [ButtonComponent, InputComponent, TextareaComponent, ProgressbarComponent]
 })
 export class AppModule { }
