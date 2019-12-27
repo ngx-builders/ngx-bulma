@@ -1,15 +1,26 @@
 import { CommonModule } from '@angular/common';
-import { NgModule } from '@angular/core';
-import { TabItemComponent } from './tab-item/tab-item.component';
-import { BulmaTabsComponent } from './tabs.component';
-import { TabsService } from './tabs.service';
+import { ModuleWithProviders, NgModule } from '@angular/core';
+
+import { TabDirective } from './tab.directive';
+import { TabsetComponent } from './tabset.component';
+import { TabsetConfig } from './tabset.config';
 
 @NgModule({
-  declarations: [BulmaTabsComponent, TabItemComponent],
-  imports: [
-    CommonModule
+  imports: [CommonModule],
+  declarations: [
+    TabDirective,
+    TabsetComponent
   ],
-  exports: [BulmaTabsComponent, TabItemComponent],
-  providers: [TabsService]
+  exports: [
+    TabDirective,
+    TabsetComponent
+  ]
 })
-export class BulmaTabsModule { }
+export class BulmaTabsModule {
+  // static forRoot(): ModuleWithProviders {
+  //   return {
+  //     ngModule: BulmaTabsModule,
+  //     providers: [TabsetConfig]
+  //   };
+  // }
+}
