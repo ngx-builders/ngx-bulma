@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+
+body { 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+}
+
+.parent-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f5f5f5;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.component-container{
+    width: 49%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #ffffff;
+    margin: 8px 0px;
+    border-radius: 6px;
+    padding: 10px;
+
+    a {
+        margin: 5px;
+    }
+}
+
+.code-snippet-container{
+    width: 49%;
+}
+
+@media only screen and (max-width: 720px) {
+    .component-container,.code-snippet-container{
+        width: 100%;
+    }
+  }
+

@@ -69,7 +69,7 @@
               "projects/bulma-app/src/_redirects"
             ],
             "styles": [
-              "projects/bulma-app/src/styles.css",
+              "projects/bulma-app/src/styles.scss",
               "node_modules/@fortawesome/fontawesome-free/css/all.css",
               "node_modules/bulma/css/bulma.css",
               "node_modules/prismjs/themes/prism-okaidia.css"
