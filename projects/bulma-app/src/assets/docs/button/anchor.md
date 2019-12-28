@@ -1,0 +1,3 @@
+```
+<a buButton>Anchor</a>
+```

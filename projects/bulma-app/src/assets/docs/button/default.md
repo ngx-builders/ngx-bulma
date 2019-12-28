@@ -1,0 +1,3 @@
+```
+<button buButton>Button</button>
+```

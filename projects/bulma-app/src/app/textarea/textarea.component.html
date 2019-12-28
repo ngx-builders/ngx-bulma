@@ -1,28 +1,43 @@
 <h2>Colors</h2>
-<div class="textarea-container">
-    <textarea buTextarea theme='primary' placeholder="Primary textarea"></textarea>
-    <textarea buTextarea theme='info' placeholder="Info textarea"></textarea>
-    <textarea buTextarea theme='success' placeholder="Success textarea"></textarea>
-    <textarea buTextarea theme='warning' placeholder="Warning textarea"></textarea>
-    <textarea buTextarea theme='danger' placeholder="Primary textarea"></textarea>
+<div class="parent-container">
+    <div class="component-container">
+        <textarea buTextarea theme='primary' placeholder="Primary textarea"></textarea>
+        <textarea buTextarea theme='info' placeholder="Info textarea"></textarea>
+        <textarea buTextarea theme='success' placeholder="Success textarea"></textarea>
+        <textarea buTextarea theme='warning' placeholder="Warning textarea"></textarea>
+        <textarea buTextarea theme='danger' placeholder="Primary textarea"></textarea>
+    </div>
+    <div class="code-snippet-container">
+        <markdown [src]="'assets/docs/textarea/color.md'"></markdown>
+    </div>
 </div>
 <hr />
 <h2>Sizes</h2>
-<div class="textarea-container">
-    <textarea buTextarea size='small' placeholder="Small textarea"></textarea>
-    <textarea buTextarea placeholder="Normal textarea"></textarea>
-    <textarea buTextarea size='medium' placeholder="Medium textarea"></textarea>
-    <textarea buTextarea size='large' placeholder="Large textarea"></textarea>
+<div class="parent-container">
+    <div class="component-container">
+        <textarea buTextarea size='small' placeholder="Small textarea"></textarea>
+        <textarea buTextarea placeholder="Normal textarea"></textarea>
+        <textarea buTextarea size='medium' placeholder="Medium textarea"></textarea>
+        <textarea buTextarea size='large' placeholder="Large textarea"></textarea>
+    </div>
+    <div class="code-snippet-container">
+        <markdown [src]="'assets/docs/textarea/size.md'"></markdown>
+    </div>
 </div>
 <hr />
 <h2>States</h2>
-<div class="textarea-container">
-    <h4>Normal</h4>
-    <textarea buTextarea placeholder="Normal textarea"></textarea>
-    <h4>Hover</h4>
-    <textarea buTextarea hovered=true placeholder="Hovered textarea"></textarea>
-    <h4>Focus</h4>
-    <textarea buTextarea focus=true placeholder="Focused textarea"></textarea>
-    <h4>Fixed Size</h4>
-    <textarea buTextarea fixed=true placeholder="Fixed size textarea"></textarea>
+<div class="parent-container">
+    <div class="component-container">
+        <h4>Normal</h4>
+        <textarea buTextarea placeholder="Normal textarea"></textarea>
+        <h4>Hover</h4>
+        <textarea buTextarea hovered=true placeholder="Hovered textarea"></textarea>
+        <h4>Focus</h4>
+        <textarea buTextarea focus=true placeholder="Focused textarea"></textarea>
+        <h4>Fixed Size</h4>
+        <textarea buTextarea fixed=true placeholder="Fixed size textarea"></textarea>
+    </div>
+    <div class="code-snippet-container">
+        <markdown [src]="'assets/docs/textarea/state.md'"></markdown>
+    </div>
 </div>
