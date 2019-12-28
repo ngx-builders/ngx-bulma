@@ -1,3 +1,4 @@
-export * from './tabs.component';
-export * from './tab-item/tab-item.component';
-export * from './tabs.module';
+export { TabDirective } from './tab.directive';
+export { TabsetComponent } from './tabset.component';
+export { TabsetConfig } from './tabset.config';
+export { BulmaTabsModule } from './tabs.module';
