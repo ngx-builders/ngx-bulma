@@ -1,14 +1,5 @@
-// bu-tab-item > .active {
-//   display: block;
-// }
-div {
-  .tab-content {
-    .tab-list {
-      display: none;
-    }
-  }
-}
 
-// .tab-list {
-//   display: none;
-// }
+.tab-group{
+  display: flex;
+  flex-direction: column;
+}
