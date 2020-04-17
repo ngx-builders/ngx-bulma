@@ -68,7 +68,7 @@
     "jest-preset-angular": "7.0.0",
     "@nrwl/jest": "8.7.0",
     "jest": "24.1.0",
-    "@types/jest": "24.0.9",
+    "@types/jest": "24.9.1",
     "ts-jest": "24.0.0",
     "cypress": "3.4.1",
     "@nrwl/cypress": "8.7.0",
