@@ -23,6 +23,11 @@
           "options": {
             "tsConfig": "projects/ngx-bulma/tsconfig.lib.json",
             "project": "projects/ngx-bulma/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-bulma/tsconfig.lib.prod.json"
+            }
           }
         },
         "test": {
@@ -62,7 +67,7 @@
             "main": "projects/bulma-app/src/main.ts",
             "polyfills": "projects/bulma-app/src/polyfills.ts",
             "tsConfig": "projects/bulma-app/tsconfig.app.json",
-            "aot": false,
+            "aot": true,
             "assets": [
               "projects/bulma-app/src/favicon.ico",
               "projects/bulma-app/src/assets",
@@ -96,7 +101,6 @@
               "sourceMap": false,
               "extractCss": true,
               "namedChunks": false,
-              "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
@@ -191,6 +195,7 @@
     }
   },
   "cli": {
-    "defaultCollection": "@nrwl/angular"
+    "defaultCollection": "@nrwl/angular",
+    "analytics": false
   }
 }
