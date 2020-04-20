@@ -70,7 +70,7 @@
     "jest": "24.1.0",
     "@types/jest": "24.0.9",
     "ts-jest": "24.0.0",
-    "cypress": "3.4.1",
+    "cypress": "3.8.3",
     "@nrwl/cypress": "9.2.2",
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
