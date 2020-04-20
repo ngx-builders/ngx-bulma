@@ -49,7 +49,7 @@
     "@angular/compiler-cli": "9.1.2",
     "@angular/language-service": "9.1.2",
     "@fortawesome/fontawesome-free": "5.13.0",
-    "@types/jasmine": "3.3.16",
+    "@types/jasmine": "3.5.10",
     "@types/jasminewd2": "2.0.8",
     "@types/node": "12.12.36",
     "codelyzer": "5.2.2",
