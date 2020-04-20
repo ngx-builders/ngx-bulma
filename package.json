@@ -65,7 +65,7 @@
     "ts-node": "7.0.1",
     "tslint": "5.15.0",
     "typescript": "3.8.3",
-    "jest-preset-angular": "7.0.0",
+    "jest-preset-angular": "7.1.1",
     "@nrwl/jest": "9.2.2",
     "jest": "24.1.0",
     "@types/jest": "24.9.1",
