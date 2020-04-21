@@ -36,7 +36,7 @@
     "ngx-markdown": "8.2.2",
     "ngx-semantic-version": "1.2.1",
     "prism-themes": "1.4.0",
-    "renamer": "1.1.4",
+    "renamer": "2.0.0",
     "rxjs": "6.5.5",
     "schematics-utilities": "2.0.1",
     "tslib": "1.11.1",
