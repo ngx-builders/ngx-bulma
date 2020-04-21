@@ -1,15 +1,38 @@
-<bu-bulma-message>
-    <bu-message-header>
-        <p>efdffffgg</p>
-        <button class="delete" aria-label="delete" (click)="showMyContainer=!showMyContainer"></button>
-    </bu-message-header>
-    <bu-message-content *ngIf="showMyContainer">
+<markdown [src]="'assets/docs/message/message.md'" ></markdown>
+<br>
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis
-        placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
-        <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et
-        sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et
-        sem eget, facilisis sodales sem.
+        <bu-bulma-message class="message">
+            <bu-message-header>
+                <p>Header</p>
+                <button class="delete" aria-label="delete" (click)="showMyContainer=!showMyContainer"></button>
+            </bu-message-header>
+            <bu-message-content *ngIf="showMyContainer">
 
-    </bu-message-content>
-</bu-bulma-message>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis
+                placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
+                <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et
+                sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et
+                sem eget, facilisis sodales sem.
+
+            </bu-message-content>
+        </bu-bulma-message>
+
+        <br>
+        <br>
+        <markdown [src]="'assets/docs/message/colour-message.md'" ></markdown>
+        <br>
+        <bu-bulma-message class="message is-primary">
+            <bu-message-header>
+                <p>Primary</p>
+                <button class="delete" aria-label="delete" (click)="showMyContainer=!showMyContainer"></button>
+            </bu-message-header>
+            <bu-message-content *ngIf="showMyContainer">
+
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis
+                placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
+                <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et
+                sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et
+                sem eget, facilisis sodales sem.
+
+            </bu-message-content>
+        </bu-bulma-message>

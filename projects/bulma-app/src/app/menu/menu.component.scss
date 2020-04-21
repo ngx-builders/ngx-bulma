@@ -1,0 +1,26 @@
+.menu-container{
+    width: 29%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #ffffff;
+    margin: 8px 0px;
+    border-radius: 6px;
+    padding: 10px;
+
+    a {
+        margin: 5px;
+    }
+}
+
+
+.menu-snippet-container{
+    width: 69%;
+}
+
+
+@media only screen and (max-width: 720px) {
+    #menu-container,.menu-snippet-container{
+        width: 100%;
+    }
+  }
