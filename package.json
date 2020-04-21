@@ -30,7 +30,7 @@
     "@nrwl/angular": "9.2.2",
     "@nrwl/workspace": "9.2.2",
     "bulma": "0.8.2",
-    "core-js": "2.6.11",
+    "core-js": "3.6.5",
     "font-awesome": "4.7.0",
     "marked": "0.8.2",
     "ngx-markdown": "8.2.2",
