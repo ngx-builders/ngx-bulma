@@ -69,7 +69,7 @@
     "@nrwl/jest": "9.2.2",
     "jest": "25.4.0",
     "@types/jest": "25.2.1",
-    "ts-jest": "24.0.0",
+    "ts-jest": "24.3.0",
     "cypress": "4.4.1",
     "@nrwl/cypress": "9.2.2",
     "@commitlint/cli": "8.3.5",
