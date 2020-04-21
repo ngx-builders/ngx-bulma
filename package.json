@@ -67,7 +67,7 @@
     "typescript": "3.8.3",
     "jest-preset-angular": "7.1.1",
     "@nrwl/jest": "9.2.2",
-    "jest": "24.9.0",
+    "jest": "25.4.0",
     "@types/jest": "24.9.1",
     "ts-jest": "24.0.0",
     "cypress": "4.4.0",
