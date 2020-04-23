@@ -12,7 +12,12 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "build:schematics": "tsc -p tsconfig.schematics.json",
+    "copy:schemas": "copyfiles  schematics/*/schema.json dist/ngx-bulma/",
+    "copy:collection": "copyfiles schematics/collection.json dist/ngx-bulma",
+    "schematics:postbuild": "npm run copy:schemas && npm run copy:collection",
+    "schematics:build": "npm run build:schematics && npm run schematics:postbuild"
   },
   "private": true,
   "dependencies": {
