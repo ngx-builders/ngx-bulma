@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { ChangeDetectionStrategy, Component, HostBinding, OnInit, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'bu-model-content',
@@ -8,6 +8,8 @@ import { ChangeDetectionStrategy, Component, OnInit, ViewEncapsulation } from '@
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class BulmaModelContentComponent implements OnInit {
+
+  @HostBinding('class') class = 'modal-card-body';
 
   constructor() { }
 
