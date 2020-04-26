@@ -1,10 +1,7 @@
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { faEnvelope, faKey } from '@fortawesome/free-solid-svg-icons';
-import { MarkdownModule, MarkedOptions } from 'ngx-markdown';
-
+import { MarkdownModule } from 'ngx-markdown';
 
 import {
   BulmaBreadcrumbModule, BulmaButtonModule,
