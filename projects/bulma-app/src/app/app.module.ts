@@ -25,6 +25,7 @@ import { ModelComponent } from './model/model.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PanelComponent } from './panel/panel.component';
 import { ProgressbarComponent } from './progressbar/progressbar.component';
+import { ScrollerComponent } from './scroller/scroller.component';
 import { TabComponent } from './tab/tab.component';
 import { TextareaComponent } from './textarea/textarea.component';
 
@@ -45,7 +46,8 @@ import { TextareaComponent } from './textarea/textarea.component';
     ButtonComponent,
     InputComponent,
     TextareaComponent,
-    ProgressbarComponent
+    ProgressbarComponent,
+    ScrollerComponent
   ],
   imports: [
     BrowserModule,
@@ -64,6 +66,6 @@ import { TextareaComponent } from './textarea/textarea.component';
   ],
   providers: [],
   bootstrap: [AppComponent],
-  exports: [ButtonComponent, InputComponent, TextareaComponent, ProgressbarComponent]
+  exports: [ButtonComponent, InputComponent, TextareaComponent, ProgressbarComponent, ScrollerComponent]
 })
 export class AppModule { }
