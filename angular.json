@@ -12,7 +12,11 @@
         "@schematics/angular:component": {
           "viewEncapsulation": "None",
           "changeDetection": "OnPush",
-          "entryComponent": false,
+          "export": true,
+          "prefix": "bu"
+        },
+        "@schematics/angular:directive": {
+          "viewEncapsulation": "None",
           "export": true,
           "prefix": "bu"
         }
@@ -45,9 +49,7 @@
               "projects/ngx-bulma/tsconfig.lib.json",
               "projects/ngx-bulma/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -147,9 +149,7 @@
               "projects/bulma-app/src/favicon.ico",
               "projects/bulma-app/src/assets"
             ],
-            "styles": [
-              "projects/bulma-app/src/styles.scss"
-            ],
+            "styles": ["projects/bulma-app/src/styles.scss"],
             "scripts": []
           }
         },
@@ -161,9 +161,7 @@
               "projects/bulma-app/tsconfig.spec.json",
               "projects/bulma-app/e2e/tsconfig.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         },
         "e2e": {

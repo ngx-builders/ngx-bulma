@@ -1,39 +1,14 @@
-.app{
-  margin: 35px;
-}
-  
-.footer {
-  margin-top: -12px;
-}
-@media screen and (max-width: 768px) {
-  #menu-toggle:checked + .nav-menu {
-    display: block;
-  }
+::ng-deep .navbar {
+  box-shadow: 2px 2px 2px 2px #f5f5f5;
 }
 
-aside{
-  position: fixed;
+.card-container {
+  width: 90%;
+  margin: 20px 10px;
 }
 
-.doc-container{
-  margin-right: 0;
-}
-
-nav{
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 999;
-}
-
-
-.navbar-menu{
-  margin-left: 30px;
-    margin-top: 40px;
-}
-
-.menu-list
-{
-  margin-top: inherit;
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

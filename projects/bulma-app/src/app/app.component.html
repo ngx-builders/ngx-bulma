@@ -1,71 +1,65 @@
-<div class="app">
-  <nav class="nav has-shadow">
-    <div class="container">
-      <div class="nav-left">
-        <bu-nav>
-          <bu-nav-brand>
-            <a class="navbar-item" href="https://bulma.io">
-              <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
-            </a>
-          </bu-nav-brand>
-          <bu-nav-item>
-            <a class="navbar-item">
-              Home
-            </a>
-            <a class="navbar-item">
-              Documentation
-            </a>
-          </bu-nav-item>
-        </bu-nav>
-      </div>
-      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
-        data-target="navbarBasicExample" [class.is-active]="showBurgerMenu" (click)="showBurgerMenu = !showBurgerMenu">
-        <span></span>
-        <span></span>
-        <span></span>
+<div class="root-container">
+  <bu-nav>
+    <bu-nav-brand>
+      <a class="navbar-item" href="https://bulma.io">
+        <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
       </a>
-      <input type="checkbox" id="menu-toggle" class="is-hidden" />
-      <div class="nav-right nav-menu">
+      <a (click)="toggleNavbar()" role="button" #navBurger class="navbar-burger burger" aria-label="menu"
+        aria-expanded="false" data-target="ngxBulmaNavbar">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </bu-nav-brand>
+    <div id="ngxBulmaNavbar" (click)="toggleNavbar()" class="navbar-menu" #navMenu>
+      <div class="navbar-start">
+        <a buNavItem [routerLink]="['']" routerLinkActive="router-link-active">Introduction</a>
+        <a buNavItem [routerLink]="['/gettingstarted']" routerLinkActive="router-link-active">Getting
+          Started</a>
+        <bu-navbar-link title='Components'>
+          <bu-navbar-dropdown>
+            <a buNavItem [routerLink]="['/menu']" routerLinkActive="router-link-active">Menu</a>
+            <hr class="navbar-divider">
+            <a buNavItem [routerLink]="['/navbar']" routerLinkActive="router-link-active">NavBar</a>
+            <hr class="navbar-divider">
+            <a buNavItem [routerLink]="['/message']" routerLinkActive="router-link-active">Message
+            </a>
+            <hr class="navbar-divider">
+            <a buNavItem [routerLink]="['/card']" routerLinkActive="router-link-active">Card
+            </a>
+            <hr class="navbar-divider">
+            <a buNavItem [routerLink]="['/model']" routerLinkActive="router-link-active">Model
+            </a>
+            <hr class="navbar-divider">
+            <a buNavItem [routerLink]="['/panel']" routerLinkActive="router-link-active">Panel
+            </a>
+            <hr class="navbar-divider">
+            <a buNavItem [routerLink]="['/tab']" routerLinkActive="router-link-active">Tab
+            </a>
+            <hr class="navbar-divider">
+            <a buNavItem [routerLink]="['/button']" routerLinkActive="router-link-active">Button
+            </a>
+            <hr class="navbar-divider">
+            <a buNavItem [routerLink]="['/input']" routerLinkActive="router-link-active">Input
+            </a>
+            <hr class="navbar-divider">
+            <a buNavItem [routerLink]="['/textarea']" routerLinkActive="router-link-active">Textarea
+            </a>
+            <hr class="navbar-divider">
+            <a buNavItem [routerLink]="['/progress']" routerLinkActive="router-link-active">Progress
+              bar</a>
+          </bu-navbar-dropdown>
+        </bu-navbar-link>
       </div>
     </div>
-  </nav>
-
-  <section class="main-content columns is-fullheight">
-    <aside class="column is-2 is-narrow-mobile is-fullheight section is-hidden-mobile" id="navbarBasicExample"
-      class="navbar-menu" [class.is-active]="showBurgerMenu">
-      <bu-menu-list>
-        <ul class="menu-list">
-          <li><a [routerLink]="['']" routerLinkActive="router-link-active">Introduction</a></li>
-          <li><a [routerLink]="['/gettingstarted']" routerLinkActive="router-link-active">Getting Started</a></li>
-
-          <li><a [routerLink]="['/home']" routerLinkActive="router-link-active">Home</a></li>
-          <li><a [routerLink]="['/menu']" routerLinkActive="router-link-active">Menu</a></li>
-          <li><a [routerLink]="['/navbar']" routerLinkActive="router-link-active">NavBar</a></li>
-          <li><a [routerLink]="['/message']" routerLinkActive="router-link-active">message</a></li>
-          <li><a [routerLink]="['/card']" routerLinkActive="router-link-active">card</a></li>
-          <li><a [routerLink]="['/model']" routerLinkActive="router-link-active">model</a></li>
-          <li><a [routerLink]="['/panel']" routerLinkActive="router-link-active">panel</a></li>
-          <li><a [routerLink]="['/tab']" routerLinkActive="router-link-active">Tab</a></li>
-          <li><a [routerLink]="['/button']" routerLinkActive="router-link-active">Button</a></li>
-          <li><a [routerLink]="['/input']" routerLinkActive="router-link-active">Input</a></li>
-          <li><a [routerLink]="['/textarea']" routerLinkActive="router-link-active">Textarea</a></li>
-          <li><a [routerLink]="['/progress']" routerLinkActive="router-link-active">Progress bar</a></li>
-
-        </ul>
-      </bu-menu-list>
-    </aside>
-
-    <div class="container column is-10 doc-container">
-      <div class="section">
-        <div class="card">
-          <div class="card-content">
-            <div class="content">
-              <router-outlet></router-outlet>
-            </div>
-          </div>
-        </div>
-        <br />
-      </div>
+  </bu-nav>
+  <div class="content-container">
+    <div class="card-container">
+      <bu-card>
+        <bu-card-content>
+          <router-outlet></router-outlet>
+        </bu-card-content>
+      </bu-card>
     </div>
-  </section>
+  </div>
 </div>

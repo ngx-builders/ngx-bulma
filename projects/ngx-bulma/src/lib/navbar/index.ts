@@ -1,4 +1,6 @@
 export * from './navbar.component';
 export * from './navbar.module';
 export * from './navbar-brand/navbar-brand.component';
-export * from './navbar-item/navbar-item.component';
+export * from './navbar-link/navbar-link.component';
+export * from './navbar-dropdown/navbar-dropdown.component';
+export * from './nav-item.directive';
