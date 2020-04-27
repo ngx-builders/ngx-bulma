@@ -13,7 +13,7 @@ body {
 }
 
 .component-container {
-  width: 49%;
+  width: 48%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -28,5 +28,17 @@ body {
 }
 
 .code-snippet-container {
-  width: 49%;
+  width: 48%;
+}
+
+@media only screen and (max-width: 720px) {
+  .parent-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .code-snippet-container,
+  .component-container {
+    width: 96%;
+  }
 }
