@@ -1,5 +1,45 @@
 <markdown [src]="'assets/docs/model/model.md'"></markdown>
+<div class="parent-container">
+        <div class="component-container">
+                <button class="button" (click)="toggleModal()" >open model</button>
+        </div>
+        <div class="code-snippet-container">
+            <markdown [src]="'assets/docs/model/model-example.md'"></markdown>
+        
+        </div>
+</div>
+<bu-modal [open]="isModalActive">
+        <bu-model-head>
+                <bu-model-title>
+                        Modal title
+                </bu-model-title>
+                <button class="delete" aria-label="close" (click)="closemodel()"></button>
+        </bu-model-head>
+        <bu-model-content>
+                <h1>Hello World</h1>
+                <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan,
+                        metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum
+                        justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio,
+                        sollicitudin vel erat vel, interdum mattis neque.
+                </p>
+        </bu-model-content>
+        <bu-model-footer>
+                <button class="button is-success">Save changes</button>
+                <button class="button" (click)="closemodel()">Cancel</button>
+        </bu-model-footer>
+</bu-modal>
 
+<markdown [src]="'assets/docs/model/multilevel-model.md'"></markdown>
+<div class="parent-container">
+        <div class="component-container">
+                <button class="button" (click)="toggleModal()" >open model</button>
+        </div>
+        <div class="code-snippet-container">
+            <markdown [src]="'assets/docs/model/multilevel-code.md'"></markdown>
+        
+        </div>
+</div>
 <bu-modal [open]="isModalActive">
         <bu-model-head>
                 <bu-model-title>
@@ -107,4 +147,3 @@
                 <button class="button" (click)="closemodel()">Cancel</button>
         </bu-model-footer>
 </bu-modal>
-<button class="button" (click)="toggleModal()">open model</button>
