@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, OnInit, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  selector: 'bu-model-footer',
+  selector: 'bu-modal-footer',
   templateUrl: './model-footer.component.html',
   styleUrls: ['./model-footer.component.css'],
   encapsulation: ViewEncapsulation.None,

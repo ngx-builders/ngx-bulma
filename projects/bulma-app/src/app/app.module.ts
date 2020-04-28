@@ -21,7 +21,7 @@ import { InputComponent } from './input/input.component';
 import { IntroductionComponent } from './introduction/introduction.component';
 import { MenuComponent } from './menu/menu.component';
 import { MessageComponent } from './message/message.component';
-import { ModelComponent } from './model/model.component';
+import { ModalComponent } from './modal/modal.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PanelComponent } from './panel/panel.component';
 import { ProgressbarComponent } from './progressbar/progressbar.component';
@@ -38,7 +38,7 @@ import { TextareaComponent } from './textarea/textarea.component';
     HomeComponent,
     MenuComponent,
     CardComponent,
-    ModelComponent,
+    ModalComponent,
     IntroductionComponent,
     GettingstartedComponent,
     PanelComponent,

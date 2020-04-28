@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, HostBinding, OnInit, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  selector: 'bu-model-title',
+  selector: 'bu-modal-title',
   templateUrl: './model-title.component.html',
   styleUrls: ['./model-title.component.css'],
   encapsulation: ViewEncapsulation.None,
