@@ -1,7 +1,7 @@
 export * from './modal.component';
 export * from './modal.module';
 
-export * from './model-head/model-head.component';
-export * from './model-content/model-content.component';
-export * from './model-footer/model-footer.component';
-export * from './model-title/model-title.component';
+export * from './modal-head/modal-head.component';
+export * from './modal-content/modal-content.component';
+export * from './modal-footer/modal-footer.component';
+export * from './modal-title/modal-title.component';

@@ -1,23 +1,23 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
+import { BulmaModalContentComponent } from './modal-content/modal-content.component';
+import { BulmaModalFooterComponent } from './modal-footer/modal-footer.component';
+import { BulmaModalHeadComponent } from './modal-head/modal-head.component';
+import { BulmaModalTitleComponent } from './modal-title/modal-title.component';
 import { BulmaModalComponent } from './modal.component';
-import { BulmaModelContentComponent } from './model-content/model-content.component';
-import { BulmaModelFooterComponent } from './model-footer/model-footer.component';
-import { BulmaModelHeadComponent } from './model-head/model-head.component';
-import { BulmaModelTitleComponent } from './model-title/model-title.component';
 
 
 
 @NgModule({
-  declarations: [BulmaModalComponent, BulmaModelHeadComponent,
-    BulmaModelContentComponent, BulmaModelFooterComponent,
-    BulmaModelTitleComponent],
+  declarations: [BulmaModalComponent, BulmaModalHeadComponent,
+    BulmaModalContentComponent, BulmaModalFooterComponent,
+    BulmaModalTitleComponent],
   imports: [
     CommonModule
   ],
-  exports: [BulmaModalComponent, BulmaModelHeadComponent,
-    BulmaModelContentComponent, BulmaModelFooterComponent,
-    BulmaModelTitleComponent],
+  exports: [BulmaModalComponent, BulmaModalHeadComponent,
+    BulmaModalContentComponent, BulmaModalFooterComponent,
+    BulmaModalTitleComponent],
 
 })
 export class BulmaModalModule { }
