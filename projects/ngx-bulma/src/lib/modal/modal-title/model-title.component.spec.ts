@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ModelComponent } from './model.component';
+import { BulmaModalTitleComponent } from './modal-title.component';
 
-describe('ModelComponent', () => {
-  let component: ModelComponent;
-  let fixture: ComponentFixture<ModelComponent>;
+describe('BulmaModalTitleComponent', () => {
+  let component: BulmaModalTitleComponent;
+  let fixture: ComponentFixture<BulmaModalTitleComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ModelComponent ]
+      declarations: [ BulmaModalTitleComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ModelComponent);
+    fixture = TestBed.createComponent(BulmaModalTitleComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

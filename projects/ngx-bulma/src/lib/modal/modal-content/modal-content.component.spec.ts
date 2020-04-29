@@ -2,7 +2,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { BulmaModalContentComponent } from './modal-content.component';
 
-describe('ModelContentComponent', () => {
+describe('BulmaModalContentComponent', () => {
   let component: BulmaModalContentComponent;
   let fixture: ComponentFixture<BulmaModalContentComponent>;
 
