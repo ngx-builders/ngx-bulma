@@ -12,7 +12,7 @@
       </a>
     </bu-nav-brand>
     <div id="ngxBulmaNavbar" (click)="toggleNavbar()" class="navbar-menu" #navMenu>
-      <div class="navbar-start">
+      <bu-navbar-start>
         <a buNavItem [routerLink]="['']" routerLinkActive="router-link-active">Introduction</a>
         <a buNavItem [routerLink]="['/gettingstarted']" routerLinkActive="router-link-active">Getting
           Started</a>
@@ -50,7 +50,13 @@
               bar</a>
           </bu-navbar-dropdown>
         </bu-navbar-link>
-      </div>
+      </bu-navbar-start>
+      <bu-navbar-end>
+        <a class="social-icon" buNavItem href="https://github.com/ngx-builders/ngx-bulma"
+          routerLinkActive="router-link-active" target="_blank"><i class="fab fa-github"></i></a>
+        <a class="social-icon" buNavItem href="https://twitter.com/ngx_builders" routerLinkActive="router-link-active"
+          target="_blank"><i class="fab fa-twitter"></i></a>
+      </bu-navbar-end>
     </div>
   </bu-nav>
   <div class="content-container">
