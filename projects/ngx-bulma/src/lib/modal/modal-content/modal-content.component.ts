@@ -1,15 +1,15 @@
 import { ChangeDetectionStrategy, Component, HostBinding, OnInit, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  selector: 'bu-model-title',
-  templateUrl: './model-title.component.html',
-  styleUrls: ['./model-title.component.css'],
+  selector: 'bu-modal-content',
+  templateUrl: './modal-content.component.html',
+  styleUrls: ['./modal-content.component.css'],
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class BulmaModelTitleComponent implements OnInit {
+export class BulmaModalContentComponent implements OnInit {
 
-  @HostBinding('class') class = 'modal-card-title';
+  @HostBinding('class') class = 'modal-card-body';
 
   constructor() { }
 

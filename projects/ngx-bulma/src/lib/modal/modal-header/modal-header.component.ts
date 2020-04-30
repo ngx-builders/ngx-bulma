@@ -1,13 +1,13 @@
 import { ChangeDetectionStrategy, Component, OnInit, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  selector: 'bu-model-head',
-  templateUrl: './model-head.component.html',
-  styleUrls: ['./model-head.component.css'],
+  selector: 'bu-modal-header',
+  templateUrl: './modal-header.component.html',
+  styleUrls: ['./modal-header.component.css'],
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class BulmaModelHeadComponent implements OnInit {
+export class BulmaModalHeaderComponent implements OnInit {
 
   constructor() { }
 

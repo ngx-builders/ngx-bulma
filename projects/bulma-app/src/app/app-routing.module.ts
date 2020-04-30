@@ -8,7 +8,7 @@ import { InputComponent } from './input/input.component';
 import { IntroductionComponent } from './introduction/introduction.component';
 import { MenuComponent } from './menu/menu.component';
 import { MessageComponent } from './message/message.component';
-import { ModelComponent } from './model/model.component';
+import { ModalComponent } from './modal/modal.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PanelComponent } from './panel/panel.component';
 import { ProgressbarComponent } from './progressbar/progressbar.component';
@@ -24,7 +24,7 @@ const routes: Routes = [
   { path: 'navbar', component: NavbarComponent },
   { path: 'message', component: MessageComponent },
   { path: 'card', component: CardComponent },
-  { path: 'model', component: ModelComponent },
+  { path: 'modal', component: ModalComponent },
   { path: 'panel', component: PanelComponent },
   { path: 'tab', component: TabComponent },
   { path: 'button', component: ButtonComponent },

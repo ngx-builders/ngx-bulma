@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-model',
-  templateUrl: './model.component.html',
-  styleUrls: ['./model.component.scss']
+  selector: 'app-modal',
+  templateUrl: './modal.component.html',
+  styleUrls: ['./modal.component.scss']
 })
-export class ModelComponent implements OnInit {
+export class ModalComponent implements OnInit {
 
   isModalActive = false;
 
@@ -17,7 +17,7 @@ export class ModelComponent implements OnInit {
   toggleModal() {
     this.isModalActive = !this.isModalActive;
   }
-  closemodel() {
+  closeModal() {
     this.isModalActive = false;
   }
 
