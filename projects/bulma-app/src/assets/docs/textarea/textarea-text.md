@@ -4,7 +4,7 @@
 To display a # Textarea component in your app and verify that everything works.
 You need to import the BulmaTextareaModule that you want to display by adding the following lines to your app.module.ts file.
 
- ```typescript
+ ```javascript
 import { BulmaTextareaModule} from 'ngx-bulma'
   @NgModule({
     imports: [BulmaTextareaModule]

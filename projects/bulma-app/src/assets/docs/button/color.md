@@ -1,4 +1,4 @@
-```
+```html
 <button buButton color='white'>White</button>
 <button buButton color='light'>Light</button>
 <button buButton color='dark'>Dark</button>

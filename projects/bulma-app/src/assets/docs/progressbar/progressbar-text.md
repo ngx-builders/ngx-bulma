@@ -5,7 +5,7 @@
 To display a Progress component in your app and verify that everything works.
 You need to import the BulmaModalModule that you want to display by adding the following lines to your app.module.ts file.
 
- ```typescript
+ ```javascript
 import { BulmaProgressbarModule} from 'ngx-bulma'
   @NgModule({
     imports: [BulmaProgressbarModule]
@@ -13,4 +13,4 @@ import { BulmaProgressbarModule} from 'ngx-bulma'
  ```
  ### Basic 
 To use the Progressbar component in your Angular application.
-Add ```buTextarea``` in textarea tag.
+Add `buTextarea` in textarea tag.

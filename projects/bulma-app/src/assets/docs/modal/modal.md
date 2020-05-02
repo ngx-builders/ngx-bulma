@@ -6,7 +6,7 @@
 To display a Modal component in your app and verify that everything works.
 You need to import the BulmaModalModule that you want to display by adding the following lines to your app.module.ts file.
 
- ```typescript
+ ```javascript
 import { BulmaModalModule} from 'ngx-bulma'
   @NgModule({
     imports: [BulmaModalModule]

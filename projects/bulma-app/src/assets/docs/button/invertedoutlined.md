@@ -1,4 +1,4 @@
-```
+```html
 <button buButton theme='primary' inverted=true outlined=true>Invert Outlined</button>
 <button buButton theme='link' inverted=true outlined=true>Invert Outlined</button>
 <button buButton theme='info' inverted=true outlined=true>Invert Outlined</button>

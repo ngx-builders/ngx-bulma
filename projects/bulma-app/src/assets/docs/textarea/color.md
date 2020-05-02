@@ -1,4 +1,4 @@
-```
+```html
 <textarea buTextarea theme='primary' placeholder="Primary textarea"></textarea>
 <textarea buTextarea theme='info' placeholder="Info textarea"></textarea>
 <textarea buTextarea theme='success' placeholder="Success textarea"></textarea>

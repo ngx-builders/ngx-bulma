@@ -1,4 +1,4 @@
-```
+```html
 <progress buProgress theme='dark' value="10" max="100">10%</progress>
 <progress buProgress theme='primary' value="15" max="100">15%</progress>
 <progress buProgress theme='link' value="30" max="100">30%</progress>

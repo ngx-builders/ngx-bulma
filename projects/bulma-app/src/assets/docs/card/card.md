@@ -4,7 +4,7 @@ A card is a flexible and extensible content container. It includes options for h
 To display a card component in your app and verify that everything works.
 You need to import the BulmaCardModule that you want to display by adding the following lines to your app.module.ts file.
 
- ```typescript
+ ```javascript
 import { BulmaCardModule} from 'ngx-bulma'
   @NgModule({
     imports: [BulmaCardModule]
@@ -13,7 +13,7 @@ import { BulmaCardModule} from 'ngx-bulma'
 To use the bulmacard component in your Angular application.
 Add below components sequentially for using bulma card component.
 
-```
+```html
 <bu-card>
             <bu-card-header>
                 <bu-card-title>Component title.....</bu-card-title>
