@@ -19,9 +19,5 @@ import { BulmaMessageModule} from 'ngx-bulma'
 |---|---|---|---|---|
 |```<bu-message-header>```   |Message Header   |   |   |   |
 |```<bu-message-content> ```   |Message content   |   |   |   |
- ### Basic 
 
- To use the Basic BulmaMessage component in your Angular application.
- you just need to add above Message components sequentially in you ```HTML``` and you are ready to go.
-
-
+ 

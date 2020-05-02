@@ -3,10 +3,10 @@ import { NgModule } from '@angular/core';
 import { NavItemDirective } from './nav-item.directive';
 import { BulmaNavbarBrandComponent } from './navbar-brand/navbar-brand.component';
 import { NavbarDropdownComponent } from './navbar-dropdown/navbar-dropdown.component';
-import { NavbarLinkComponent } from './navbar-link/navbar-link.component';
-import { BulmaNavbarComponent } from './navbar.component';
-import { NavbarStartComponent } from './navbar-start/navbar-start.component';
 import { NavbarEndComponent } from './navbar-end/navbar-end.component';
+import { NavbarLinkComponent } from './navbar-link/navbar-link.component';
+import { NavbarStartComponent } from './navbar-start/navbar-start.component';
+import { BulmaNavbarComponent } from './navbar.component';
 
 @NgModule({
   declarations: [

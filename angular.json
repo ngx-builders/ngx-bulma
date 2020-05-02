@@ -79,14 +79,12 @@
               "projects/bulma-app/src/styles.scss",
               "node_modules/@fortawesome/fontawesome-free/css/all.css",
               "node_modules/bulma/css/bulma.css",
-              "node_modules/prism-themes/themes/prism-a11y-dark.css",
+              "node_modules/prism-themes/themes/prism-material-light.css",
               "node_modules/prismjs/plugins/line-numbers/prism-line-numbers.css"
             ],
             "scripts": [
               "node_modules/marked/lib/marked.js",
               "node_modules/prismjs/prism.js",
-              "node_modules/prismjs/components/prism-csharp.min.js",
-              "node_modules/prismjs/components/prism-css.min.js",
               "node_modules/prismjs/plugins/line-numbers/prism-line-numbers.js"
             ]
           },
