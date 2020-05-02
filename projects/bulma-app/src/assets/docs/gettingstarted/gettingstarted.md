@@ -30,7 +30,6 @@ It will also do automate the below configuration
           ]
 ```
 
-
 ## Display a ngx2-bulma component
 
 Let's display a card component in your app and verify that everything works.
@@ -39,9 +38,8 @@ You need to import the BulmaCardModule that you want to display by adding the fo
 ```javascript
  import { BulmaCardModule} from 'ngx-bulma'
  @NgModule({
-    "imports: [BulmaCardModule]"
+    imports: [BulmaCardModule]
     });
 ```
 
 Once you done all the above setup,now you can use the bulmacard component in your Angular application
-
