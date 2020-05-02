@@ -79,7 +79,7 @@
               "projects/bulma-app/src/styles.scss",
               "node_modules/@fortawesome/fontawesome-free/css/all.css",
               "node_modules/bulma/css/bulma.css",
-              "node_modules/prism-themes/themes/prism-ghcolors.css",
+              "node_modules/prism-themes/themes/prism-material-light.css",
               "node_modules/prismjs/plugins/line-numbers/prism-line-numbers.css"
             ],
             "scripts": [

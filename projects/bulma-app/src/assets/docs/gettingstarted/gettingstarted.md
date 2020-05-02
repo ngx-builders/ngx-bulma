@@ -21,7 +21,7 @@ ng add ngx2-bulma
 The `ng add` command will install ngx2-bulma and bulma css framework.
 It will also do automate the below configuration
 
-1. Add your bulma css in your in angular.json
+1. Add your bulma css in your in `angular.json`
 
 ```json
 "styles": [
@@ -30,18 +30,16 @@ It will also do automate the below configuration
           ]
 ```
 
-
 ## Display a ngx2-bulma component
 
 Let's display a card component in your app and verify that everything works.
-You need to import the BulmaCardModule that you want to display by adding the following lines to your app.module.ts file.
+You need to import the BulmaCardModule that you want to display by adding the following lines to your `app.module.ts` file.
 
 ```javascript
- import { BulmaCardModule} from 'ngx-bulma'
+ import { BulmaCardModule} from 'ngx-bulma';
  @NgModule({
-    "imports: [BulmaCardModule]"
+    imports: [BulmaCardModule]
     });
 ```
 
 Once you done all the above setup,now you can use the bulmacard component in your Angular application
-
