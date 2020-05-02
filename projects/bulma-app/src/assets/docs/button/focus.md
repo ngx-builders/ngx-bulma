@@ -1,4 +1,4 @@
-```
+```html
 <button buButton focus=true>Focus</button>
 <button buButton theme='primary' focus=true>Focus</button>
 <button buButton theme='link' focus=true>Focus</button>

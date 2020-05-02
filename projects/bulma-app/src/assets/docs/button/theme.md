@@ -1,4 +1,4 @@
-```
+```html
 <button buButton theme='primary'>Primary</button>
 <button buButton theme='link'>Link</button>
 <button buButton theme='info'>Info</button>

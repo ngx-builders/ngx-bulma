@@ -5,6 +5,7 @@
     "release": "standard-version",
     "ng": "ng",
     "start": "ng serve",
+    "build:prod:lib": "ng build ngx-bulma --prod && npm run schematics:build",
     "build:lib": "ng build ngx-bulma --prod",
     "serve:app": "ng serve bulma-app -o",
     "build:lib:watch": "ng build ngx-bulma --watch",

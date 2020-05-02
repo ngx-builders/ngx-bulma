@@ -1,4 +1,4 @@
-```
+```html
 <button buButton loading=true>Loading</button>
 <button buButton theme='primary' loading=true>Loading</button>
 <button buButton theme='link' loading=true>Loading</button>

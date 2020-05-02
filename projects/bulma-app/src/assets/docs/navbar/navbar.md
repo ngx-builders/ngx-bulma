@@ -17,7 +17,7 @@ The `navbar` component is a responsive and versatile horizontal navigation bar w
 
 To get started quickly, here is what a complete basic navbar looks like:
 
-```
+```html
 <bu-nav>
   <bu-nav-brand>
     <a class="navbar-item" href="https://bulma.io">

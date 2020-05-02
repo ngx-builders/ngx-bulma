@@ -1,5 +1,5 @@
 
-```
+```html
 <bu-menu>
         <bu-menu-header>
             Administration
@@ -18,6 +18,4 @@
                 </bu-menu-list> 
             </bu-menu-list>
 </bu-menu>
-
 ```
-
