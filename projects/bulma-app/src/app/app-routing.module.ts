@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ButtonComponent } from './button/button.component';
 import { CardComponent } from './card/card.component';
+import { ContainerComponent } from './container/container/container.component';
 import { GettingstartedComponent } from './gettingstarted/gettingstarted.component';
 import { HomeComponent } from './home/home.component';
 import { InputComponent } from './input/input.component';
@@ -31,6 +32,7 @@ const routes: Routes = [
   { path: 'input', component: InputComponent },
   { path: 'textarea', component: TextareaComponent },
   { path: 'progress', component: ProgressbarComponent },
+  { path: 'container', component: ContainerComponent },
 ];
 
 @NgModule({

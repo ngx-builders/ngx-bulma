@@ -23,4 +23,9 @@ export class SharedService {
     const colorClass = this.themeService.themes.get(color);
     return colorClass === undefined ? defaultCssClass : colorClass;
   }
+
+  getContainerTypeClass(containerType: string, defaultCssClass: string) {
+    const containerTypeClass = this.themeService.themes.get(containerType);
+    return containerTypeClass === undefined ? defaultCssClass : containerTypeClass;
+  }
 }
