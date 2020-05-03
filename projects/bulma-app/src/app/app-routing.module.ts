@@ -3,7 +3,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { ButtonComponent } from './button/button.component';
 import { CardComponent } from './card/card.component';
 import { ContainerComponent } from './container/container/container.component';
+import { FooterComponent } from './footer/footer/footer.component';
 import { GettingstartedComponent } from './gettingstarted/gettingstarted.component';
+import { HeroComponent } from './hero/hero.component';
 import { HomeComponent } from './home/home.component';
 import { InputComponent } from './input/input.component';
 import { IntroductionComponent } from './introduction/introduction.component';
@@ -33,6 +35,8 @@ const routes: Routes = [
   { path: 'textarea', component: TextareaComponent },
   { path: 'progress', component: ProgressbarComponent },
   { path: 'container', component: ContainerComponent },
+  { path: 'footer', component: FooterComponent },
+  { path: 'hero', component: HeroComponent }
 ];
 
 @NgModule({

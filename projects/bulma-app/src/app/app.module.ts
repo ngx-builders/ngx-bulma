@@ -6,9 +6,10 @@ import { MarkdownModule } from 'ngx-markdown';
 import {
   BulmaBreadcrumbModule, BulmaButtonModule,
   BulmaCardModule, BulmaContainerModule,
-  BulmaInputModule, BulmaMenuModule, BulmaMessageModule,
-  BulmaModalModule, BulmaNavbarModule, BulmaPanelModule,
-  BulmaProgressbarModule, BulmaTabsModule, BulmaTextareaModule
+  BulmaFooterModule, BulmaHeroModule, BulmaInputModule,
+  BulmaMenuModule, BulmaMessageModule, BulmaModalModule,
+  BulmaNavbarModule, BulmaPanelModule, BulmaProgressbarModule,
+  BulmaTabsModule, BulmaTextareaModule
 } from 'ngx-bulma';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -16,7 +17,9 @@ import { AppComponent } from './app.component';
 import { ButtonComponent } from './button/button.component';
 import { CardComponent } from './card/card.component';
 import { ContainerComponent } from './container/container/container.component';
+import { FooterComponent } from './footer/footer/footer.component';
 import { GettingstartedComponent } from './gettingstarted/gettingstarted.component';
+import { HeroComponent } from './hero/hero.component';
 import { HomeComponent } from './home/home.component';
 import { InputComponent } from './input/input.component';
 import { IntroductionComponent } from './introduction/introduction.component';
@@ -49,7 +52,9 @@ import { TextareaComponent } from './textarea/textarea.component';
     TextareaComponent,
     ProgressbarComponent,
     ScrollerComponent,
-    ContainerComponent
+    ContainerComponent,
+    FooterComponent,
+    HeroComponent
   ],
   imports: [
     BrowserModule,
@@ -65,10 +70,16 @@ import { TextareaComponent } from './textarea/textarea.component';
     BulmaProgressbarModule,
     BulmaTextareaModule,
     BulmaContainerModule,
+    BulmaFooterModule,
+    BulmaHeroModule,
     MarkdownModule.forRoot({ loader: HttpClient })
   ],
   providers: [],
   bootstrap: [AppComponent],
-  exports: [ButtonComponent, InputComponent, TextareaComponent, ProgressbarComponent, ScrollerComponent, ContainerComponent]
+  exports: [
+    ButtonComponent, InputComponent, TextareaComponent,
+    ProgressbarComponent, ScrollerComponent, ContainerComponent,
+    FooterComponent, HeroComponent
+  ]
 })
 export class AppModule { }
