@@ -15,17 +15,7 @@ import { BulmaCardModule} from 'ngx-bulma'
 To use the bulmacard component in your Angular application.
 Add below components sequentially for using bulma card component.
 
-```html
-<bu-card>
-            <bu-card-header>
-                <bu-card-title>Component title.....</bu-card-title>
-            </bu-card-header>
-                <bu-card-content>Content......</bu-card-content>
-            <bu-card-footer>
-                    Footer.....
-            <bu-card-footer>
-</bu-card>
-```
+
 
 Basic Card Details
 
@@ -39,3 +29,6 @@ The most basic card needs only of `<bu-card>` element with some content. However
 | `<bu-card-footer>`  | Section anchored to the bottom of the card |     |     |     |
 
 Below is sample card Example.
+
+
+

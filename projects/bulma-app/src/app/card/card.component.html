@@ -1,28 +1,36 @@
 <markdown [src]="'assets/docs/card/card.md'"></markdown>
 
+<div class="parent-container">
+  <div class="component-container">
+    <bu-card>
+      <bu-card-header>
+        <bu-card-title>
+          Component
+        </bu-card-title>
+        <a href="#" class="card-header-icon" aria-label="more options">
+          <span class="icon">
+            <i class="fas fa-angle-down" aria-hidden="true"></i>
+          </span>
+        </a>
+      </bu-card-header>
+      <bu-card-content>
+        <div class="content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+          <a href="#">@bulmaio</a>. <a href="#">#css</a> <a href="#">#responsive</a>
+          <br>
+          <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+        </div>
+      </bu-card-content>
+      <bu-card-footer>
+        <a href="#" class="card-footer-item">Save</a>
+        <a href="#" class="card-footer-item">Edit</a>
+        <a href="#" class="card-footer-item">Delete</a>
+      </bu-card-footer>
+    </bu-card>
+    
+  </div>
+  <div class="code-snippet-container">
+    <markdown [src]="'assets/docs/card/card-code.md'"></markdown>
 
-<bu-card>
-  <bu-card-header>
-    <bu-card-title>
-      Component
-    </bu-card-title>
-    <a href="#" class="card-header-icon" aria-label="more options">
-      <span class="icon">
-        <i class="fas fa-angle-down" aria-hidden="true"></i>
-      </span>
-    </a>
-  </bu-card-header>
-  <bu-card-content>
-    <div class="content">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-      <a href="#">@bulmaio</a>. <a href="#">#css</a> <a href="#">#responsive</a>
-      <br>
-      <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-    </div>
-  </bu-card-content>
-  <bu-card-footer>
-    <a href="#" class="card-footer-item">Save</a>
-    <a href="#" class="card-footer-item">Edit</a>
-    <a href="#" class="card-footer-item">Delete</a>
-  </bu-card-footer>
-</bu-card>
+  </div>
+</div>
