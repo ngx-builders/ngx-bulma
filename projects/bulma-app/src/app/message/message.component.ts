@@ -8,15 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class MessageComponent implements OnInit {
 
   showMyContainer = true;
-  showMyPrimaryContainer=true;
-  showMylLinkContainer=true;
-  showMyInfoContainer=true;
-  showMySuccessContainer=true;
-  showMyWarningContainer=true;
-  showMyDangerContainer=true;
-  showMySmallContainer=true;
-  showMyMeduimContainer=true;
-  showMyLargeContainer=true;
+  showMyPrimaryContainer = true;
+  showMylLinkContainer = true;
+  showMyInfoContainer = true;
+  showMySuccessContainer = true;
+  showMyWarningContainer = true;
+  showMyDangerContainer = true;
+  showMySmallContainer = true;
+  showMyMeduimContainer = true;
+  showMyLargeContainer = true;
   constructor() { }
 
   ngOnInit() {
