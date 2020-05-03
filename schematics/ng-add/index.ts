@@ -1,10 +1,10 @@
 import { chain, Rule, SchematicContext, Tree } from '@angular-devkit/schematics';
-import { getWorkspace } from '@schematics/angular/utility/config';
 import {
   addPackageToPackageJson,
   getProjectFromWorkspace,
   WorkspaceProject,
-  WorkspaceSchema
+  WorkspaceSchema,
+  getWorkspace
 } from 'schematics-utilities';
 import { addStyleToTarget, installPackageJsonDependencies } from '../utils';
 import { Schema } from './schema';

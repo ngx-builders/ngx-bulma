@@ -1,14 +1,14 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { THEME_SERVICE, THEME_VALUES } from '../services/theme.service';
-import { ButtonDirective } from './button.directive';
+import { BulmaButtonDirective } from './button.directive';
 
 @NgModule({
-  declarations: [ButtonDirective],
+  declarations: [BulmaButtonDirective],
   imports: [
     CommonModule
   ],
-  exports: [ButtonDirective],
+  exports: [BulmaButtonDirective],
   providers: [{ provide: THEME_SERVICE, useValue: THEME_VALUES }]
 
 })

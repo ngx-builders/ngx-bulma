@@ -9,7 +9,7 @@ import { SharedService } from '../services/shared.service';
   providers: [SharedService]
 
 })
-export class TextareaDirective implements OnInit {
+export class BulmaTextareaDirective implements OnInit {
 
   @Input()
   theme: string;

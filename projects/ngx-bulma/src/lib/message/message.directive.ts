@@ -8,7 +8,7 @@ import { SharedService } from '../services/shared.service';
   selector: '[buMessage]',
   providers: [SharedService]
 })
-export class MessageDirective implements OnInit {
+export class BulmaMessageDirective implements OnInit {
 
   @Input()
   theme: string;

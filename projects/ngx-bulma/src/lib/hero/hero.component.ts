@@ -8,7 +8,7 @@ import { SharedService } from '../services/shared.service';
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class HeroComponent implements OnInit {
+export class BulmaHeroComponent implements OnInit {
 
   @Input()
   color: string;

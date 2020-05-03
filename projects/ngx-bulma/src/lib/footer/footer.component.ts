@@ -7,7 +7,7 @@ import { ChangeDetectionStrategy, Component, OnInit, ViewEncapsulation } from '@
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class FooterComponent implements OnInit {
+export class BulmaFooterComponent implements OnInit {
 
   constructor() { }
 

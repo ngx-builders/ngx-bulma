@@ -1,12 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { FooterComponent } from './footer.component';
+import { BulmaFooterComponent } from './footer.component';
 
 @NgModule({
-  declarations: [FooterComponent],
+  declarations: [BulmaFooterComponent],
   imports: [
     CommonModule
   ],
-  exports: [FooterComponent]
+  exports: [BulmaFooterComponent]
 })
 export class BulmaFooterModule { }

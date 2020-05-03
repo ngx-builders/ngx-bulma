@@ -8,7 +8,7 @@ import { SharedService } from '../services/shared.service';
   selector: '[buInput]',
   providers: [SharedService]
 })
-export class InputDirective implements OnInit {
+export class BulmaInputDirective implements OnInit {
 
   @Input()
   theme: string;
