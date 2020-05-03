@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, OnInit, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  selector: 'bu-bulma-message',
+  selector: 'bu-message',
   templateUrl: './message.component.html',
   styleUrls: ['./message.component.css'],
   encapsulation: ViewEncapsulation.None,
