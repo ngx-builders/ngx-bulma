@@ -1,4 +1,4 @@
-```
+```html
         <bu-message>
             <bu-message-header>
                 <p>Header</p>
@@ -8,14 +8,13 @@
                 <p>Content..........</p>
             </bu-message-content>
         </bu-message>
- ```
+```
  Add showMyContainer property in your app.component.ts to make it works.
- ```
+```javascript
 export class MessageComponent implements OnInit {
     showMyContainer = true;
     constructor() { }
     ngOnInit() {
       }
 }
-
- ```
+```

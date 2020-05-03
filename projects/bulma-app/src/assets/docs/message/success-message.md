@@ -1,4 +1,4 @@
-```
+```html
         <bu-message buMessage theme='success'>
             <bu-message-header>
                 <p>Header</p>
