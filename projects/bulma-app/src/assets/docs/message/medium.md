@@ -1,5 +1,5 @@
 ```html
-<bu-message buMessage theme="info">
+<bu-message buMessage size="medium">
   <bu-message-header>
     <p>Header</p>
     <button

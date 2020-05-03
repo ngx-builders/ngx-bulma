@@ -4,7 +4,7 @@ import { SharedService } from '../services/shared.service';
 @Directive({
   selector: '[buContainer]'
 })
-export class ContainerDirective implements OnInit {
+export class BulmaContainerDirective implements OnInit {
 
   @Input()
   type: string;

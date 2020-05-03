@@ -8,7 +8,7 @@ import { SharedService } from '../services/shared.service';
   selector: '[buButton]',
   providers: [SharedService]
 })
-export class ButtonDirective implements OnInit {
+export class BulmaButtonDirective implements OnInit {
 
   @Input()
   color: string;

@@ -1,14 +1,14 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { THEME_SERVICE, THEME_VALUES } from '../services/theme.service';
-import { InputDirective } from './input.directive';
+import { BulmaInputDirective } from './input.directive';
 
 @NgModule({
-  declarations: [InputDirective],
+  declarations: [BulmaInputDirective],
   imports: [
     CommonModule
   ],
-  exports: [InputDirective],
+  exports: [BulmaInputDirective],
   providers: [{ provide: THEME_SERVICE, useValue: THEME_VALUES }]
 })
 export class BulmaInputModule { }

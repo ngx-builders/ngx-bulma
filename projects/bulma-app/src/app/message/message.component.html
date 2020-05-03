@@ -1,258 +1,248 @@
-<markdown [src]="'assets/docs/message/message.md'" ></markdown>
+<markdown [src]="'assets/docs/message/message.md'"></markdown>
 <br>
 <div class="parent-container">
-    <div class="component-container">
-        <bu-message >
-            <bu-message-header>
-                <p>Header</p>
-                <button class="delete" aria-label="delete" 
-                (click)="showMyContainer=!showMyContainer"></button>
-            </bu-message-header>
-            <bu-message-content *ngIf="showMyContainer">
+  <div class="component-container">
+    <bu-message>
+      <bu-message-header>
+        <p>Header</p>
+        <button class="delete" aria-label="delete" (click)="showMyContainer=!showMyContainer"></button>
+      </bu-message-header>
+      <bu-message-content *ngIf="showMyContainer">
 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis
-                placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
-                <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et
-                sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et
-                sem eget, facilisis sodales sem.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis
+        placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
+        <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et
+        sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et
+        sem eget, facilisis sodales sem.
 
-            </bu-message-content>
-        </bu-message>
+      </bu-message-content>
+    </bu-message>
 
-    </div>
-    <div class="code-snippet-container">
-        <markdown [src]="'assets/docs/message/message-code.md'"></markdown>
-    </div>
+  </div>
+  <div class="code-snippet-container">
+    <markdown [src]="'assets/docs/message/message-code.md'"></markdown>
+  </div>
 </div>
-<markdown [src]="'assets/docs/message/message-color.md'" ></markdown>
-  
+<markdown [src]="'assets/docs/message/message-color.md'"></markdown>
+
 
 
 <!-- COLOR -->
 <div class="parent-container">
-    <div class="component-container">
-        <bu-message buMessage theme='primary'>
-            <bu-message-header>
-                <p>Header</p>
-                <button class="delete" aria-label="delete" 
-                (click)="showMyPrimaryContainer=!showMyPrimaryContainer"></button>
-            </bu-message-header>
-            <bu-message-content *ngIf="showMyPrimaryContainer">
+  <div class="component-container">
+    <bu-message buMessage theme='primary'>
+      <bu-message-header>
+        <p>Header</p>
+        <button class="delete" aria-label="delete" (click)="showMyPrimaryContainer=!showMyPrimaryContainer"></button>
+      </bu-message-header>
+      <bu-message-content *ngIf="showMyPrimaryContainer">
 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis
-                placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
-                <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et
-                sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et
-                sem eget, facilisis sodales sem.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis
+        placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
+        <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et
+        sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et
+        sem eget, facilisis sodales sem.
 
-            </bu-message-content>
-        </bu-message>
+      </bu-message-content>
+    </bu-message>
 
-    </div>
-    <div class="code-snippet-container">
-        <markdown [src]="'assets/docs/message/primary-message.md'"></markdown>
-    </div>
+  </div>
+  <div class="code-snippet-container">
+    <markdown [src]="'assets/docs/message/primary-message.md'"></markdown>
+  </div>
 </div>
 
 <div class="parent-container">
-    <div class="component-container">
-        <bu-message buMessage theme='link'>
-            <bu-message-header>
-                <p>Header</p>
-                <button class="delete" aria-label="delete" 
-                (click)="showMylLinkContainer=!showMylLinkContainer"></button>
-            </bu-message-header>
-            <bu-message-content *ngIf="showMylLinkContainer">
+  <div class="component-container">
+    <bu-message buMessage theme='link'>
+      <bu-message-header>
+        <p>Header</p>
+        <button class="delete" aria-label="delete" (click)="showMylLinkContainer=!showMylLinkContainer"></button>
+      </bu-message-header>
+      <bu-message-content *ngIf="showMylLinkContainer">
 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis
-                placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
-                <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et
-                sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et
-                sem eget, facilisis sodales sem.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis
+        placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
+        <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et
+        sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et
+        sem eget, facilisis sodales sem.
 
-            </bu-message-content>
-        </bu-message>
+      </bu-message-content>
+    </bu-message>
 
-    </div>
-    <div class="code-snippet-container">
-        <markdown [src]="'assets/docs/message/link-message.md'"></markdown>
-    </div>
+  </div>
+  <div class="code-snippet-container">
+    <markdown [src]="'assets/docs/message/link-message.md'"></markdown>
+  </div>
 </div>
 
 <div class="parent-container">
-    <div class="component-container">
-        <bu-message buMessage theme='info'>
-            <bu-message-header>
-                <p>Header</p>
-                <button class="delete" aria-label="delete" 
-                (click)="showMyInfoContainer=!showMyInfoContainer"></button>
-            </bu-message-header>
-            <bu-message-content *ngIf="showMyInfoContainer">
+  <div class="component-container">
+    <bu-message buMessage theme='info'>
+      <bu-message-header>
+        <p>Header</p>
+        <button class="delete" aria-label="delete" (click)="showMyInfoContainer=!showMyInfoContainer"></button>
+      </bu-message-header>
+      <bu-message-content *ngIf="showMyInfoContainer">
 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis
-                placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
-                <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et
-                sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et
-                sem eget, facilisis sodales sem.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis
+        placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
+        <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et
+        sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et
+        sem eget, facilisis sodales sem.
 
-            </bu-message-content>
-        </bu-message>
+      </bu-message-content>
+    </bu-message>
 
-    </div>
-    <div class="code-snippet-container">
-        <markdown [src]="'assets/docs/message/info-message.md'"></markdown>
-    </div>
+  </div>
+  <div class="code-snippet-container">
+    <markdown [src]="'assets/docs/message/info-message.md'"></markdown>
+  </div>
 </div>
 
 <div class="parent-container">
-    <div class="component-container">
-        <bu-message buMessage theme='success'>
-            <bu-message-header>
-                <p>Header</p>
-                <button class="delete" aria-label="delete" 
-                (click)="showMySuccessContainer=!showMySuccessContainer"></button>
-            </bu-message-header>
-            <bu-message-content *ngIf="showMySuccessContainer">
+  <div class="component-container">
+    <bu-message buMessage theme='success'>
+      <bu-message-header>
+        <p>Header</p>
+        <button class="delete" aria-label="delete" (click)="showMySuccessContainer=!showMySuccessContainer"></button>
+      </bu-message-header>
+      <bu-message-content *ngIf="showMySuccessContainer">
 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis
-                placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
-                <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et
-                sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et
-                sem eget, facilisis sodales sem.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis
+        placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
+        <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et
+        sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et
+        sem eget, facilisis sodales sem.
 
-            </bu-message-content>
-        </bu-message>
+      </bu-message-content>
+    </bu-message>
 
-    </div>
-    <div class="code-snippet-container">
-        <markdown [src]="'assets/docs/message/success-message.md'"></markdown>
-    </div>
+  </div>
+  <div class="code-snippet-container">
+    <markdown [src]="'assets/docs/message/success-message.md'"></markdown>
+  </div>
 </div>
 
 <div class="parent-container">
-    <div class="component-container">
-        <bu-message buMessage theme='warning'>
-            <bu-message-header>
-                <p>Header</p>
-                <button class="delete" aria-label="delete" 
-                (click)="showMyWarningContainer=!showMyWarningContainer"></button>
-            </bu-message-header>
-            <bu-message-content *ngIf="showMyWarningContainer">
+  <div class="component-container">
+    <bu-message buMessage theme='warning'>
+      <bu-message-header>
+        <p>Header</p>
+        <button class="delete" aria-label="delete" (click)="showMyWarningContainer=!showMyWarningContainer"></button>
+      </bu-message-header>
+      <bu-message-content *ngIf="showMyWarningContainer">
 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis
-                placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
-                <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et
-                sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et
-                sem eget, facilisis sodales sem.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis
+        placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
+        <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et
+        sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et
+        sem eget, facilisis sodales sem.
 
-            </bu-message-content>
-        </bu-message>
+      </bu-message-content>
+    </bu-message>
 
-    </div>
-    <div class="code-snippet-container">
-        <markdown [src]="'assets/docs/message/warning-message.md'"></markdown>
-    </div>
+  </div>
+  <div class="code-snippet-container">
+    <markdown [src]="'assets/docs/message/warning-message.md'"></markdown>
+  </div>
 </div>
 
 <div class="parent-container">
-    <div class="component-container">
-        <bu-message buMessage theme='danger'>
-            <bu-message-header>
-                <p>Header</p>
-                <button class="delete" aria-label="delete" 
-                (click)="showMyDangerContainer=!showMyDangerContainer"></button>
-            </bu-message-header>
-            <bu-message-content *ngIf="showMyDangerContainer">
+  <div class="component-container">
+    <bu-message buMessage theme='danger'>
+      <bu-message-header>
+        <p>Header</p>
+        <button class="delete" aria-label="delete" (click)="showMyDangerContainer=!showMyDangerContainer"></button>
+      </bu-message-header>
+      <bu-message-content *ngIf="showMyDangerContainer">
 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis
-                placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
-                <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et
-                sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et
-                sem eget, facilisis sodales sem.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis
+        placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
+        <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et
+        sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et
+        sem eget, facilisis sodales sem.
 
-            </bu-message-content>
-        </bu-message>
+      </bu-message-content>
+    </bu-message>
 
-    </div>
-    <div class="code-snippet-container">
-        <markdown [src]="'assets/docs/message/danger-message.md'"></markdown>
-    </div>
+  </div>
+  <div class="code-snippet-container">
+    <markdown [src]="'assets/docs/message/danger-message.md'"></markdown>
+  </div>
 </div>
 <!-- SIZE -->
 
 <markdown [src]="'assets/docs/message/size-message.md'"></markdown>
 
 <div class="parent-container">
-    <div class="component-container">
-        <bu-message buMessage size='small'>
-            <bu-message-header>
-                <p>Header</p>
-                <button class="delete" aria-label="delete" 
-                (click)="showMySmallContainer=!showMySmallContainer"></button>
-            </bu-message-header>
-            <bu-message-content *ngIf="showMySmallContainer">
+  <div class="component-container">
+    <bu-message buMessage size='small'>
+      <bu-message-header>
+        <p>Header</p>
+        <button class="delete" aria-label="delete" (click)="showMySmallContainer=!showMySmallContainer"></button>
+      </bu-message-header>
+      <bu-message-content *ngIf="showMySmallContainer">
 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis
-                placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
-                <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et
-                sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et
-                sem eget, facilisis sodales sem.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis
+        placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
+        <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et
+        sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et
+        sem eget, facilisis sodales sem.
 
-            </bu-message-content>
-        </bu-message>
+      </bu-message-content>
+    </bu-message>
 
-    </div>
-    <div class="code-snippet-container">
-        <markdown [src]="'assets/docs/message/small-message.md'"></markdown>
-    </div>
+  </div>
+  <div class="code-snippet-container">
+    <markdown [src]="'assets/docs/message/small-message.md'"></markdown>
+  </div>
 </div>
 
 <div class="parent-container">
-    <div class="component-container">
-        <bu-message buMessage size='meduim'>
-            <bu-message-header>
-                <p>Header</p>
-                <button class="delete" aria-label="delete" 
-                (click)="showMyMeduimContainer=!showMyMeduimContainer"></button>
-            </bu-message-header>
-            <bu-message-content *ngIf="showMyMeduimContainer">
+  <div class="component-container">
+    <bu-message buMessage size='medium'>
+      <bu-message-header>
+        <p>Header</p>
+        <button class="delete" aria-label="delete" (click)="showMyMeduimContainer=!showMyMeduimContainer"></button>
+      </bu-message-header>
+      <bu-message-content *ngIf="showMyMeduimContainer">
 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis
-                placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
-                <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et
-                sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et
-                sem eget, facilisis sodales sem.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis
+        placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
+        <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et
+        sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et
+        sem eget, facilisis sodales sem.
 
-            </bu-message-content>
-        </bu-message>
+      </bu-message-content>
+    </bu-message>
 
-    </div>
-    <div class="code-snippet-container">
-        <markdown [src]="'assets/docs/message/meduim-message.md'"></markdown>
-    </div>
+  </div>
+  <div class="code-snippet-container">
+    <markdown [src]="'assets/docs/message/medium.md'"></markdown>
+  </div>
 </div>
 
 <div class="parent-container">
-    <div class="component-container">
-        <bu-message buMessage size='large'>
-            <bu-message-header>
-                <p>Header</p>
-                <button class="delete" aria-label="delete" 
-                (click)="showMyLargeContainer=!showMyLargeContainer"></button>
-            </bu-message-header>
-            <bu-message-content *ngIf="showMyLargeContainer">
+  <div class="component-container">
+    <bu-message buMessage size='large'>
+      <bu-message-header>
+        <p>Header</p>
+        <button class="delete" aria-label="delete" (click)="showMyLargeContainer=!showMyLargeContainer"></button>
+      </bu-message-header>
+      <bu-message-content *ngIf="showMyLargeContainer">
 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis
-                placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
-                <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et
-                sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et
-                sem eget, facilisis sodales sem.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, tempus quis
+        placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam, et dictum
+        <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et
+        sollicitudin porttitor, tortor urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et
+        sem eget, facilisis sodales sem.
 
-            </bu-message-content>
-        </bu-message>
+      </bu-message-content>
+    </bu-message>
 
-    </div>
-    <div class="code-snippet-container">
-        <markdown [src]="'assets/docs/message/large-message.md'"></markdown>
-    </div>
+  </div>
+  <div class="code-snippet-container">
+    <markdown [src]="'assets/docs/message/large-message.md'"></markdown>
+  </div>
 </div>

@@ -8,7 +8,7 @@ import { SharedService } from '../services/shared.service';
   selector: '[buProgress]',
   providers: [SharedService]
 })
-export class ProgressbarDirective implements OnInit {
+export class BulmaProgressbarDirective implements OnInit {
 
   @Input()
   theme: string;

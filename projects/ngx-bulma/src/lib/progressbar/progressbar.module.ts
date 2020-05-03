@@ -1,14 +1,14 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { THEME_SERVICE, THEME_VALUES } from '../services/theme.service';
-import { ProgressbarDirective } from './progressbar.directive';
+import { BulmaProgressbarDirective } from './progressbar.directive';
 
 @NgModule({
-  declarations: [ProgressbarDirective],
+  declarations: [BulmaProgressbarDirective],
   imports: [
     CommonModule
   ],
-  exports: [ProgressbarDirective],
+  exports: [BulmaProgressbarDirective],
   providers: [{ provide: THEME_SERVICE, useValue: THEME_VALUES }]
 
 })

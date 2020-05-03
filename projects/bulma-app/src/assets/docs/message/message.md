@@ -7,7 +7,7 @@
 To display a Message component in your app and verify that everything works.
 You need to import the BulmaMessageModule that you want to display by adding the following lines to your app.module.ts file.
 
-```typescript
+```javascript
 import { BulmaMessageModule} from 'ngx-bulma'
   @NgModule({
     imports: [BulmaMessageModule]
