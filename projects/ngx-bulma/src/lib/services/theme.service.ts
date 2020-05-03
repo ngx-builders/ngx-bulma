@@ -22,6 +22,7 @@ export const THEME_VALUES: ITheme = {
     ['large', 'is-large'],
     ['fluid', 'is-fluid'],
     ['widescreen', 'is-widescreen'],
-    ['fullhd', 'is-fullhd']
+    ['fullhd', 'is-fullhd'],
+    ['fullheight', 'is-fullheight'],
   ])
 };
