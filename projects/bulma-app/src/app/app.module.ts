@@ -5,16 +5,17 @@ import { MarkdownModule } from 'ngx-markdown';
 
 import {
   BulmaBreadcrumbModule, BulmaButtonModule,
-  BulmaCardModule, BulmaInputModule,
-  BulmaMenuModule, BulmaMessageModule, BulmaModalModule,
-  BulmaNavbarModule, BulmaPanelModule, BulmaProgressbarModule,
-  BulmaTabsModule, BulmaTextareaModule
+  BulmaCardModule, BulmaContainerModule,
+  BulmaInputModule, BulmaMenuModule, BulmaMessageModule,
+  BulmaModalModule, BulmaNavbarModule, BulmaPanelModule,
+  BulmaProgressbarModule, BulmaTabsModule, BulmaTextareaModule
 } from 'ngx-bulma';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ButtonComponent } from './button/button.component';
 import { CardComponent } from './card/card.component';
+import { ContainerComponent } from './container/container/container.component';
 import { GettingstartedComponent } from './gettingstarted/gettingstarted.component';
 import { HomeComponent } from './home/home.component';
 import { InputComponent } from './input/input.component';
@@ -47,7 +48,8 @@ import { TextareaComponent } from './textarea/textarea.component';
     InputComponent,
     TextareaComponent,
     ProgressbarComponent,
-    ScrollerComponent
+    ScrollerComponent,
+    ContainerComponent
   ],
   imports: [
     BrowserModule,
@@ -62,10 +64,11 @@ import { TextareaComponent } from './textarea/textarea.component';
     BulmaInputModule,
     BulmaProgressbarModule,
     BulmaTextareaModule,
+    BulmaContainerModule,
     MarkdownModule.forRoot({ loader: HttpClient })
   ],
   providers: [],
   bootstrap: [AppComponent],
-  exports: [ButtonComponent, InputComponent, TextareaComponent, ProgressbarComponent, ScrollerComponent]
+  exports: [ButtonComponent, InputComponent, TextareaComponent, ProgressbarComponent, ScrollerComponent, ContainerComponent]
 })
 export class AppModule { }

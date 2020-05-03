@@ -19,6 +19,9 @@ export const THEME_VALUES: ITheme = {
     ['small', 'is-small'],
     ['normal', 'is-normal'],
     ['medium', 'is-medium'],
-    ['large', 'is-large']
+    ['large', 'is-large'],
+    ['fluid', 'is-fluid'],
+    ['widescreen', 'is-widescreen'],
+    ['fullhd', 'is-fullhd']
   ])
 };
