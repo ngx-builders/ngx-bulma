@@ -5,6 +5,7 @@ import { SharedService } from '../services/shared.service';
   selector: 'bu-hero',
   templateUrl: './hero.component.html',
   styleUrls: ['./hero.component.css'],
+  providers: [SharedService],
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush
 })
