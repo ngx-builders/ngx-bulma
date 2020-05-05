@@ -64,7 +64,7 @@
     "@types/jest": "25.2.1",
     "@types/node": "12.12.36",
     "codelyzer": "5.2.2",
-    "commitizen": "4.0.5",
+    "commitizen": "4.1.0",
     "copyfiles": "2.2.0",
     "cypress": "4.5.0",
     "cz-conventional-changelog": "3.2.0",
