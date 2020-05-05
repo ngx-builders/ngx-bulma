@@ -1,42 +1,25 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ButtonComponent } from './button/button.component';
-import { CardComponent } from './card/card.component';
-import { ContainerComponent } from './container/container/container.component';
-import { FooterComponent } from './footer/footer/footer.component';
-import { GettingstartedComponent } from './gettingstarted/gettingstarted.component';
-import { HeroComponent } from './hero/hero.component';
-import { HomeComponent } from './home/home.component';
-import { InputComponent } from './input/input.component';
-import { IntroductionComponent } from './introduction/introduction.component';
-import { MenuComponent } from './menu/menu.component';
-import { MessageComponent } from './message/message.component';
-import { ModalComponent } from './modal/modal.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { PanelComponent } from './panel/panel.component';
-import { ProgressbarComponent } from './progressbar/progressbar.component';
-import { TabComponent } from './tab/tab.component';
-import { TextareaComponent } from './textarea/textarea.component';
-
 
 const routes: Routes = [
-  { path: '', component: IntroductionComponent },
-  { path: 'gettingstarted', component: GettingstartedComponent },
-  { path: 'home', component: HomeComponent },
-  { path: 'menu', component: MenuComponent },
-  { path: 'navbar', component: NavbarComponent },
-  { path: 'message', component: MessageComponent },
-  { path: 'card', component: CardComponent },
-  { path: 'modal', component: ModalComponent },
-  { path: 'panel', component: PanelComponent },
-  { path: 'tab', component: TabComponent },
-  { path: 'button', component: ButtonComponent },
-  { path: 'input', component: InputComponent },
-  { path: 'textarea', component: TextareaComponent },
-  { path: 'progress', component: ProgressbarComponent },
-  { path: 'container', component: ContainerComponent },
-  { path: 'footer', component: FooterComponent },
-  { path: 'hero', component: HeroComponent }
+  { path: '', loadChildren: () => import('./introduction/introduction.module').then(introduction => introduction.IntroductionModule)},
+
+  { path: 'gettingstarted', loadChildren: () => import('./gettingstarted/gettingstarted.module').then(gs => gs.GettingstartedModule)},
+  { path: 'home', loadChildren: () => import('./home/home.module').then(home => home.HomeModule)  },
+  { path: 'menu', loadChildren: () => import('./menu/menu.module').then(menu => menu.MenuModule) },
+  { path: 'navbar', loadChildren: () => import('./navbar/navbar.module').then(navbar => navbar.NavbarModule)},
+  { path: 'message', loadChildren: () => import('./message/message.module').then(message => message.MessageModule) },
+  { path: 'card', loadChildren: () => import('./card/card.module').then(card => card.CardModule)},
+  { path: 'modal', loadChildren: () => import('./modal/modal.module').then(modal => modal.ModalModule) },
+  { path: 'panel', loadChildren: () => import('./panel/panel.module').then(panel => panel.PanelModule) },
+  { path: 'tab', loadChildren: () => import('./tab/tab.module').then(tab => tab.TabModule) },
+  { path: 'button', loadChildren: () => import('./button/button.module').then(button => button.ButtonModule) },
+  { path: 'input', loadChildren: () => import('./input/input.module').then(input => input.InputModule) },
+  { path: 'textarea', loadChildren: () => import('./textarea/textarea.module').then(textarea => textarea.TextareaModule) },
+  { path: 'progress', loadChildren: () => import('./progressbar/progressbar.module').then(progress => progress.ProgressbarModule) },
+  { path: 'container', loadChildren: () => import('./container/container.module').then(container => container.ContainerModule)  },
+  { path: 'footer', loadChildren: () => import('./footer/footer.module').then(footer => footer.FooterModule) },
+  { path: 'hero', loadChildren: () => import('./hero/hero.module').then(hero => hero.HeroModule) }
 ];
 
 @NgModule({

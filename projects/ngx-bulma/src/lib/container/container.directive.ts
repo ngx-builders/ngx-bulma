@@ -2,7 +2,9 @@ import { Directive, ElementRef, Input, OnInit, Renderer2 } from '@angular/core';
 import { SharedService } from '../services/shared.service';
 
 @Directive({
-  selector: '[buContainer]'
+  selector: '[buContainer]',
+  providers: [SharedService]
+
 })
 export class BulmaContainerDirective implements OnInit {
 
