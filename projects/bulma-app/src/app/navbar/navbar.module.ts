@@ -3,9 +3,9 @@ import { HttpClient } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BulmaButtonModule, BulmaNavbarModule } from 'ngx-bulma';
 import { MarkdownModule } from 'ngx-markdown';
+import { THEME_SERVICE, THEME_VALUES } from 'projects/ngx-bulma/src/lib/services/theme.service';
 import { NavbarRoutingModule } from './navbar-routing.module';
 import { NavbarComponent } from './navbar.component';
-import { THEME_SERVICE, THEME_VALUES } from 'projects/ngx-bulma/src/lib/services/theme.service';
 
 @NgModule({
   declarations: [NavbarComponent],
