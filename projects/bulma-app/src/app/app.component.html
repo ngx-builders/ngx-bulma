@@ -1,8 +1,8 @@
 <div class="root-container">
-  <bu-nav>
+  <bu-nav color='primary'>
     <bu-nav-brand>
-      <a class="navbar-item" href="https://bulma.io">
-        <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+      <a class="navbar-item" [routerLink]="['/']">
+        <img src="https://bulma.io/images/bulma-logo-white.png" width="112" height="28">
       </a>
       <a (click)="toggleNavbar()" role="button" #navBurger class="navbar-burger burger" aria-label="menu"
         aria-expanded="false" data-target="ngxBulmaNavbar">
@@ -17,7 +17,7 @@
         <a buNavItem [routerLink]="['/gettingstarted']" routerLinkActive="router-link-active">Getting
           Started</a>
         <bu-navbar-link title='Components'>
-          <bu-navbar-dropdown>
+          <bu-navbar-dropdown boxed='true'>
             <a buNavItem [routerLink]="['/menu']" routerLinkActive="router-link-active">Menu</a>
             <hr class="navbar-divider">
             <a buNavItem [routerLink]="['/navbar']" routerLinkActive="router-link-active">NavBar</a>
