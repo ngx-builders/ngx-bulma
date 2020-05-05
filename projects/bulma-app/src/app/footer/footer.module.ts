@@ -1,14 +1,19 @@
 import { CommonModule } from '@angular/common';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-
+import {BulmaFooterModule} from 'ngx-bulma';
+import { MarkdownModule } from 'ngx-markdown';
 import { FooterRoutingModule } from './footer-routing.module';
-
+import {FooterComponent} from './footer.component';
 
 @NgModule({
-  declarations: [],
+  declarations: [FooterComponent],
   imports: [
     CommonModule,
-    FooterRoutingModule
-  ]
+    FooterRoutingModule,
+    BulmaFooterModule,
+    MarkdownModule.forRoot({ loader: HttpClient })
+  ],
+  exports: [FooterComponent]
 })
 export class FooterModule { }
