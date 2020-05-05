@@ -11,6 +11,7 @@ import {TextareaComponent} from './textarea.component';
   imports: [
     CommonModule,
     TextareaRoutingModule,
+    BulmaTextareaModule,
     MarkdownModule.forRoot({ loader: HttpClient })
   ],
   exports: [TextareaComponent]

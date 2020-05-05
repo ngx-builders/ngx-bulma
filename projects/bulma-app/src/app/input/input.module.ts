@@ -11,6 +11,7 @@ import {InputComponent} from './input.component';
   imports: [
     CommonModule,
     InputRoutingModule,
+    BulmaInputModule,
     MarkdownModule.forRoot({ loader: HttpClient })
   ],
   exports: [InputComponent]
