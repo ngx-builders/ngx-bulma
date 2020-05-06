@@ -33,29 +33,44 @@
             <hr class="navbar-divider">
             <a buNavItem [routerLink]="['/panel']" routerLinkActive="router-link-active">Panel
             </a>
-            <!-- <hr class="navbar-divider">
+          </bu-navbar-dropdown>
+        </bu-navbar-link>
+        <!-- <hr class="navbar-divider">
             <a buNavItem [routerLink]="['/tab']" routerLinkActive="router-link-active">Tab
             </a> -->
-            <hr class="navbar-divider">
+        <bu-navbar-link title='Elements'>
+          <bu-navbar-dropdown boxed='true'>
+            
             <a buNavItem [routerLink]="['/button']" routerLinkActive="router-link-active">Button
             </a>
             <hr class="navbar-divider">
+            <a buNavItem [routerLink]="['/progress']" routerLinkActive="router-link-active">Progress
+              bar</a>
+          </bu-navbar-dropdown>
+        </bu-navbar-link>
+
+        <bu-navbar-link title='Forms'>
+          <bu-navbar-dropdown boxed='true'>
+           
             <a buNavItem [routerLink]="['/input']" routerLinkActive="router-link-active">Input
             </a>
             <hr class="navbar-divider">
             <a buNavItem [routerLink]="['/textarea']" routerLinkActive="router-link-active">Textarea
             </a>
-            <hr class="navbar-divider">
-            <a buNavItem [routerLink]="['/progress']" routerLinkActive="router-link-active">Progress
-              bar</a>
-            <hr class="navbar-divider">
-            <a buNavItem [routerLink]="['/container']" routerLinkActive="router-link-active">Container</a>
-            <hr class="navbar-divider">
-            <a buNavItem [routerLink]="['/footer']" routerLinkActive="router-link-active">Footer</a>
-            <hr class="navbar-divider">
-            <a buNavItem [routerLink]="['/hero']" routerLinkActive="router-link-active">Hero</a>
+
           </bu-navbar-dropdown>
         </bu-navbar-link>
+
+        <bu-navbar-link title='Layout'>
+          <bu-navbar-dropdown boxed='true'>
+        <a buNavItem [routerLink]="['/container']" routerLinkActive="router-link-active">Container</a>
+        <hr class="navbar-divider">
+        <a buNavItem [routerLink]="['/footer']" routerLinkActive="router-link-active">Footer</a>
+        <hr class="navbar-divider">
+        <a buNavItem [routerLink]="['/hero']" routerLinkActive="router-link-active">Hero</a>
+          
+        </bu-navbar-dropdown >
+      </bu-navbar-link >
       </bu-navbar-start>
       <bu-navbar-end>
         <a class="social-icon" buNavItem href="https://github.com/ngx-builders/ngx-bulma"
