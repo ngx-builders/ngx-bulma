@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
+import { THEME_SERVICE, THEME_VALUES } from '../services/theme.service';
 import { NavItemDirective } from './nav-item.directive';
 import { BulmaNavbarBrandComponent } from './navbar-brand/navbar-brand.component';
 import { NavbarDropdownComponent } from './navbar-dropdown/navbar-dropdown.component';
@@ -21,6 +22,7 @@ import { BulmaNavbarComponent } from './navbar.component';
   imports: [
     CommonModule
   ],
+  providers: [{ provide: THEME_SERVICE, useValue: THEME_VALUES }],
   exports: [
     BulmaNavbarComponent,
     BulmaNavbarBrandComponent,
