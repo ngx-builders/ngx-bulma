@@ -1,4 +1,4 @@
-```html
+```javascript
 <button buButton size='small'>Small</button>
 <button buButton>Default</button>
 <button buButton size='normal'>Normal</button>

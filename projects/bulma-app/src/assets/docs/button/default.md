@@ -1,3 +1,3 @@
-```html
+```javascript
 <button buButton>Button</button>
 ```

@@ -1,4 +1,4 @@
-```html
+```javascript
 <button buButton theme="primary" light="true">Primary</button>
 <button buButton theme="link" light="true">Link</button>
 <button buButton theme="info" light="true">Info</button>

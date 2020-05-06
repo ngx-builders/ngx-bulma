@@ -1,4 +1,4 @@
-```html
+```javascript
 <button buButton theme="primary" rounded="true">Rounded</button>
 <button buButton theme="link" rounded="true">Rounded</button>
 <button buButton theme="info" rounded="true">Rounded</button>

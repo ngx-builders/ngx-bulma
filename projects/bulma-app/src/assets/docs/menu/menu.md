@@ -1,4 +1,4 @@
-```html
+```javascript
 <bu-menu>
   <bu-menu-header>
     Administration

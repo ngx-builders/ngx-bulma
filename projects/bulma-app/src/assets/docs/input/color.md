@@ -1,4 +1,4 @@
-```html
+```javascript
 <input type="text" buInput placeholder="Normal input" />
 <input type="text" buInput theme="primary" placeholder="Primary input" />
 <input type="text" buInput theme="info" placeholder="Info input" />

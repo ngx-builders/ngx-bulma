@@ -1,4 +1,4 @@
-```html
+```javascript
 <bu-hero color="info" size="large">
   <div buContainer>
     <div class="container">

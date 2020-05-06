@@ -1,4 +1,4 @@
-```html
+```javascript
 <bu-message buMessage size="large">
   <bu-message-header>
     <p>Header</p>

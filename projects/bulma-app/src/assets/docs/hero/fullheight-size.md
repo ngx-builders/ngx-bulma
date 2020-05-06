@@ -1,4 +1,4 @@
-```html
+```javascript
 <bu-hero color="success" size="fullheight">
   <div buContainer>
     <div class="container">

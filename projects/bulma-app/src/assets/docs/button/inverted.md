@@ -1,4 +1,4 @@
-```html
+```javascript
 <button buButton theme="primary" inverted="true">Inverted</button>
 <button buButton theme="link" inverted="true">Inverted</button>
 <button buButton theme="info" inverted="true">Inverted</button>

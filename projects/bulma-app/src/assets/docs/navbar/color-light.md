@@ -1,4 +1,4 @@
-```html
+```javascript
 <bu-nav color="light">
   <bu-nav-brand>
     <a class="navbar-item" href="https://bulma.io">

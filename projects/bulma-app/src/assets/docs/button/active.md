@@ -1,4 +1,4 @@
-```html
+```javascript
 <button buButton active="true">Active</button>
 <button buButton theme="primary" active="true">Active</button>
 <button buButton theme="link" active="true">Active</button>
