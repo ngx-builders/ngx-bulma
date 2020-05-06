@@ -1,4 +1,4 @@
-```html
+```javascript
         <bu-message buMessage theme='primary'>
             <bu-message-header>
                 <p>Header</p>

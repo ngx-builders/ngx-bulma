@@ -1,4 +1,4 @@
-```html
+```javascript
 <button buButton theme="primary" inverted="true" outlined="true">
   Invert Outlined
 </button>

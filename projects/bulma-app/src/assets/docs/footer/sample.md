@@ -1,4 +1,4 @@
-```html
+```javascript
 <bu-footer>
   <div class="content has-text-centered">
     <p>

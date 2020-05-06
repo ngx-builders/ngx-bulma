@@ -1,4 +1,4 @@
-```html
+```javascript
 <button buButton hovered="true">Hover</button>
 <button buButton theme="primary" hovered="true">Hover</button>
 <button buButton theme="link" hovered="true">Hover</button>

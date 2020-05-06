@@ -1,4 +1,4 @@
-```html
+```javascript
 <button class="button" (click)="toggleModal()">open modal</button>
 
 <bu-modal [open]="isModalActive">

@@ -1,4 +1,4 @@
-```html
+```javascript
 <bu-hero color="primary" size="medium" gradient="true">
   <div buContainer>
     <div class="container">

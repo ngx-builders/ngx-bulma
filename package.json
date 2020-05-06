@@ -7,7 +7,7 @@
     "start": "ng serve",
     "build:prod:lib": "ng build ngx-bulma --prod && npm run schematics:build",
     "build:lib": "ng build ngx-bulma --prod",
-    "serve:app": "ng serve bulma-app -o",
+    "serve:app": "npm run build:lib && ng serve bulma-app -o",
     "build:lib:watch": "ng build ngx-bulma --watch",
     "build-docs": "npm run build:lib && ng build bulma-app",
     "build": "ng build",

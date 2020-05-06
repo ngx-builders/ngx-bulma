@@ -1,4 +1,4 @@
-```html
+```javascript
 <input type="text" buInput rounded="true" placeholder="Rounded input" />
 <input
   type="text"

@@ -1,4 +1,4 @@
-```html
+```javascript
 <bu-card>
             <bu-card-header>
                 <bu-card-title>Component title.....</bu-card-title>
