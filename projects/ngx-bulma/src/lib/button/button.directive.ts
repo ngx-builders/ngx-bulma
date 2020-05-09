@@ -6,6 +6,7 @@ import { SharedService } from '../services/shared.service';
 
 @Directive({
   selector: '[buButton]',
+  exportAs: 'buButton',
   providers: [SharedService]
 })
 export class BulmaButtonDirective implements OnInit {

@@ -1,10 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-import {BulmaFooterModule} from 'ngx-bulma';
+import { BulmaFooterModule } from 'ngx-bulma';
 import { MarkdownModule } from 'ngx-markdown';
 import { FooterRoutingModule } from './footer-routing.module';
-import {FooterComponent} from './footer.component';
+import { FooterComponent } from './footer.component';
 
 @NgModule({
   declarations: [FooterComponent],

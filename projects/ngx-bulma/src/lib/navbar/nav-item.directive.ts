@@ -2,6 +2,7 @@ import { Directive, ElementRef, OnInit, Renderer2 } from '@angular/core';
 
 @Directive({
   selector: '[buNavItem]',
+  exportAs: 'buNavItem'
 })
 export class NavItemDirective implements OnInit {
 

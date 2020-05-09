@@ -1,0 +1,72 @@
+<bu-nav color='info' fixed='true'>
+    <bu-nav-brand>
+        <a class="navbar-item" [routerLink]="['/']">
+            <img src="https://bulma.io/images/bulma-logo-white.png" width="112" height="28">
+        </a>
+        <a (click)="toggleNavbar()" role="button" #navBurger class="navbar-burger burger" aria-label="menu"
+            aria-expanded="false" data-target="ngxBulmaNavbar">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </bu-nav-brand>
+    <div id="ngxBulmaNavbar" (click)="toggleNavbar()" class="navbar-menu" #navMenu>
+        <bu-navbar-start>
+            <a buNavItem [routerLink]="['']" routerLinkActive="router-link-active">Introduction</a>
+            <bu-navbar-link title='Components'>
+                <bu-navbar-dropdown boxed='true'>
+                    <a buNavItem [routerLink]="['/menu']" routerLinkActive="router-link-active">Menu</a>
+                    <hr class="navbar-divider">
+                    <a buNavItem [routerLink]="['/navbar']" routerLinkActive="router-link-active">NavBar</a>
+                    <hr class="navbar-divider">
+                    <a buNavItem [routerLink]="['/message']" routerLinkActive="router-link-active">Message
+                    </a>
+                    <hr class="navbar-divider">
+                    <a buNavItem [routerLink]="['/card']" routerLinkActive="router-link-active">Card
+                    </a>
+                    <hr class="navbar-divider">
+                    <a buNavItem [routerLink]="['/modal']" routerLinkActive="router-link-active">Modal
+                    </a>
+                    <hr class="navbar-divider">
+                    <a buNavItem [routerLink]="['/panel']" routerLinkActive="router-link-active">Panel
+                    </a>
+                </bu-navbar-dropdown>
+            </bu-navbar-link>
+            <bu-navbar-link title='Elements'>
+                <bu-navbar-dropdown boxed='true'>
+                    <a buNavItem [routerLink]="['/button']" routerLinkActive="router-link-active">Button
+                    </a>
+                    <hr class="navbar-divider">
+                    <a buNavItem [routerLink]="['/progress']" routerLinkActive="router-link-active">Progress
+                        bar</a>
+                </bu-navbar-dropdown>
+            </bu-navbar-link>
+
+            <bu-navbar-link title='Forms'>
+                <bu-navbar-dropdown boxed='true'>
+                    <a buNavItem [routerLink]="['/input']" routerLinkActive="router-link-active">Input
+                    </a>
+                    <hr class="navbar-divider">
+                    <a buNavItem [routerLink]="['/textarea']" routerLinkActive="router-link-active">Textarea
+                    </a>
+                </bu-navbar-dropdown>
+            </bu-navbar-link>
+
+            <bu-navbar-link title='Layout'>
+                <bu-navbar-dropdown boxed='true'>
+                    <a buNavItem [routerLink]="['/container']" routerLinkActive="router-link-active">Container</a>
+                    <hr class="navbar-divider">
+                    <a buNavItem [routerLink]="['/footer']" routerLinkActive="router-link-active">Footer</a>
+                    <hr class="navbar-divider">
+                    <a buNavItem [routerLink]="['/hero']" routerLinkActive="router-link-active">Hero</a>
+                </bu-navbar-dropdown>
+            </bu-navbar-link>
+        </bu-navbar-start>
+        <bu-navbar-end>
+            <a class="social-icon" buNavItem href="https://github.com/ngx-builders/ngx-bulma"
+                routerLinkActive="router-link-active" target="_blank"><i class="fab fa-github"></i></a>
+            <a class="social-icon" buNavItem href="https://twitter.com/ngx_builders"
+                routerLinkActive="router-link-active" target="_blank"><i class="fab fa-twitter"></i></a>
+        </bu-navbar-end>
+    </div>
+</bu-nav>
