@@ -40,7 +40,7 @@
             </a> -->
         <bu-navbar-link title='Elements'>
           <bu-navbar-dropdown boxed='true'>
-            
+
             <a buNavItem [routerLink]="['/button']" routerLinkActive="router-link-active">Button
             </a>
             <hr class="navbar-divider">
@@ -51,7 +51,7 @@
 
         <bu-navbar-link title='Forms'>
           <bu-navbar-dropdown boxed='true'>
-           
+
             <a buNavItem [routerLink]="['/input']" routerLinkActive="router-link-active">Input
             </a>
             <hr class="navbar-divider">
@@ -68,7 +68,7 @@
         <a buNavItem [routerLink]="['/footer']" routerLinkActive="router-link-active">Footer</a>
         <hr class="navbar-divider">
         <a buNavItem [routerLink]="['/hero']" routerLinkActive="router-link-active">Hero</a>
-          
+
         </bu-navbar-dropdown >
       </bu-navbar-link >
       </bu-navbar-start>
@@ -81,13 +81,18 @@
     </div>
   </bu-nav>
   <div class="content-container">
-    <div class="card-container">
-      <bu-card>
-        <bu-card-content>
-          <router-outlet></router-outlet>
-        </bu-card-content>
-      </bu-card>
-    </div>
+    <ng-container *ngIf="currentRoute === '/';else menu">
+      <router-outlet></router-outlet>
+    </ng-container>
+    <ng-template #menu>
+      <div class="card-container">
+        <bu-card>
+          <bu-card-content>
+            <router-outlet></router-outlet>
+          </bu-card-content>
+        </bu-card>
+      </div>
+    </ng-template>
   </div>
 </div>
 <app-scroller></app-scroller>
