@@ -1,0 +1,162 @@
+h1 {
+  font-size: 56px;
+  font-weight: 300;
+  line-height: 56px;
+  padding: 15px 0px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.ngx2-bulma-logo {
+  width: 180px;
+  height: 180px;
+}
+
+.btn-get-started {
+  padding: 30px 0;
+  button {
+    box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
+      0 0px 0 1px rgba(10, 10, 10, 0.02);
+  }
+}
+.bd-focus {
+  margin: 6rem auto 3rem;
+  max-width: 1080px;
+  min-height: 500px;
+}
+
+.bd-focus-item {
+  border-radius: 6px;
+  padding-top: 1.25rem;
+  position: relative;
+}
+
+.bd-focus-item .subtitle {
+  -webkit-animation-name: bdSlideUp;
+  animation-name: bdSlideUp;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.14, 0.71, 0.29, 0.86);
+  transform-origin: center center;
+  animation-fill-mode: both;
+  transition-duration: 172ms;
+  transition-property: color;
+}
+
+.bd-focus-cube {
+  color: #48c774;
+  position: absolute;
+}
+.bd-focus-cube-1 {
+  left: 0;
+  top: 0;
+}
+.bd-focus-cube-2 {
+  left: -1rem;
+  top: 23px;
+}
+.bd-focus-cube-3 {
+  left: 1rem;
+  top: 23px;
+}
+.bd-focus-cubes {
+  position: relative;
+  height: 3rem;
+  top: -1.5rem;
+  width: 3rem;
+}
+.bd-focus-cube-1 {
+  -webkit-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+  -webkit-animation-name: bdCube1;
+  animation-name: bdCube1;
+}
+
+.bd-focus-cube-2 {
+  -webkit-animation-name: bdCube2;
+  animation-name: bdCube2;
+  -webkit-animation-delay: 1.75s;
+  animation-delay: 1.75s;
+}
+.bd-focus-cube-3 {
+  -webkit-animation-name: bdCube3;
+  animation-name: bdCube3;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.bd-focus-cube-1,
+.bd-focus-cube-2,
+.bd-focus-cube-3 {
+  animation-direction: alternate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.14, 0.71, 0.29, 0.86);
+  transform-origin: center center;
+}
+
+.bd-focus-mobile {
+  color: #b86bff;
+  margin-right: -20px;
+}
+.bd-focus-tablet {
+  color: #f14668;
+}
+.bd-focus-desktop {
+  color: #ff470f;
+  position: relative;
+  top: 2px;
+}
+
+.bd-focus-github {
+  color: #333;
+}
+
+.bd-content-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px 0px;
+  flex-wrap: wrap;
+}
+
+// keyframes start
+
+@keyframes bdCube1 {
+  0% {
+    transform: translate3d(0, -50px, 0);
+    opacity: 0;
+  }
+  100%,
+  25% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+@keyframes bdCube2 {
+  0% {
+    transform: translate3d(-40px, 30px, 0);
+    opacity: 0;
+  }
+  100%,
+  25% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+@keyframes bdCube3 {
+  0% {
+    transform: translate3d(40px, 30px, 0);
+    opacity: 0;
+  }
+  100%,
+  25% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+// keyframes end

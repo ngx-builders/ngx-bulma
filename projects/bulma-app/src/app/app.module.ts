@@ -3,14 +3,17 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import {
-  BulmaBreadcrumbModule,
   BulmaCardModule,
-  BulmaNavbarModule,
+  BulmaContainerModule,
+  BulmaFooterModule,
+  BulmaNavbarModule
 } from 'ngx-bulma';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { DocFooterComponent } from './footer/doc-footer/doc-footer.component';
+import { DocNavbarComponent } from './navbar/doc-navbar/doc-navbar.component';
 import { ScrollerComponent } from './scroller/scroller.component';
 
 
@@ -19,22 +22,24 @@ import { ScrollerComponent } from './scroller/scroller.component';
   declarations: [
     AppComponent,
     ScrollerComponent,
+    DocNavbarComponent,
+    DocFooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BulmaBreadcrumbModule,
     BulmaCardModule,
-
     BulmaNavbarModule,
+    BulmaFooterModule,
     HttpClientModule,
-
+    BulmaContainerModule
   ],
   providers: [],
   bootstrap: [AppComponent],
   exports: [
-
-   ScrollerComponent
+    ScrollerComponent,
+    DocNavbarComponent,
+    DocFooterComponent
   ]
 })
 export class AppModule { }
