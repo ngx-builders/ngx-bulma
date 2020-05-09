@@ -3,8 +3,8 @@ import { SharedService } from '../services/shared.service';
 
 @Directive({
   selector: '[buContainer]',
+  exportAs: 'buContainer',
   providers: [SharedService]
-
 })
 export class BulmaContainerDirective implements OnInit {
 

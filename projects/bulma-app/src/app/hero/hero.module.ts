@@ -1,10 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-import {BulmaHeroModule} from 'ngx-bulma';
+import { BulmaContainerModule, BulmaHeroModule } from 'ngx-bulma';
 import { MarkdownModule } from 'ngx-markdown';
 import { HeroRoutingModule } from './hero-routing.module';
-import {HeroComponent} from './hero.component';
+import { HeroComponent } from './hero.component';
 
 @NgModule({
   declarations: [HeroComponent],
@@ -12,6 +12,7 @@ import {HeroComponent} from './hero.component';
     CommonModule,
     HeroRoutingModule,
     BulmaHeroModule,
+    BulmaContainerModule,
     MarkdownModule.forRoot({ loader: HttpClient })
   ],
   exports: [HeroComponent]
