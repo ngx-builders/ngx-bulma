@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { NavigationEnd, Router, RouterEvent } from '@angular/router';
-import { filter } from 'rxjs/operators';
+import { Router, RouterEvent } from '@angular/router';
+import { filter, map } from 'rxjs/operators';
 
 @Component({
   selector: 'app-root',
@@ -14,11 +14,10 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     this.router.events.pipe(
-      filter(e => e instanceof RouterEvent)
+      filter(e => e instanceof RouterEvent),
+      map(e => e as RouterEvent)
     ).subscribe(e => {
-      if (e instanceof NavigationEnd) {
         this.currentRoute = e.url;
-      }
     });
   }
 }
