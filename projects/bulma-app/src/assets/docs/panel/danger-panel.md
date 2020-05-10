@@ -1,5 +1,5 @@
 ```javascript
-<bu-panel buPanel theme="danger">
+<bu-panel theme="danger">
       <bu-panel-heading>
         Panel Header
       </bu-panel-heading>

@@ -1,4 +1,8 @@
-import { ChangeDetectionStrategy, Component, OnInit, ViewEncapsulation } from '@angular/core';
+import {
+  ChangeDetectionStrategy, Component,
+  ElementRef, Input, OnInit, Renderer2, ViewEncapsulation
+} from '@angular/core';
+import { SharedService } from '../services/shared.service';
 
 @Component({
   selector: 'bu-panel',
@@ -9,9 +13,20 @@ import { ChangeDetectionStrategy, Component, OnInit, ViewEncapsulation } from '@
 })
 export class BulmaPanelComponent implements OnInit {
 
-  constructor() { }
+  @Input()
+  theme: string;
+
+  defaultClass = 'panel';
+
+  constructor(private sharedService: SharedService,
+              private el: ElementRef,
+              private renderer: Renderer2) { }
 
   ngOnInit() {
+    const themeClass = this.sharedService.getThemeClass(this.theme, this.defaultClass);
+
+    this.renderer.addClass(this.el.nativeElement, this.defaultClass);
+    this.renderer.addClass(this.el.nativeElement, themeClass);
   }
 
 }
