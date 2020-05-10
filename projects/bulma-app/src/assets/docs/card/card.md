@@ -13,7 +13,7 @@ import { BulmaCardModule} from 'ngx-bulma'
 ```
 
 To use the bulmacard component in your Angular application.
-Add below components sequentially for using bulma card component.
+Add below components sequentially.
 
 
 
