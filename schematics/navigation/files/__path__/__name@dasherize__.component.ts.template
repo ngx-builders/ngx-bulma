@@ -1,0 +1,15 @@
+import { Component, Input, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'bu-<%= classify(name)@dasherize %>',
+  templateUrl: './<%= classify(name)@dasherize %>.component.html',
+  styleUrls: ['./<%= classify(name)@dasherize %>.component.css']
+})
+export class <%= classify(name) %>Component implements OnInit {
+  constructor() { }
+
+  ngOnInit() {
+
+  }
+
+}

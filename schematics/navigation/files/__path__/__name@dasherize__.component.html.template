@@ -1,0 +1,16 @@
+<bu-nav color="primary">
+  <bu-nav-brand>
+    <a class="navbar-item" href="#">
+      <%= project %>
+    </a>
+  </bu-nav-brand>
+  <div id="ngxBulmaNavbar" class="navbar-menu" #navMenu>
+    <bu-navbar-start>
+      <a buNavItem class="navbar-item">Home</a>
+      <!-- Add Navigation items here -->
+    </bu-navbar-start>
+    <bu-navbar-end>
+      <!-- Add Navigation items on the right here -->
+    </bu-navbar-end>
+  </div>
+</bu-nav>
