@@ -1,5 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ComponentsHomeComponent } from './landingcomponents/components/components.home';
+import { ElementComponent } from './landingcomponents/elements/elements.home';
+import { FormsComponent } from './landingcomponents/forms/forms.home';
+import { LayoutComponent } from './landingcomponents/layout/layout.home';
 
 const routes: Routes = [
   { path: '', loadChildren: () => import('./introduction/introduction.module').then(introduction => introduction.IntroductionModule)},
@@ -19,7 +23,19 @@ const routes: Routes = [
   { path: 'progress', loadChildren: () => import('./progressbar/progressbar.module').then(progress => progress.ProgressbarModule) },
   { path: 'container', loadChildren: () => import('./container/container.module').then(container => container.ContainerModule)  },
   { path: 'footer', loadChildren: () => import('./footer/footer.module').then(footer => footer.FooterModule) },
-  { path: 'hero', loadChildren: () => import('./hero/hero.module').then(hero => hero.HeroModule) }
+  { path: 'hero', loadChildren: () => import('./hero/hero.module').then(hero => hero.HeroModule) },
+  {
+    path: 'Components', component: ComponentsHomeComponent
+  },
+  {
+    path: 'Elements', component: ElementComponent
+  },
+  {
+    path: 'Form', component: FormsComponent
+  },
+  {
+    path: 'Layout', component: LayoutComponent
+  }
 ];
 
 @NgModule({
