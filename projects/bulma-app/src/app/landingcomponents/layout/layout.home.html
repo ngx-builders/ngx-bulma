@@ -14,14 +14,14 @@
 <div class="parent-container">
     <div class="row">
         <div>
-            <a class="header" ><i class="fas fa-box"></i> Container</a>
+            <a class="header" [routerLink]="['/container']"><i class="fas fa-box" aria-hidden="true"></i> Container</a>
             <p class="describtion">
                 A simple container to center your content horizontally.
             </p>
         </div>
         <hr>
         <div>
-            <a class="header"><i class="fas fa-magic"></i> Hero</a>
+            <a class="header" [routerLink]="['/hero']"><i class="fas fa-magic" aria-hidden="true"></i> Hero</a>
             <p class="describtion">
                 An imposing hero banner to showcase something.
             </p>
@@ -33,7 +33,7 @@
     <div class="row">
         
         <div>
-            <a class="header"><i class="fas fa-road"></i> Footer</a>
+            <a class="header" [routerLink]="['/footer']" ><i class="fas fa-road" aria-hidden="true"></i> Footer</a>
             <p class="describtion">
                 A simple responsive footer which can include anything.
             </p>
