@@ -1,14 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { FooterComponent } from './footer.component';
+import { ElementComponent } from './elements.home';
+
 const routes: Routes = [
   {
     path: '',
-    component: FooterComponent,
+    component: ElementComponent,
   },
 ];
+
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class FooterRoutingModule {}
+export class ElementsRoutingModule {}
