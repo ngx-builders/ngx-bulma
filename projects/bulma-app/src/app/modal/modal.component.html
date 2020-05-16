@@ -4,13 +4,13 @@
                 <button buButton class="button" (click)="toggleModal()">open modal</button>
         </div>
         <div class="code-snippet-container">
-                <markdown [src]="'assets/docs/modal/modal-example.md'"></markdown>
+                <markdown [src]="'assets/docs/modal/modal-example.md'" lineNumbers></markdown>
 
         </div>
 </div>
 <hr>
-<markdown [src]="'assets/docs/modal/modal-function.md'"></markdown>
-<markdown [src]="'assets/docs/modal/modal-type.md'"></markdown>
+<markdown [src]="'assets/docs/modal/modal-function.md'" ></markdown>
+<markdown [src]="'assets/docs/modal/modal-type.md'" lineNumbers></markdown>
 
 <bu-modal [open]="isModalActive">
         <bu-modal-header>
