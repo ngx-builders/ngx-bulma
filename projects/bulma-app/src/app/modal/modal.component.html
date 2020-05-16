@@ -1,7 +1,7 @@
 <markdown [src]="'assets/docs/modal/modal.md'"></markdown>
 <div class="parent-container">
         <div class="component-container">
-                <button buButton  class="button" (click)="toggleModal()">open modal</button>
+                <button buButton class="button" (click)="toggleModal()">open modal</button>
         </div>
         <div class="code-snippet-container">
                 <markdown [src]="'assets/docs/modal/modal-example.md'"></markdown>
@@ -17,7 +17,7 @@
                 <bu-modal-title>
                         Modal title
                 </bu-modal-title>
-                <button  class="delete" aria-label="close" (click)="closeModal()"></button>
+                <button class="delete" aria-label="close" (click)="closeModal()"></button>
         </bu-modal-header>
         <bu-modal-content>
                 <h1>Hello World</h1>
@@ -30,6 +30,6 @@
         </bu-modal-content>
         <bu-modal-footer>
                 <button buButton class="button is-success">Save changes</button>
-                <button  buButton class="button" (click)="closeModal()">Cancel</button>
+                <button buButton class="button" (click)="closeModal()">Cancel</button>
         </bu-modal-footer>
 </bu-modal>
