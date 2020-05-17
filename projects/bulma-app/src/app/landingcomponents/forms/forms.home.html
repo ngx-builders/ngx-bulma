@@ -1,34 +1,26 @@
-<header class="bd-header">
-  <div class="bd-header-titles">
-    <h1 class="title">
-      Elements
-    </h1>
-    <p class="subtitle is-4">
-      The indispensable form controls, designed for maximum clarity.
-    </p>
-  </div>
-</header>
+<h1 class="title is-2">
+  Form
+</h1>
+<p class="subtitle is-4">
+  The indispensable form controls, designed for maximum clarity.
+</p>
 <hr />
 
-<div class="parent-container">
-  <div class="row">
-    <div>
-      <a class="header" [routerLink]="['/input']"
-        ><i class="fas fa-minus" aria-hidden="true"></i> Input</a
-      >
-      <p class="describtion">
+<div buContainer class="nav-link-parent columns is-multiline">
+  <a class="header column is-6" [routerLink]="['/input']">
+    <div class="nav-link-container">
+      <i class="fas fa-minus" aria-hidden="true"></i> Input
+      <p class="nav-link-description subtitle is-5">
         The text input and its variations,in different colors,sizes.
       </p>
     </div>
-  </div>
-  <div class="row">
-    <div>
-      <a class="header" [routerLink]="['/textarea']"
-        ><i class="fas fa-square" aria-hidden="true"></i> Textarea</a
-      >
-      <p class="describtion">
+  </a>
+  <a class="header column is-6" [routerLink]="['/textarea']">
+    <div class="nav-link-container">
+      <i class="fas fa-square" aria-hidden="true"></i> Textarea
+      <p class="nav-link-description subtitle is-5">
         The multiline textarea and its variations.
       </p>
     </div>
-  </div>
+  </a>
 </div>

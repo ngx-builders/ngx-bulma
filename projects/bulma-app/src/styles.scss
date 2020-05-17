@@ -14,7 +14,6 @@ body {
 
 .component-container {
   width: 48%;
-  // display: flex;
   flex-wrap: wrap;
   align-items: center;
   background-color: #ffffff;
@@ -29,6 +28,25 @@ body {
 
 .code-snippet-container {
   width: 48%;
+}
+
+.nav-link-container {
+  padding: 10px;
+
+  svg {
+    color: #3273dc;
+  }
+}
+
+.nav-link-description {
+  padding: 10px 0px;
+}
+
+.nav-link-parent {
+  a :hover {
+    background-color: #fafafa;
+    border-radius: 6px;
+  }
 }
 
 @media only screen and (max-width: 720px) {

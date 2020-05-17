@@ -1,42 +1,35 @@
-<header class="bd-header">
-  <div class="bd-header-titles">
-    <h1 class="title">
-      Elements
-    </h1>
-    <p class="subtitle is-4">
-      Design the structure of your webpage with these CSS classes.
-    </p>
-  </div>
-</header>
+<h1 class="title is-2">
+  Layout
+</h1>
+<p class="subtitle is-4">
+  Design the structure of your webpage with these CSS classes.
+</p>
 <hr />
-<div class="parent-container">
-  <div class="row">
-    <div>
-      <a class="header" [routerLink]="['/container']"
-        ><i class="fas fa-box" aria-hidden="true"></i> Container</a
-      >
-      <p class="describtion">
+
+<div buContainer class="nav-link-parent columns is-multiline">
+  <a class="header column is-6" [routerLink]="['/container']">
+    <div class="nav-link-container">
+      <i class="fas fa-box" aria-hidden="true"></i> Container
+      <p class="nav-link-description subtitle is-5">
         A simple container to center your content horizontally.
       </p>
     </div>
-    <hr />
-    <div>
-      <a class="header" [routerLink]="['/hero']"
-        ><i class="fas fa-magic" aria-hidden="true"></i> Hero</a
-      >
-      <p class="describtion">
+  </a>
+  <hr />
+  <a class="header column is-6" [routerLink]="['/hero']">
+    <div class="nav-link-container">
+      <i class="fas fa-magic" aria-hidden="true"></i> Hero
+      <p class="nav-link-description subtitle is-5">
         An imposing hero banner to showcase something.
       </p>
     </div>
-  </div>
-  <div class="row">
-    <div>
-      <a class="header" [routerLink]="['/footer']"
-        ><i class="fas fa-road" aria-hidden="true"></i> Footer</a
-      >
-      <p class="describtion">
+  </a>
+  <a class="header column is-6" [routerLink]="['/footer']">
+    <div class="nav-link-container">
+      <i class="fas fa-road" aria-hidden="true"></i> Footer
+      <p class="nav-link-description subtitle is-5">
         A simple responsive footer which can include anything.
       </p>
     </div>
-  </div>
+  </a>
 </div>
