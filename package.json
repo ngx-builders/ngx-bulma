@@ -39,7 +39,7 @@
     "core-js": "3.6.5",
     "font-awesome": "4.7.0",
     "marked": "1.0.0",
-    "ngx-markdown": "9.0.0",
+    "ngx-markdown": "9.1.0",
     "ngx-semantic-version": "1.2.1",
     "prism-themes": "1.4.0",
     "renamer": "2.0.0",
