@@ -1,10 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-import {BulmaCardModule} from 'ngx-bulma';
+import { BulmaCardModule } from 'ngx-bulma';
 import { MarkdownModule } from 'ngx-markdown';
 import { CardRoutingModule } from './card-routing.module';
-import {CardComponent} from './card.component';
+import { CardComponent } from './card.component';
 
 @NgModule({
   declarations: [CardComponent],
@@ -12,8 +12,8 @@ import {CardComponent} from './card.component';
     CommonModule,
     CardRoutingModule,
     BulmaCardModule,
-    MarkdownModule.forRoot({ loader: HttpClient })
+    MarkdownModule.forRoot({ loader: HttpClient }),
   ],
-  exports: [CardComponent]
+  exports: [CardComponent],
 })
-export class CardModule { }
+export class CardModule {}

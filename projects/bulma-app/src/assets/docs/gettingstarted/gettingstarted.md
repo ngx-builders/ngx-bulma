@@ -1,4 +1,3 @@
-
 # Getting Started with ngx2-bulma
 
 This guide explains how to setup your Angular project to begin using ngx2-bulma. It includes information on prerequisites, installing ngx2-bulma, and optionally displaying a sample ngx2-bulma component in your application to verify your setup.
@@ -34,7 +33,7 @@ Let's display a card component in your app and verify that everything works. You
 
 ```javascript
  import { BulmaCardModule} from 'ngx-bulma';
- 
+
  @NgModule({
     imports: [BulmaCardModule]
     });

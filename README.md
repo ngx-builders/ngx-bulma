@@ -1,4 +1,3 @@
-
 # ngx2-bulma
 
 Angular Library with Bulma CSS
@@ -41,7 +40,7 @@ Let's display a card component in your app and verify that everything works. You
 
 ```javascript
  import { BulmaCardModule} from 'ngx-bulma';
- 
+
  @NgModule({
     imports: [BulmaCardModule]
     });
@@ -75,8 +74,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
-
-
