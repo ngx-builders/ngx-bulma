@@ -49,7 +49,9 @@
               "projects/ngx-bulma/tsconfig.lib.json",
               "projects/ngx-bulma/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**"]
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         }
       }
@@ -147,7 +149,9 @@
               "projects/bulma-app/src/favicon.ico",
               "projects/bulma-app/src/assets"
             ],
-            "styles": ["projects/bulma-app/src/styles.scss"],
+            "styles": [
+              "projects/bulma-app/src/styles.scss"
+            ],
             "scripts": []
           }
         },
@@ -159,7 +163,9 @@
               "projects/bulma-app/tsconfig.spec.json",
               "projects/bulma-app/e2e/tsconfig.json"
             ],
-            "exclude": ["**/node_modules/**"]
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         },
         "e2e": {
@@ -172,6 +178,12 @@
             "production": {
               "devServerTarget": "bulma-app:serve:production"
             }
+          }
+        },
+        "analyze": {
+          "builder": "@ngx-builders/analyze:analyze",
+          "options": {
+            "outputPath": "dist/bulma-app"
           }
         }
       }

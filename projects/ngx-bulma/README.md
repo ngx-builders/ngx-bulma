@@ -1,24 +1,43 @@
-# NgxBulma
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.7.
+# Getting Started with ngx2-bulma
 
-## Code scaffolding
+This guide explains how to setup your Angular project to begin using ngx2-bulma. It includes information on prerequisites, installing ngx2-bulma, and optionally displaying a sample ngx2-bulma component in your application to verify your setup.
 
-Run `ng generate component component-name --project ngx-bulma` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ngx-bulma`.
-> Note: Don't forget to add `--project ngx-bulma` or else it will be added to the default project in your `angular.json` file. 
+## Angular Resources
 
-## Build
+ <p>If you are new to Angular or getting started with a new Angular application, see <a href="https://angular.io/start">Angular's full Getting Started Guide</a>
+ and <a href="https://angular.io/guide/setup-local">Setting up your environment</a>.</p>
 
-Run `ng build ngx-bulma` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Install ngx2-bulma
 
-## Publishing
+Use the npm command to install ngx2-bulma in your application to set up your Angular project with ngx2-bulma by running the following commands:
 
-After building your library with `ng build ngx-bulma`, go to the dist folder `cd dist/ngx-bulma` and run `npm publish`.
+```shell
+ng add ngx2-bulma
+```
 
-## Running unit tests
+The `ng add` command will install ngx2-bulma and bulma css framework.
+It will also do automate the below configuration
 
-Run `ng test ngx-bulma` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Add your bulma css in your in `angular.json`
 
-## Further help
+```json
+"styles": [
+            "projects/bulma-app/src/styles.css",
+            "node_modules/bulma/css/bulma.css"
+          ]
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Display a ngx2-bulma component
+
+Let's display a card component in your app and verify that everything works. You need to import the `BulmaCardModule` that you want to display by adding the following lines to your `app.module.ts` file.
+
+```javascript
+ import { BulmaCardModule} from 'ngx-bulma';
+ 
+ @NgModule({
+    imports: [BulmaCardModule]
+    });
+```
+
+Once you done all the above setup, now you can use the bulmacard component in your Angular application.
