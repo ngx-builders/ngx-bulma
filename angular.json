@@ -143,10 +143,7 @@
             "polyfills": "projects/bulma-app/src/polyfills.ts",
             "tsConfig": "projects/bulma-app/tsconfig.spec.json",
             "karmaConfig": "projects/bulma-app/karma.conf.js",
-            "assets": [
-              "projects/bulma-app/src/favicon.ico",
-              "projects/bulma-app/src/assets"
-            ],
+            "assets": ["projects/bulma-app/src/favicon.ico", "projects/bulma-app/src/assets"],
             "styles": ["projects/bulma-app/src/styles.scss"],
             "scripts": []
           }
@@ -172,6 +169,12 @@
             "production": {
               "devServerTarget": "bulma-app:serve:production"
             }
+          }
+        },
+        "analyze": {
+          "builder": "@ngx-builders/analyze:analyze",
+          "options": {
+            "outputPath": "dist/bulma-app"
           }
         }
       }
