@@ -4,7 +4,7 @@ This guide explains how to setup your Angular project to begin using ngx2-bulma.
 It includes information on prerequisites, installing ngx2-bulma,
 and optionally displaying a sample ngx2-bulma component in your application to verify your setup.
 
- <p><em>Angular Resources</em></p>
+## Angular Resources
 
  <p>If you are new to Angular or getting started with a new Angular application, see <a href="https://angular.io/start">Angular's full Getting Started Guide</a>
  and <a href="https://angular.io/guide/setup-local">Setting up your environment</a>.</p>
