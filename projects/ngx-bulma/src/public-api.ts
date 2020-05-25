@@ -17,4 +17,4 @@ export * from './lib/progressbar/index';
 export * from './lib/container/index';
 export * from './lib/footer/index';
 export * from './lib/hero/index';
-
+export * from './lib/box/index';

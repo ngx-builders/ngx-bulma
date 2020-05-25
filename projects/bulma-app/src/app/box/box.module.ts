@@ -1,18 +1,19 @@
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-import { BulmaTabsModule } from 'ngx-bulma';
+import { BulmaBoxModule } from 'ngx-bulma';
 import { MarkdownModule } from 'ngx-markdown';
-import { TabRoutingModule } from './tab-routing.module';
-import { TabComponent } from './tab.component';
+import { BoxRoutingModule } from './box-routing.module';
+import { BoxComponent } from './box/box.component';
+
 @NgModule({
-  declarations: [TabComponent],
+  declarations: [BoxComponent],
   imports: [
     CommonModule,
-    TabRoutingModule,
-    BulmaTabsModule,
+    BoxRoutingModule,
+    BulmaBoxModule,
     MarkdownModule.forRoot({ loader: HttpClient }),
   ],
-  exports: [TabComponent],
+  exports: [BoxComponent],
 })
-export class TabModule {}
+export class BoxModule {}

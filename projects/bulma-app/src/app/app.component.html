@@ -1,6 +1,6 @@
 <div class="root-container">
   <app-doc-navbar></app-doc-navbar>
-  <ng-container *ngIf="currentRoute === '/';else menu">
+  <ng-container *ngIf="currentRoute === '/' || currentRoute === '/core-team'; else menu">
     <router-outlet></router-outlet>
   </ng-container>
   <ng-template #menu>

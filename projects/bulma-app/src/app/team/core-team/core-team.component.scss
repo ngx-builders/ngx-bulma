@@ -1,0 +1,108 @@
+.page-title {
+  margin-top: 1rem;
+}
+
+.main-container {
+  padding-top: 4rem;
+  justify-content: center;
+}
+
+.profile-card {
+  background: linear-gradient(135deg, #62e7f1 0%, #7d61c9 100%);
+}
+
+.profile-container {
+  margin: 2rem 1rem;
+}
+
+.divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spacer {
+  width: 25%;
+  height: 5px;
+  background-color: #cccccc;
+  border-radius: 5px;
+}
+
+.profile-description,
+.social-icons,
+.profile-name,
+.divider {
+  padding: 10px 0px;
+}
+
+.profile-image {
+  margin-top: -5rem;
+  padding-bottom: 10px;
+  img {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #62e7f1;
+    border-radius: 50%;
+  }
+}
+
+.profile-name {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.profile-description {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  min-height: 150px;
+  word-wrap: break-word;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  a {
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    width: 36px;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+  }
+  .linkedin-icon {
+    background-color: #0976b4;
+  }
+  .twitter-icon {
+    background-color: #46c0fb;
+  }
+  .github-icon {
+    background-color: #333;
+  }
+  .blog-icon {
+    background-color: #666666;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .profile-container {
+    margin: 4rem 1rem;
+  }
+}
+
+.fab {
+  background-color: #333;
+  border-radius: 30px;
+  color: #fff;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  margin: auto 3px;
+  width: 30px;
+  font-size: 15px;
+  text-align: center;
+}

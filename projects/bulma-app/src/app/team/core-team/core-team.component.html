@@ -1,0 +1,57 @@
+<h1 class="page-title title has-text-centered is-2">Meet our core team</h1>
+<div class="divider">
+  <div class="spacer"></div>
+</div>
+<div *ngIf="teamProfile$ | async as profiles" class="main-container columns is-multiline">
+  <ng-container *ngFor="let profile of profiles">
+    <div class="profile-container column is-3">
+      <div buBox class="profile-card has-text-centered">
+        <div class="profile-image">
+          <img src="{{ profile.avatar }}" alt="avatar" />
+        </div>
+        <div class="profile-name">
+          <h2 class="subtitle is-3">{{ profile.name }}</h2>
+        </div>
+        <div class="divider">
+          <div class="spacer"></div>
+        </div>
+        <div buContainer class="profile-description">
+          <p>{{ profile.bio }}</p>
+        </div>
+        <div class="divider">
+          <div class="spacer"></div>
+        </div>
+        <div buContainer class="social-icons">
+          <a
+            class="linkedin-icon"
+            href="{{ profile.linkedin }}"
+            routerLinkActive="router-link-active"
+            target="_blank"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a
+            class="twitter-icon"
+            href="{{ profile.twitter }}"
+            routerLinkActive="router-link-active"
+            target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            class="github-icon"
+            href="{{ profile.github }}"
+            routerLinkActive="router-link-active"
+            target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            class="blog-icon"
+            href="{{ profile.blog }}"
+            routerLinkActive="router-link-active"
+            target="_blank"
+            ><i class="fas fa-link"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+</div>
