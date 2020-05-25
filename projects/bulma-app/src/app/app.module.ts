@@ -16,12 +16,7 @@ import { DocNavbarComponent } from './navbar/doc-navbar/doc-navbar.component';
 import { ScrollerComponent } from './scroller/scroller.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    ScrollerComponent,
-    DocNavbarComponent,
-    DocFooterComponent,
-  ],
+  declarations: [AppComponent, ScrollerComponent, DocNavbarComponent, DocFooterComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
