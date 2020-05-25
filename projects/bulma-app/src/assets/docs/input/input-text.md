@@ -18,3 +18,17 @@ import { BulmaInputModule} from 'ngx-bulma'
    imports: [BulmaInputModule]
  });
 ```
+
+### Basic
+
+To use the Input component in your Angular application.
+Add `buInput` in Input tags.
+
+| Property  | Description                                    |     |     |     |
+| --------- | ---------------------------------------------- | --- | --- | --- |
+| `buInput` | For initializing buInput in your HTML          |     |     |     |
+| `theme`   | For specifying different themes to Input       |     |     |     |
+| `size`    | For specifying different sizes to Input        |     |     |     |
+| `hovered` | For enabling hover in Input use hovered="true" |
+| `focus`   | For enabling hover in Input use focus="true"   |
+| `rounded` | To make round shape Input use rounded="true"   |

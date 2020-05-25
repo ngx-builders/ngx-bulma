@@ -16,4 +16,10 @@ import { BulmaProgressbarModule} from 'ngx-bulma'
 ### Basic
 
 To use the Progressbar component in your Angular application.
-Add `buTextarea` in textarea tag.
+Add `buProgress` in progress tag.
+
+| Property     | Description                                   |     |     |     |
+| ------------ | --------------------------------------------- | --- | --- | --- |
+| `buProgress` | For initializing buProgress in your HTML      |     |     |     |
+| `theme`      | For specifying different themes to buProgress |     |     |     |
+| `size`       | For specifying different sizes to buProgress  |     |     |     |

@@ -4,7 +4,25 @@
 
 The hero component allows you to add a **full width banner** to your webpage, which can optionally cover the full height of the page as well.
 
-The basic requirement of this component are:
+To display a Hero component in your app and verify that everything works.
+You need to import the BulmaHeroModule that you want to display by adding the following lines to your app.module.ts file.
 
-- `hero` as the main container
-  - `hero-body` as a direct child, in which you can put all your content
+```javascript
+import { BulmaHeroModule} from 'ngx-bulma'
+ @NgModule({
+   imports: [BulmaHeroModule]
+ });
+```
+
+### Basic
+
+To use the Container component in your Angular application.
+Add `buContainer` in any div tags.
+
+| Property      | Description                                       |     |     |     |
+| ------------- | ------------------------------------------------- | --- | --- | --- |
+| `bu-hero`     | Parent Hero Component.                            |     |     |     |
+| `buContainer` | For initializing Container in your HTML.          |
+| `color`       | For specifying colors to Hero Component.          |     |     |     |
+| `size`        | For specifying different sizes to Hero Component. |     |     |     |
+| `gradient`    | For enabling gradient in Hero Component .         |     |     |     |
