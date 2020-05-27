@@ -3,7 +3,7 @@
 The `navbar` component is a responsive and versatile horizontal navigation bar with the following structure.
 
 To display a Navbar component in your app and verify that everything works.
-You need to import the BulmaNavbarModule that you want to display by adding the following lines to your app.module.ts file.
+You need to import the `BulmaNavbarModule` that you want to display by adding the following lines to your `app.module.ts` file.
 
 ```javascript
 import { BulmaNavbarModule} from 'ngx-bulma'

@@ -2,7 +2,7 @@
 
 #### The `<input>` tag specifies an input field where the user can enter data.
 
-##### The following type attributes are supported:
+#### Following are the different type of attributes:
 
 `type="text"`
 `type="password"`
@@ -10,7 +10,7 @@
 `type="tel"`
 
 To display a Input component in your app and verify that everything works.
-You need to import the BulmaInputModule that you want to display by adding the following lines to your app.module.ts file.
+You need to import the `BulmaInputModule` that you want to display by adding the following lines to your `app.module.ts` file.
 
 ```javascript
 import { BulmaInputModule} from 'ngx-bulma'

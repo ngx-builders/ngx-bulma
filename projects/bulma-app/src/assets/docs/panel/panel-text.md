@@ -2,7 +2,7 @@
 
 ##### To emphasize important notes in your application ,The utilitarian `panel` simple to use.
 
-To display a panel component in your app and verify that everything works. You need to import the BulmaPanelModule that you want to display by adding the following lines to your app.module.ts file.
+To display a panel component in your app and verify that everything works. You need to import the `BulmaPanelModule` that you want to display by adding the following lines to your `app.module.ts` file.
 
 ```javascript
 import { BulmaPanelModule} from 'ngx-bulma'

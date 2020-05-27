@@ -3,7 +3,7 @@
 A simple container to center your content horizontally.
 
 To display a Container component in your app and verify that everything works.
-You need to import the BulmaContainerModule that you want to display by adding the following lines to your app.module.ts file.
+You need to import the `BulmaContainerModule` that you want to display by adding the following lines to your `app.module.ts` file.
 
 ```javascript
 import { BulmaContainerModule} from 'ngx-bulma'

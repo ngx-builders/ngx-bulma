@@ -5,7 +5,7 @@
 Menu is just container holds `menu-header` , `menu-label` and `menu-list`.
 
 To display a Menu component in your app and verify that everything works.
-You need to import the BulmaMenuModule that you want to display by adding the following lines to your app.module.ts file.
+You need to import the `BulmaMenuModule` that you want to display by adding the following lines to your `app.module.ts` file.
 
 ```javascript
 import { BulmaMenuModule} from 'ngx-bulma'

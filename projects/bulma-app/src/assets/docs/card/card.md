@@ -3,7 +3,7 @@
 A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options. If you’re familiar with Bootstrap 3, cards replace our old panels, wells, and thumbnails. Similar functionality to those components is available as modifier classes for cards.
 
 To display a card component in your app and verify that everything works.
-You need to import the BulmaCardModule that you want to display by adding the following lines to your app.module.ts file.
+You need to import the `BulmaCardModule` that you want to display by adding the following lines to your `app.module.ts` file.
 
 ```javascript
 import { BulmaCardModule} from 'ngx-bulma'

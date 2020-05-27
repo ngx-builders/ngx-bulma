@@ -7,7 +7,7 @@ the optional message-header that can hold a title and a delete element and lastl
 the message-body for the longer body of the message.
 
 To display a Message component in your app and verify that everything works.
-You need to import the BulmaMessageModule that you want to display by adding the following lines to your app.module.ts file.
+You need to import the `BulmaMessageModule` that you want to display by adding the following lines to your `app.module.ts` file.
 
 ```javascript
 import { BulmaMessageModule} from 'ngx-bulma'

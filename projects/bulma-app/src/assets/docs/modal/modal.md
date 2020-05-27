@@ -3,7 +3,7 @@
 ##### A handy modal, which comes with multilevel content feature and classy look with all features.In which you can include any content you want.
 
 To display a Modal component in your app and verify that everything works.
-You need to import the BulmaModalModule that you want to display by adding the following lines to your app.module.ts file.
+You need to import the `BulmaModalModule` that you want to display by adding the following lines to your `app.module.ts` file.
 
 ```javascript
 import { BulmaModalModule} from 'ngx-bulma'
