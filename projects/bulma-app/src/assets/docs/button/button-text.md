@@ -17,9 +17,12 @@ import { BulmaButtonModule} from 'ngx-bulma'
 To use the Button component in your Angular application.
 Add `buButton` in Button tags.
 
-| Property   | Description                               |     |     |     |
+| Directive  | Description                            |     |     |     |
+| ---------- | -------------------------------------- | --- | --- | --- |
+| `buButton` | For initializing buButton in your HTML |     |     |     |
+
+| Properties | Description                               |     |     |     |
 | ---------- | ----------------------------------------- | --- | --- | --- |
-| `buButton` | For initializing buButton in your HTML    |     |     |     |
 | `theme`    | For specifying different themes to Button |     |     |     |
 | `color`    | For specifying colors to Button           |     |     |     |
 | `size`     | For specifying different sizes to Button  |     |     |     |

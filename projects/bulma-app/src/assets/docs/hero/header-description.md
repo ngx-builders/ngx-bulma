@@ -19,10 +19,12 @@ import { BulmaHeroModule} from 'ngx-bulma'
 To use the Container component in your Angular application.
 Add `buContainer` in any div tags.
 
-| Property      | Description                                       |     |     |     |
-| ------------- | ------------------------------------------------- | --- | --- | --- |
-| `bu-hero`     | Parent Hero Component.                            |     |     |     |
-| `buContainer` | For initializing Container in your HTML.          |
-| `color`       | For specifying colors to Hero Component.          |     |     |     |
-| `size`        | For specifying different sizes to Hero Component. |     |     |     |
-| `gradient`    | For enabling gradient in Hero Component .         |     |     |     |
+| Element   | Description            |     |     |     |
+| --------- | ---------------------- | --- | --- | --- |
+| `bu-hero` | Parent Hero Component. |     |     |     |
+
+| Properties | Description                                       |     |     |     |
+| ---------- | ------------------------------------------------- | --- | --- | --- |
+| `color`    | For specifying colors to Hero Component.          |     |     |     |
+| `size`     | For specifying different sizes to Hero Component. |     |     |     |
+| `gradient` | For enabling gradient in Hero Component .         |     |     |     |

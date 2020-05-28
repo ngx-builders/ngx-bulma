@@ -14,6 +14,6 @@ import { BulmaFooterModule} from 'ngx-bulma'
  });
 ```
 
-| Property    | Description              |     |     |     |
+| Element     | Description              |     |     |     |
 | ----------- | ------------------------ | --- | --- | --- |
 | `bu-footer` | Parent Footer Component. |     |     |     |

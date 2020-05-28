@@ -14,16 +14,15 @@ import { BulmaNavbarModule} from 'ngx-bulma'
 
 The most basic Modal needs only of `<bu-nav>` element with some content. However, Bulma components provides a number of preset sections that you can use inside of `</bu-nav>`
 
-| Element             | Description                                                                        |     |     |     |
+| Properties          | Description                                                                        |     |     |     |
 | ------------------- | ---------------------------------------------------------------------------------- | --- | --- | --- |
-| `<bu-nav>`          | Parent component                                                                   |     |     |     |
+| `<bu-nav>`          | Navbar Parent component                                                            |     |     |     |
 | `<bu-nav-brand>`    | the left side **always visible.**, which usually contains the logo and optionally. |
 | `<bu-navbar-start>` | the left part of the menu, which appears next to the navbar brand on desktop.      |
 | `<bu-navbar-end>`   | the right part of the menu, which appears at the end of the navbar.                |
 
-| Propert           | Description                                                        |     |     |     |
+| Properties        | Description                                                        |     |     |     |
 | ----------------- | ------------------------------------------------------------------ | --- | --- | --- |
-| `navbar-burger`   | the hamburger icon, which toggles the navbar menu on touch devices |     |     |
 | `navbar-item`     | each single item of the navbar, which can either be an a or a div. |
 | `navbar-link`     | a link as the sibling of a dropdown.                               |
 | `navbar-dropdown` | a dropdown, with an arrow.                                         |
