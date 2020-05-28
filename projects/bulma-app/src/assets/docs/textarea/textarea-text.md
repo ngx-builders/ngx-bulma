@@ -14,14 +14,14 @@ import { BulmaTextareaModule} from 'ngx-bulma'
 
 TO Use the Textarea component in your Angular application ,add `buTextarea` in textarea tag.
 
-| Directive    | Description                             |     |     |     |
-| ------------ | --------------------------------------- | --- | --- | --- |
-| `buTextarea` | For initializing Textarea in your HTML. |     |     |     |
+| Directive    | Description                             |
+| ------------ | --------------------------------------- |
+| `buTextarea` | For initializing Textarea in your HTML. |
 
-| Properties | Description                                       |     |     |     |
-| ---------- | ------------------------------------------------- | --- | --- | --- |
-| `theme`    | For specifying different themes to Input          |     |     |     |
-| `size`     | For specifying different sizes to Input           |     |     |     |
+| Properties | Description                                       |
+| ---------- | ------------------------------------------------- |
+| `theme`    | For specifying different themes to Input          |
+| `size`     | For specifying different sizes to Input           |
 | `hovered`  | For enabling hover in Textarea use hovered="true" |
 | `focus`    | For enabling hover in Textarea use focus="true"   |
 | `rounded`  | To make round shape Textarea use rounded="true"   |

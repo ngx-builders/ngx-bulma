@@ -17,10 +17,10 @@ import { BulmaContainerModule} from 'ngx-bulma'
 To use the Container component in your Angular application.
 Add `buContainer` in any div tags.
 
-| Directive     | Description                              |     |     |     |
-| ------------- | ---------------------------------------- | --- | --- | --- |
-| `buContainer` | For initializing Container in your HTML. |     |     |     |
+| Directive     | Description                              |
+| ------------- | ---------------------------------------- |
+| `buContainer` | For initializing Container in your HTML. |
 
-| Property | Description                                                                |     |     |     |
-| -------- | -------------------------------------------------------------------------- | --- | --- | --- |
-| `type`   | Depending upon breakpoints of screen you can choose fluid,widescreen,fluid |     |     |     |
+| Property | Description                                                                |
+| -------- | -------------------------------------------------------------------------- |
+| `type`   | Depending upon breakpoints of screen you can choose fluid,widescreen,fluid |  |

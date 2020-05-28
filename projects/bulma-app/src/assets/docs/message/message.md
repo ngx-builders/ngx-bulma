@@ -18,8 +18,8 @@ import { BulmaMessageModule} from 'ngx-bulma'
 
 The most basic Message component needs only of `<bu-message>` element with some content. However, Bulma components provides number of preset sections that you can use inside of `</bu-message>`.
 
-| Element                | Description              |     |     |     |
-| ---------------------- | ------------------------ | --- | --- | --- |
-| `<bu-message>`         | Parent Message Component |     |     |     |
-| `<bu-message-header>`  | Message Header           |     |     |     |
-| `<bu-message-content>` | Message content          |     |     |     |
+| components             | Description              |
+| ---------------------- | ------------------------ |
+| `<bu-message>`         | Parent Message Component |
+| `<bu-message-header>`  | Message Header           |
+| `<bu-message-content>` | Message content          |

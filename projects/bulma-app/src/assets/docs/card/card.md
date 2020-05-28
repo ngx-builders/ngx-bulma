@@ -19,12 +19,12 @@ Basic Card Details
 
 The most basic card needs only of `<bu-card>` element with some content. However, Bulma components provides a number of preset sections that you can use inside of `</bu-card>`
 
-| Element             | Description                                |     |     |     |
-| ------------------- | ------------------------------------------ | --- | --- | --- |
-| `<bu-card>`         | Parent Card Component                      |     |     |     |
-| `<bu-card-header>`  | Card Header                                |     |     |     |
-| `<bu-card-title>`   | Card Title                                 |     |     |     |
-| `<bu-card-content>` | Primary card content                       |     |     |     |
-| `<bu-card-footer>`  | Section anchored to the bottom of the card |     |     |     |
+| Components          | Description                                |
+| ------------------- | ------------------------------------------ |
+| `<bu-card>`         | Parent Card Component                      |
+| `<bu-card-header>`  | Card Header                                |
+| `<bu-card-title>`   | Card Title                                 |
+| `<bu-card-content>` | Primary card content                       |
+| `<bu-card-footer>`  | Section anchored to the bottom of the card |
 
 Below is sample card Example.

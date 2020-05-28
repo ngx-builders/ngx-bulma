@@ -13,7 +13,7 @@ import { BulmaPanelModule} from 'ngx-bulma'
 
 The most basic Panel component needs only of `<bu-panel>` element with some content. However, Bulma components provides number of preset sections that you can use inside of `</bu-panel>`.
 
-| Element              | Description            |     |     |     |
+| Components           | Description            |     |     |     |
 | -------------------- | ---------------------- | --- | --- | --- |
 | `<bu-panel>`         | Parent Panel Component |     |     |     |
 | `<bu-panel-heading>` | Panel Header           |     |     |     |
