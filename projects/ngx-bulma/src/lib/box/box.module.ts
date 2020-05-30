@@ -1,10 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { BulmaBoxDirective } from './box.directive';
+import { BulmaBoxComponent } from './box.component';
 
 @NgModule({
-  declarations: [BulmaBoxDirective],
+  declarations: [BulmaBoxComponent],
   imports: [CommonModule],
-  exports: [BulmaBoxDirective],
+  exports: [BulmaBoxComponent],
 })
 export class BulmaBoxModule {}

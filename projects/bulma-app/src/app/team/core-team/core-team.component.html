@@ -5,7 +5,7 @@
 <div *ngIf="teamProfile$ | async as profiles" class="main-container columns is-multiline">
   <ng-container *ngFor="let profile of profiles">
     <div class="profile-container column is-3">
-      <div buBox class="profile-card has-text-centered">
+      <bu-box class="profile-card has-text-centered">
         <div class="profile-image">
           <img src="{{ profile.avatar }}" alt="avatar" />
         </div>
@@ -51,7 +51,7 @@
             ><i class="fas fa-link"></i
           ></a>
         </div>
-      </div>
+      </bu-box>
     </div>
   </ng-container>
 </div>
