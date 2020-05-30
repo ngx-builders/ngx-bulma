@@ -1,2 +1,2 @@
-export * from './box.directive';
 export * from './box.module';
+export * from './box.component';
