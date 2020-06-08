@@ -1,15 +1,18 @@
 # Panel
 
-##### To emphasize important notes in your application ,The utilitarian `panel` simple to use.
+#### A composable panel, for compact controls
 
-To display a panel component in your app and verify that everything works. You need to import the `BulmaPanelModule` that you want to display by adding the following lines to your `app.module.ts` file.
+To use a Panel component in your application, you need to import the `BulmaPanelModule` by adding the following lines to your `app.module.ts` file.
 
 ```javascript
-import { BulmaPanelModule} from 'ngx-bulma'
- @NgModule({
-   imports: [BulmaPanelModule]
- });
+import { BulmaPanelModule} from 'ngx-bulma';
+
+@NgModule({
+  imports: [BulmaPanelModule]
+});
 ```
+
+## Basic Panel Details
 
 The most basic Panel component needs only of `<bu-panel>` element with some content. However, Bulma components provides number of preset sections that you can use inside of `</bu-panel>`.
 

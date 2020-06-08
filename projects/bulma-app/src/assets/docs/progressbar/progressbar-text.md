@@ -1,28 +1,28 @@
 # Progress Bar
 
-A progress bar can be used to show a user how far along he/she is in a process.
-The Bulma progress bar is a simple CSS class that styles the native `<progress>` HTML element.
+#### Native HTML progress bars
 
-To display a Progress component in your app and verify that everything works.
-You need to import the `BulmaModalModule` that you want to display by adding the following lines to your `app.module.ts` file.
+To use a bulma progress bar in your application, you need to import the `BulmaProgressbarModule` by adding the following lines to your `app.module.ts` file.
 
 ```javascript
-import { BulmaProgressbarModule} from 'ngx-bulma'
- @NgModule({
-   imports: [BulmaProgressbarModule]
- });
+import { BulmaProgressbarModule } from 'ngx-bulma';
+
+@NgModule({
+  imports: [BulmaProgressbarModule]
+});
 ```
 
 ### Basic
 
-To use the Progressbar component in your Angular application.
-Add `buProgress` in progress tag.
+To display the Progressbar component in your Angular application, add the `buProgress` directive in the `<progress>` element.
 
-| Directive    | Description                              |
-| ------------ | ---------------------------------------- |
-| `buProgress` | For initializing buProgress in your HTML |
+| Directive    | Description                                                 |
+| ------------ | ----------------------------------------------------------- |
+| `buProgress` | For displaying a progress bar element as Bulma progress bar |
 
-| Properties | Description                                   |
-| ---------- | --------------------------------------------- |
-| `theme`    | For specifying different themes to buProgress |
-| `size`     | For specifying different sizes to buProgress  |
+| Properties | Description                                                                                                                         |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| `theme`    | Set the theme of the progress bar                                                                                                   |
+| `size`     | Set the size of the progress bar                                                                                                    |
+| `value`    | Set the current value of the progress bar. If not set then the progress bar will be displayed as an **indeterminate** progress bar  |
+| `max`      | Set the upper limit of value property of the progress bar. If not set then the value in the **value** property is considered as max |

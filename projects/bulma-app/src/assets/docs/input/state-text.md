@@ -1,0 +1,2 @@
+- To define the hovered state of the input, set the `hovered` property to true.
+- To define the focused state of the input, set the `focus` property to true.

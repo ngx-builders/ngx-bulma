@@ -1,22 +1,26 @@
 # Message
 
-#### To signify anything in your page, message component is well designed to use.
+#### Colored message blocks, to emphasize part of your page.
 
-The Bulma message is a multi-part component,consist of the message container.
-the optional message-header that can hold a title and a delete element and lastly
-the message-body for the longer body of the message.
+The Bulma message is a multi-part component which contains:
 
-To display a Message component in your app and verify that everything works.
-You need to import the `BulmaMessageModule` that you want to display by adding the following lines to your `app.module.ts` file.
+- the message container
+- the optional `bu-message-header` that can hold a title and a delete element
+- the `bu-message-content` for the longer body of the message.
+
+To use a Message component in your application, you need to import the `BulmaMessageModule` by adding the following lines to your `app.module.ts` file.
 
 ```javascript
-import { BulmaMessageModule} from 'ngx-bulma'
-  @NgModule({
-    imports: [BulmaMessageModule]
-  });
+import { BulmaMessageModule} from 'ngx-bulma';
+
+@NgModule({
+  imports: [BulmaMessageModule]
+});
 ```
 
-The most basic Message component needs only of `<bu-message>` element with some content. However, Bulma components provides number of preset sections that you can use inside of `</bu-message>`.
+## Basic Message Details
+
+The most basic Message component needs only of `<bu-message>` element with some content. However, Bulma components provides number of preset sections that you can use inside of `<bu-message>`.
 
 | components             | Description              |
 | ---------------------- | ------------------------ |

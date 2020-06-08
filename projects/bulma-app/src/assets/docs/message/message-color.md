@@ -1,2 +1,12 @@
-##### To emphasize part of your page , Message component comes with different ```Colored blocks```, need to add ```theme``` property and  ```buMessage``` in parent tag.
+The `bu-message` component is available in different colors. You can set the `theme` property of the `bu-message` component using any of the following color options:
 
+- `primary`
+- `link`
+- `info`
+- `success`
+- `warning`
+- `danger`
+- `black`
+- `dark`
+- `light`
+- `white`

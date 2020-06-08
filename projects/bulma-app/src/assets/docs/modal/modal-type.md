@@ -1,4 +1,3 @@
-
 ```javascript
   isModalActive = false;
   toggleModal() {
@@ -7,5 +6,4 @@
   closeModal() {
     this.isModalActive = false;
   }
-
 ```
