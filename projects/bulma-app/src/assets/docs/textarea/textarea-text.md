@@ -1,27 +1,27 @@
 # Textarea
 
-#### The Bulma Css `Textarea` comes with different variations, It defines a multi-line input field.
+#### The multiline textarea and its variations
 
-To display a # Textarea component in your app and verify that everything works.
-You need to import the `BulmaTextareaModule` that you want to display by adding the following lines to your `app.module.ts` file.
+The Bulma textarea is the multiline version of the input element. To use a Textarea component in your application, you need to import the `BulmaTextareaModule` by adding the following lines to your `app.module.ts` file.
 
 ```javascript
-import { BulmaTextareaModule} from 'ngx-bulma'
- @NgModule({
-   imports: [BulmaTextareaModule]
- });
+import { BulmaTextareaModule} from 'ngx-bulma';
+
+@NgModule({
+  imports: [BulmaTextareaModule]
+});
 ```
 
-TO Use the Textarea component in your Angular application ,add `buTextarea` in textarea tag.
+To display the Bulma textarea component in your Angular application, add the `buTextarea` directive in the `<textarea>` tag.
 
-| Directive    | Description                             |
-| ------------ | --------------------------------------- |
-| `buTextarea` | For initializing Textarea in your HTML. |
+| Directive    | Description                                         |
+| ------------ | --------------------------------------------------- |
+| `buTextarea` | For displaying a textarea element as Bulma textarea |
 
-| Properties | Description                                       |
-| ---------- | ------------------------------------------------- |
-| `theme`    | For specifying different themes to Input          |
-| `size`     | For specifying different sizes to Input           |
-| `hovered`  | For enabling hover in Textarea use hovered="true" |
-| `focus`    | For enabling hover in Textarea use focus="true"   |
-| `rounded`  | To make round shape Textarea use rounded="true"   |
+| Properties | Description                                                                              |
+| ---------- | ---------------------------------------------------------------------------------------- |
+| `theme`    | Set the theme of the textarea                                                            |
+| `size`     | Set the size of the textarea                                                             |
+| `hovered`  | Set the hover state of the textarea, default value is false                              |
+| `focus`    | Set the focus state of the textarea, default value is false                              |
+| `rounded`  | Make the edges rounded, giving the textarea a capsule like shape, default value is false |

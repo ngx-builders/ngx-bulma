@@ -1,1 +1,7 @@
-Native `<button>` and `<a>` elements are always used in order to provide the most straightforward and accessible experience for users.Buttons are aviable in different themes.We Just need to add `color` and `themes` properties, also we have option to use Light theme version set `light` property as `light=true` in your `<button buButton>Button</button>`.
+You can change the color of the button by using one of the 5 color modifiers:
+
+- `white`
+- `light`
+- `dark`
+- `black`
+- `text`

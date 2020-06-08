@@ -1,37 +1,34 @@
 # Input
 
-#### The `<input>` tag specifies an input field where the user can enter data.
+#### The text input and its variations
 
-#### Following are the different type of attributes:
-
-`type="text"`
-`type="password"`
-`type="email"`
-`type="tel"`
-
-To display a Input component in your app and verify that everything works.
-You need to import the `BulmaInputModule` that you want to display by adding the following lines to your `app.module.ts` file.
+To use an Input component in your application, you need to import the `BulmaInputModule` by adding the following lines to your `app.module.ts` file.
 
 ```javascript
-import { BulmaInputModule} from 'ngx-bulma'
- @NgModule({
-   imports: [BulmaInputModule]
- });
+import { BulmaInputModule } from 'ngx-bulma';
+
+@NgModule({
+  imports: [BulmaInputModule]
+});
 ```
 
-### Basic
+## Basic
 
-To use the Input component in your Angular application.
-Add `buInput` in Input tags.
+To display the Input component in your Angular application, add the `buInput` directive in the `<input>` tag. The `<input>` tag supports following type sttributes:
 
-| Directive | Description                           |
-| --------- | ------------------------------------- |
-| `buInput` | For initializing buInput in your HTML |
+- `type="text"`
+- `type="password"`
+- `type="email"`
+- `type="tel"`
 
-| Properties | Description                                    |
-| ---------- | ---------------------------------------------- |
-| `theme`    | For specifying different themes to Input       |
-| `size`     | For specifying different sizes to Input        |
-| `hovered`  | For enabling hover in Input use hovered="true" |
-| `focus`    | For enabling hover in Input use focus="true"   |
-| `rounded`  | To make round shape Input use rounded="true"   |
+| Directive | Description                                    |
+| --------- | ---------------------------------------------- |
+| `buInput` | For displaying an input element as Bulma input |
+
+| Properties | Description                                                                           |
+| ---------- | ------------------------------------------------------------------------------------- |
+| `theme`    | Set the theme of the Input                                                            |
+| `size`     | Set the size of the Input                                                             |
+| `hovered`  | Set the hover state of the Input, default value is false                              |
+| `focus`    | Set the focus state of the Input, default value is false                              |
+| `rounded`  | Make the edges rounded, giving the Input a capsule like shape, default value is false |
