@@ -62,7 +62,7 @@
     "@nrwl/jest": "9.3.0",
     "@types/jasmine": "3.5.10",
     "@types/jasminewd2": "2.0.8",
-    "@types/jest": "25.2.2",
+    "@types/jest": "26.0.0",
     "@types/node": "12.12.39",
     "codelyzer": "5.2.2",
     "commitizen": "4.1.2",
