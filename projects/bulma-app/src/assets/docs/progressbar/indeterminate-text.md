@@ -1,0 +1,1 @@
+The **indeterminate** progress bar is used to show that some progress is going on, but the actual duration is not yet determined. If you do not set the `value` property of the progress bar then it will be displayed as an **indeterminate** progress bar.

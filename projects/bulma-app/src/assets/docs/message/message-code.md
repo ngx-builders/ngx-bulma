@@ -1,4 +1,4 @@
-```html
+```javascript
 <bu-message>
   <bu-message-header>
     <p>Header</p>
@@ -10,7 +10,7 @@
 </bu-message>
 ```
 
-Add showMyContainer property in your app.component.ts to make it works.
+Add `showMyContainer` property in your `app.component.ts` to make it work.
 
 ```javascript
 export class MessageComponent implements OnInit {

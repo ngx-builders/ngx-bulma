@@ -1,26 +1,25 @@
 # Container
 
-A simple container to center your content horizontally.
+#### A simple container to center your content horizontally.
 
-To display a Container component in your app and verify that everything works.
-You need to import the `BulmaContainerModule` that you want to display by adding the following lines to your `app.module.ts` file.
+To use a Bulma Container component in your application, you need to import the `BulmaContainerModule` by adding the following lines to your `app.module.ts` file.
 
 ```javascript
-import { BulmaContainerModule} from 'ngx-bulma'
- @NgModule({
-   imports: [BulmaContainerModule]
- });
+import { BulmaContainerModule } from 'ngx-bulma';
+
+@NgModule({
+  imports: [BulmaContainerModule]
+});
 ```
 
-### Basic
+## Basic
 
-To use the Container component in your Angular application.
-Add `buContainer` in any div tags.
+To display the Container component in your Angular application, add the `buContainer` directive to a `<div>` tag.
 
-| Directive     | Description                              |
-| ------------- | ---------------------------------------- |
+| Directive     | Description                              |     |     |     |     |
+| ------------- | ---------------------------------------- | --- | --- | --- | --- |
 | `buContainer` | For initializing Container in your HTML. |
 
-| Property | Description                                                                |
-| -------- | -------------------------------------------------------------------------- |
-| `type`   | Depending upon breakpoints of screen you can choose fluid,widescreen,fluid |  |
+| Property | Description                                                                                           |
+| -------- | ----------------------------------------------------------------------------------------------------- |
+| `type`   | Depending on the breakpoints of the screen you can set the value to `fluid`, `widescreen` or `fullhd` |

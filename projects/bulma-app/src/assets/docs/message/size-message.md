@@ -1,4 +1,5 @@
-#### Message component comes in 3 ```SIZE``` variants.
- * ```small```
- * ```medium```
- * ```large```
+You can add one of the following **3 size modifiers** to the `<bu-message>` component:
+
+- `small`
+- `medium`
+- `large`
