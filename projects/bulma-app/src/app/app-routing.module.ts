@@ -15,92 +15,98 @@ const routes: Routes = [
       import('./gettingstarted/gettingstarted.module').then((gs) => gs.GettingstartedModule),
   },
   {
-    path: 'home',
-    loadChildren: () => import('./home/home.module').then((home) => home.HomeModule),
-  },
-  {
-    path: 'menu',
+    path: 'components/menu',
     loadChildren: () => import('./menu/menu.module').then((menu) => menu.MenuModule),
   },
   {
-    path: 'navbar',
+    path: 'components/navbar',
     loadChildren: () => import('./navbar/navbar.module').then((navbar) => navbar.NavbarModule),
   },
   {
-    path: 'message',
+    path: 'components/message',
     loadChildren: () => import('./message/message.module').then((message) => message.MessageModule),
   },
   {
-    path: 'card',
+    path: 'components/card',
     loadChildren: () => import('./card/card.module').then((card) => card.CardModule),
   },
   {
-    path: 'modal',
+    path: 'components/modal',
     loadChildren: () => import('./modal/modal.module').then((modal) => modal.ModalModule),
   },
   {
-    path: 'panel',
+    path: 'components/panel',
     loadChildren: () => import('./panel/panel.module').then((panel) => panel.PanelModule),
   },
   { path: 'tab', loadChildren: () => import('./tab/tab.module').then((tab) => tab.TabModule) },
   {
-    path: 'button',
+    path: 'elements/button',
     loadChildren: () => import('./button/button.module').then((button) => button.ButtonModule),
   },
   {
-    path: 'input',
+    path: 'form/input',
     loadChildren: () => import('./input/input.module').then((input) => input.InputModule),
   },
   {
-    path: 'textarea',
+    path: 'form/textarea',
     loadChildren: () =>
       import('./textarea/textarea.module').then((textarea) => textarea.TextareaModule),
   },
   {
-    path: 'progress',
+    path: 'elements/progress',
     loadChildren: () =>
       import('./progressbar/progressbar.module').then((progress) => progress.ProgressbarModule),
   },
   {
-    path: 'container',
+    path: 'layout/container',
     loadChildren: () =>
       import('./container/container.module').then((container) => container.ContainerModule),
   },
   {
-    path: 'footer',
+    path: 'layout/footer',
     loadChildren: () => import('./footer/footer.module').then((footer) => footer.FooterModule),
   },
   {
-    path: 'hero',
+    path: 'layout/hero',
     loadChildren: () => import('./hero/hero.module').then((hero) => hero.HeroModule),
   },
   {
     path: 'core-team',
     loadChildren: () => import('./team/team.module').then((team) => team.TeamModule),
   },
-  { path: 'box', loadChildren: () => import('./box/box.module').then((box) => box.BoxModule) },
+  {
+    path: 'elements/box',
+    loadChildren: () => import('./box/box.module').then((box) => box.BoxModule),
+  },
   // Landing Components routings
   {
-    path: 'Components',
+    path: 'components',
     loadChildren: () =>
       import('./landingcomponents/components/components.module').then(
         (comp) => comp.ComponentsModule,
       ),
   },
   {
-    path: 'Elements',
+    path: 'elements',
     loadChildren: () =>
       import('./landingcomponents/elements/elements.module').then((eles) => eles.ElementsModule),
   },
   {
-    path: 'Form',
+    path: 'form',
     loadChildren: () =>
       import('./landingcomponents/forms/forms.module').then((form) => form.FormsModule),
   },
   {
-    path: 'Layout',
+    path: 'layout',
     loadChildren: () =>
       import('./landingcomponents/layout/layout.module').then((layout) => layout.LayoutModule),
+  },
+  {
+    path: '**',
+    loadChildren: () =>
+      import('./introduction/introduction.module').then(
+        (introduction) => introduction.IntroductionModule,
+      ),
   },
 ];
 
