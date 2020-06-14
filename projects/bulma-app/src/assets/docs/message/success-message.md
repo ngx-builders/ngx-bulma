@@ -1,5 +1,5 @@
 ```javascript
-        <bu-message buMessage theme='success'>
+        <bu-message theme='success'>
             <bu-message-header>
                 <p>Header</p>
                   <button class="delete" aria-label="delete" (click)="showMyContainer=!showMyContainer"></button>
@@ -8,4 +8,4 @@
                 <p>Content..........</p>
             </bu-message-content>
         </bu-message>
- ```
+```
