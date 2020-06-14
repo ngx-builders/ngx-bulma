@@ -1,5 +1,5 @@
 ```javascript
-<bu-message buMessage size="small">
+<bu-message size="small">
   <bu-message-header>
     <p>Header</p>
     <button

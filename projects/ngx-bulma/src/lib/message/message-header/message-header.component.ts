@@ -1,17 +1,23 @@
-import { ChangeDetectionStrategy, Component, OnInit, ViewEncapsulation } from '@angular/core';
+import {
+  ChangeDetectionStrategy,
+  Component,
+  HostBinding,
+  OnInit,
+  ViewEncapsulation,
+} from '@angular/core';
 
 @Component({
   selector: 'bu-message-header',
   templateUrl: './message-header.component.html',
   styleUrls: ['./message-header.component.css'],
   encapsulation: ViewEncapsulation.None,
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class BulmaMessageHeaderComponent implements OnInit {
+  @HostBinding('class') class = 'message-header';
+
   showMyContainer = true;
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

@@ -1,5 +1,5 @@
 ```javascript
-<bu-message buMessage theme="danger">
+<bu-message theme="danger">
   <bu-message-header>
     <p>Header</p>
     <button
