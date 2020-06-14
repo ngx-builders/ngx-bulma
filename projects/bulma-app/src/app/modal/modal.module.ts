@@ -1,10 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-import {BulmaModalModule} from 'ngx-bulma';
+import { BulmaModalModule } from 'ngx-bulma';
 import { MarkdownModule } from 'ngx-markdown';
 import { ModalRoutingModule } from './modal-routing.module';
-import {ModalComponent} from './modal.component';
+import { ModalComponent } from './modal.component';
+import { BulmaButtonModule } from 'ngx-bulma';
 
 @NgModule({
   declarations: [ModalComponent],
@@ -12,8 +13,9 @@ import {ModalComponent} from './modal.component';
     CommonModule,
     ModalRoutingModule,
     BulmaModalModule,
-    MarkdownModule.forRoot({ loader: HttpClient })
+    BulmaButtonModule,
+    MarkdownModule.forRoot({ loader: HttpClient }),
   ],
-  exports: [ModalComponent]
+  exports: [ModalComponent],
 })
-export class ModalModule { }
+export class ModalModule {}
