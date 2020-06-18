@@ -2,7 +2,7 @@
 
 Angular Library with Bulma CSS
 
-![](https://github.com/santoshyadav198613/ngx-bulma/workflows/Node%20CI/badge.svg)
+![main](https://github.com/ngx-builders/ngx-bulma/workflows/main/badge.svg)
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 
 # Getting Started with ngx2-bulma
