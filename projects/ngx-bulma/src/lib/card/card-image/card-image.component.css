@@ -1,0 +1,9 @@
+.card-image {
+  display: block;
+}
+
+.content figure {
+  margin-left: 0em;
+  margin-right: 0em;
+  text-align: center;
+}
