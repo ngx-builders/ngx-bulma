@@ -6,6 +6,10 @@
 npm install
 ```
 
+### Side Note about Angular 10
+You will need to have a very recent version of node installed (tested with 14.5.0) successful build lib and portal. 
+
+
 ## Build Libraries
 ```shell
 npm run build:lib
