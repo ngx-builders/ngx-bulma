@@ -57,7 +57,7 @@
     "@commitlint/cli": "8.3.5",
     "@commitlint/config-conventional": "8.3.4",
     "@fortawesome/fontawesome-free": "5.13.0",
-    "@ngx-builders/analyze": "1.0.0",
+    "@ngx-builders/analyze": "2.0.0",
     "@nrwl/cypress": "9.4.4",
     "@nrwl/jest": "9.4.4",
     "@types/jasmine": "3.5.10",
