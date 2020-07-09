@@ -66,7 +66,7 @@ ngx2-bulma is a community-driven project. Read our [contributing guidelines](./C
 
 ## Images Credits
 
-This library would have beem incomplete without the support of Iryn Kasparova. You can connect with her on [LinkedIn](https://www.linkedin.com/in/iryn-kasparova/)
+This library would have been incomplete without the support of Iryn Kasparova. You can connect with her on [LinkedIn](https://www.linkedin.com/in/iryn-kasparova/)
 
 ## Contributors ✨
 
