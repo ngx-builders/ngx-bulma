@@ -64,6 +64,10 @@ For complete documentation refer to [ngx2-bulma](https://ngx2-bulma.netlify.com/
 
 ngx2-bulma is a community-driven project. Read our [contributing guidelines](./CONTRIBUTING.md) on how to get involved.
 
+## Images Credits
+
+This library would have beem incomplete without the support of Iryn Kasparova. You can connect with her on [LinkedIn](https://www.linkedin.com/in/iryn-kasparova/)
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
