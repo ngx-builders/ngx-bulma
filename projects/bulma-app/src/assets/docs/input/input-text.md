@@ -9,7 +9,9 @@ import { BulmaInputModule } from 'ngx-bulma';
 
 @NgModule({
   imports: [BulmaInputModule]
-});
+  // ...
+})
+export class AppModule {}
 ```
 
 ## Basic

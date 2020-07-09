@@ -5,11 +5,13 @@
 To use a Button component in your application, you need to import the `BulmaButtonModule` by adding the following lines to your `app.module.ts` file.
 
 ```javascript
-import { BulmaButtonModule} from 'ngx-bulma';
+import { BulmaButtonModule } from 'ngx-bulma';
 
 @NgModule({
-  imports: [BulmaButtonModule]
-});
+  imports: [BulmaButtonModule],
+  // ...
+})
+export class AppModule {}
 ```
 
 ## Basic

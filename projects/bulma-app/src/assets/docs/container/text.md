@@ -9,7 +9,9 @@ import { BulmaContainerModule } from 'ngx-bulma';
 
 @NgModule({
   imports: [BulmaContainerModule]
-});
+  // ...
+})
+export class AppModule {}
 ```
 
 ## Basic
@@ -18,7 +20,7 @@ To display the Container component in your Angular application, add the `buConta
 
 | Directive     | Description                              |     |     |     |     |
 | ------------- | ---------------------------------------- | --- | --- | --- | --- |
-| `buContainer` | For initializing Container in your HTML. |
+| `buContainer` | For initializing Container in your HTML  |
 
 | Property | Description                                                                                           |
 | -------- | ----------------------------------------------------------------------------------------------------- |

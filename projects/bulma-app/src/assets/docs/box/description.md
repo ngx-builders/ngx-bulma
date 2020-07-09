@@ -11,7 +11,9 @@ import { BulmaBoxModule } from 'ngx-bulma';
 
 @NgModule({
   imports: [BulmaBoxModule]
-});
+  // ...
+})
+export class AppModule {}
 ```
 
 An example box is shown below.

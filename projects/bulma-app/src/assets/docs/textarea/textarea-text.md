@@ -5,11 +5,13 @@
 The Bulma textarea is the multiline version of the input element. To use a Textarea component in your application, you need to import the `BulmaTextareaModule` by adding the following lines to your `app.module.ts` file.
 
 ```javascript
-import { BulmaTextareaModule} from 'ngx-bulma';
+import { BulmaTextareaModule } from 'ngx-bulma';
 
 @NgModule({
   imports: [BulmaTextareaModule]
-});
+  // ...
+})
+export class AppModule {}
 ```
 
 To display the Bulma textarea component in your Angular application, add the `buTextarea` directive in the `<textarea>` tag.
