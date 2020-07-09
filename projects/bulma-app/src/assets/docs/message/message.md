@@ -11,11 +11,13 @@ The Bulma message is a multi-part component which contains:
 To use a Message component in your application, you need to import the `BulmaMessageModule` by adding the following lines to your `app.module.ts` file.
 
 ```javascript
-import { BulmaMessageModule} from 'ngx-bulma';
+import { BulmaMessageModule } from 'ngx-bulma';
 
 @NgModule({
   imports: [BulmaMessageModule]
-});
+  // ...
+})
+export class AppModule {}
 ```
 
 ## Basic Message Details

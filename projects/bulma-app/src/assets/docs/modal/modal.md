@@ -5,11 +5,13 @@
 To use a Modal component in your application, you need to import the `BulmaModalModule` by adding the following lines to your `app.module.ts` file.
 
 ```javascript
-import { BulmaModalModule} from 'ngx-bulma';
+import { BulmaModalModule } from 'ngx-bulma';
 
 @NgModule({
   imports: [BulmaModalModule]
-});
+  // ...
+})
+export class AppModule {}
 ```
 
 ## Basic Modal Details

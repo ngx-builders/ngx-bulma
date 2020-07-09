@@ -9,7 +9,9 @@ import { BulmaProgressbarModule } from 'ngx-bulma';
 
 @NgModule({
   imports: [BulmaProgressbarModule]
-});
+  // ...
+})
+export class AppModule {}
 ```
 
 ### Basic

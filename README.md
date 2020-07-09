@@ -16,41 +16,49 @@ This guide explains how to setup your Angular project to begin using ngx2-bulma.
 
 # Install ngx2-bulma
 
-Use the npm command to install ngx2-bulma in your application to set up your Angular project with ngx2-bulma by running the following commands:
+Use the NPM command to install ngx2-bulma in your application to set up your Angular project with ngx2-bulma by running the following command:
 
 ```shell
 ng add ngx2-bulma
 ```
 
-The `ng add` command will install ngx2-bulma and bulma css framework.
-It will also do automate the below configuration
+The `ng add` command will install ngx2-bulma and the bulma CSS framework.
+It will also automate the configuration below.
 
-1. Add your bulma css in your in `angular.json`
+1. Add your bulma CSS in your in `angular.json`:
 
 ```json
 "styles": [
-            "projects/bulma-app/src/styles.css",
-            "node_modules/bulma/css/bulma.css"
-          ]
+  "projects/bulma-app/src/styles.css",
+  "node_modules/bulma/css/bulma.css"
+]
 ```
 
 ## Display a ngx2-bulma component
 
-Let's display a card component in your app and verify that everything works. You need to import the `BulmaCardModule` that you want to display by adding the following lines to your `app.module.ts` file.
+Let's display a card component in your app and verify that everything works. You need to import the `BulmaCardModule` that you need to display by adding the following lines to your `app.module.ts` file.
 
 ```javascript
- import { BulmaCardModule} from 'ngx-bulma';
+import { BulmaCardModule } from 'ngx-bulma';
 
- @NgModule({
-    imports: [BulmaCardModule]
-    });
+@NgModule({
+  imports: [BulmaCardModule],
+  // ...
+})
+export class AppModule {}
 ```
 
-Once you done all the above setup, now you can use the bulmacard component in your Angular application.
+Once you done all the above setup, you can use the Bulma card component in your Angular application as described [in the documentation](https://ngx2-bulma.netlify.app/components/card):
+
+```html
+<bu-card>
+  The content
+</bu-card>
+```
 
 ## Documentation
 
-For complete documentation refer: [ngx2-bulma](https://ngx2-bulma.netlify.com/).
+For complete documentation refer to [ngx2-bulma](https://ngx2-bulma.netlify.com/).
 
 ## Contributing
 
@@ -77,4 +85,4 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind are welcome!

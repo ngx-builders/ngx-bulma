@@ -7,11 +7,13 @@ The hero component allows you to add a **full width banner** to your webpage, wh
 To use a Bulma Hero component in your application, you need to import the `BulmaHeroModule` by adding the following lines to your `app.module.ts` file.
 
 ```javascript
-import { BulmaHeroModule} from 'ngx-bulma';
+import { BulmaHeroModule } from 'ngx-bulma';
 
 @NgModule({
   imports: [BulmaHeroModule]
-});
+  // ...
+})
+export class AppModule {}
 ```
 
 ## Basic

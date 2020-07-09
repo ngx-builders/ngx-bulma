@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { MarkdownModule } from 'ngx-markdown';
 import { GettingstartedRoutingModule } from './gettingstarted-routing.module';
-import {GettingstartedComponent} from './gettingstarted.component';
+import { GettingstartedComponent } from './gettingstarted.component';
 
 @NgModule({
   declarations: [GettingstartedComponent],

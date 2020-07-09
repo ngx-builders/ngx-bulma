@@ -9,16 +9,16 @@ This guide explains how to setup your Angular project to begin using ngx2-bulma.
 
 # Install ngx2-bulma
 
-Use the npm command to install ngx2-bulma in your application to set up your Angular project with ngx2-bulma by running the following commands:
+Use the NPM command to install ngx2-bulma in your application to set up your Angular project with ngx2-bulma by running the following command:
 
 ```shell
 ng add ngx2-bulma
 ```
 
-The `ng add` command will install ngx2-bulma and bulma css framework.
-It will also do automate the below configuration
+The `ng add` command will install ngx2-bulma and the bulma CSS framework.
+It will also do automate the configuration below.
 
-1. Add your bulma css in your in `angular.json`
+1. Add your bulma CSS in your in `angular.json`:
 
 ```json
 "styles": [
@@ -32,11 +32,13 @@ It will also do automate the below configuration
 Let's display a card component in your app and verify that everything works. You need to import the `BulmaCardModule` that you want to display by adding the following lines to your `app.module.ts` file.
 
 ```javascript
- import { BulmaCardModule} from 'ngx-bulma';
+import { BulmaCardModule } from 'ngx-bulma';
 
- @NgModule({
-    imports: [BulmaCardModule]
-    });
+@NgModule({
+  imports: [BulmaCardModule]
+  // ...
+})
+export class AppModule {}
 ```
 
-Once you done all the above setup, now you can use the bulmacard component in your Angular application.
+Once you done all the above setup, now you can use the Bulma card component in your Angular application.
