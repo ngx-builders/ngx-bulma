@@ -73,16 +73,16 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/haroon786"><img src="https://avatars0.githubusercontent.com/u/20164301?v=4" width="100px;" alt=""/><br /><sub><b>HaroonJ</b></sub></a><br /><a href="https://github.com/santoshyadav198613/ngx-bulma/commits?author=haroon786" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/ankitsaini345"><img src="https://avatars2.githubusercontent.com/u/37847177?v=4" width="100px;" alt=""/><br /><sub><b>Ankit Saini</b></sub></a><br /><a href="https://github.com/santoshyadav198613/ngx-bulma/commits?author=ankitsaini345" title="Code">💻</a></td>
-    <td align="center"><a href="https://www.santoshyadav.dev"><img src="https://avatars3.githubusercontent.com/u/11923975?v=4" width="100px;" alt=""/><br /><sub><b>Santosh Yadav</b></sub></a><br /><a href="https://github.com/santoshyadav198613/ngx-bulma/commits?author=santoshyadav198613" title="Code">💻</a></td>
-    <td align="center"><a href="https://ankitsharmablogs.com/"><img src="https://avatars1.githubusercontent.com/u/33789321?v=4" width="100px;" alt=""/><br /><sub><b>Ankit</b></sub></a><br /><a href="https://github.com/santoshyadav198613/ngx-bulma/commits?author=AnkitSharma-007" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/haroon786"><img src="https://avatars0.githubusercontent.com/u/20164301?v=4" width="100px;" alt=""/><br /><sub><b>HaroonJ</b></sub></a><br /><a href="https://github.com/ngx-builders/ngx-bulma/commits?author=haroon786" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/ankitsaini345"><img src="https://avatars2.githubusercontent.com/u/37847177?v=4" width="100px;" alt=""/><br /><sub><b>Ankit Saini</b></sub></a><br /><a href="https://github.com/ngx-builders/ngx-bulma/commits?author=ankitsaini345" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.santoshyadav.dev"><img src="https://avatars3.githubusercontent.com/u/11923975?v=4" width="100px;" alt=""/><br /><sub><b>Santosh Yadav</b></sub></a><br /><a href="https://github.com/ngx-builders/ngx-bulma/commits?author=santoshyadav198613" title="Code">💻</a></td>
+    <td align="center"><a href="https://ankitsharmablogs.com/"><img src="https://avatars1.githubusercontent.com/u/33789321?v=4" width="100px;" alt=""/><br /><sub><b>Ankit</b></sub></a><br /><a href="https://github.com/ngx-builders/ngx-bulma/commits?author=AnkitSharma-007" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.ferdinand-malcher.de"><img src="https://avatars1.githubusercontent.com/u/1683147?v=4" width="100px;" alt=""/><br /><sub><b>Ferdinand Malcher</b></sub></a><br /><a href="https://github.com/ngx-builders/ngx-bulma/commits?author=fmalcher" title="Code">💻</a></td>
   </tr>
 </table>
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
-
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind are welcome!
