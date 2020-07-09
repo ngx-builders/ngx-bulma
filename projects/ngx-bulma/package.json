@@ -1,6 +1,6 @@
 {
   "name": "ngx2-bulma",
-  "version": "0.0.1-beta3",
+  "version": "0.0.2",
   "scripts": {
     "build": "tsc -p tsconfig.schematics.json",
     "copy:schemas": "cp --parents schematics/*/schema.json ../../dist/ngx-bulma/",
