@@ -8,9 +8,7 @@
       />
     </a>
     <a
-      (click)="toggleNavbar()"
       role="button"
-      #navBurger
       class="navbar-burger burger"
       aria-label="menu"
       aria-expanded="false"
@@ -21,7 +19,7 @@
       <span aria-hidden="true"></span>
     </a>
   </bu-nav-brand>
-  <div id="ngxBulmaNavbar" (click)="toggleNavbar()" class="navbar-menu" #navMenu>
+  <div id="ngxBulmaNavbar" class="navbar-menu">
     <bu-navbar-start>
       <a buNavItem [routerLink]="['']" routerLinkActive="router-link-active">Introduction</a>
       <bu-navbar-link title="Components">
