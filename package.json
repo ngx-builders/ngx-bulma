@@ -44,7 +44,7 @@
     "prism-themes": "1.4.0",
     "renamer": "2.0.1",
     "rxjs": "6.6.2",
-    "schematics-utilities": "2.0.1",
+    "schematics-utilities": "2.0.2",
     "tslib": "2.0.0",
     "zone.js": "0.10.3"
   },
