@@ -2,12 +2,12 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import {
-  BulmaCardModule,
-  BulmaContainerModule,
-  BulmaFooterModule,
-  BulmaNavbarModule,
-} from 'ngx-bulma';
+import { BulmaCardModule } from '@ngx-builders/ngx-bulma/card';
+
+import { BulmaContainerModule } from '@ngx-builders/ngx-bulma/container';
+import { BulmaFooterModule } from '@ngx-builders/ngx-bulma/footer';
+
+import { BulmaNavbarModule } from '@ngx-builders/ngx-bulma/navbar';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';

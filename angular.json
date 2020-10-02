@@ -54,7 +54,7 @@
         }
       }
     },
-    "@ngx-builders/bulma-app": {
+    "bulma-app": {
       "projectType": "application",
       "schematics": {},
       "root": "projects/bulma-app",

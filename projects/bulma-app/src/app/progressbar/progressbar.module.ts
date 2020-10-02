@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-import { BulmaProgressbarModule } from 'ngx-bulma';
+import { BulmaProgressbarModule } from '@ngx-builders/ngx-bulma/progressbar';
 import { MarkdownModule } from 'ngx-markdown';
 import { ProgressbarRoutingModule } from './progressbar-routing.module';
 import { ProgressbarComponent } from './progressbar.component';
@@ -12,8 +12,8 @@ import { ProgressbarComponent } from './progressbar.component';
     CommonModule,
     ProgressbarRoutingModule,
     BulmaProgressbarModule,
-    MarkdownModule.forRoot({ loader: HttpClient })
+    MarkdownModule.forRoot({ loader: HttpClient }),
   ],
-  exports: [ProgressbarComponent]
+  exports: [ProgressbarComponent],
 })
-export class ProgressbarModule { }
+export class ProgressbarModule {}
