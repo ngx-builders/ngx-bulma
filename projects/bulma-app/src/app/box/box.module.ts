@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-import { BulmaBoxModule } from 'ngx-bulma';
+import { BulmaBoxModule } from '@ngx-builders/ngx-bulma/box';
 import { MarkdownModule } from 'ngx-markdown';
 import { BoxRoutingModule } from './box-routing.module';
 import { BoxComponent } from './box/box.component';

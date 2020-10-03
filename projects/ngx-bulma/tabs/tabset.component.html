@@ -1,0 +1,27 @@
+<div class="tab-group">
+  <ng-container>
+    <ul>
+      <li *ngFor="let tabz of tabs; let i = index" [class.is-active]="tabz.active">
+        <a
+          href="javascript:void(0);"
+          role="tab"
+          [class.active]="tabz.active"
+          [class.disabled]="tabz.disabled"
+          (click)="tabz.active = true"
+        >
+          <span>{{ tabz.heading }}</span>
+          <span
+            *ngIf="tabz.removable"
+            (click)="$event.preventDefault(); removeTab(tabz)"
+            class="bs-remove-tab"
+          >
+            &#10060;</span
+          >
+        </a>
+      </li>
+    </ul>
+  </ng-container>
+  <div class="tab-content">
+    <ng-content></ng-content>
+  </div>
+</div>

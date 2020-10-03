@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-import { BulmaTextareaModule } from 'ngx-bulma';
+import { BulmaTextareaModule } from '@ngx-builders/ngx-bulma/textarea';
 import { MarkdownModule } from 'ngx-markdown';
 import { TextareaRoutingModule } from './textarea-routing.module';
 import { TextareaComponent } from './textarea.component';

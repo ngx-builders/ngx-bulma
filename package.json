@@ -1,12 +1,12 @@
 {
-  "name": "ngx-bulma",
+  "name": "@ngx-builders/ngx-bulma",
   "version": "0.0.2",
   "scripts": {
     "release": "standard-version",
     "ng": "ng",
     "start": "ng serve",
-    "build:prod:lib": "ng build ngx-bulma --prod && npm run schematics:build",
-    "build:lib": "ng build ngx-bulma --prod",
+    "build:prod:lib": "ng build @ngx-builders/ngx-bulma --prod && npm run schematics:build",
+    "build:lib": "ng build @ngx-builders/ngx-bulma --prod",
     "serve:app": "npm run build:lib && ng serve bulma-app -o",
     "build:lib:watch": "ng build ngx-bulma --watch",
     "build-docs": "npm run build:lib && ng build bulma-app",
@@ -39,6 +39,7 @@
     "core-js": "3.6.5",
     "font-awesome": "4.7.0",
     "marked": "1.1.1",
+    "ng-samurai": "^2.0.5",
     "ngx-markdown": "9.1.1",
     "ngx-semantic-version": "2.1.0",
     "prism-themes": "1.4.0",

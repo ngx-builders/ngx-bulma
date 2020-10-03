@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-import { BulmaTabsModule } from 'ngx-bulma';
+import { BulmaTabsModule } from '@ngx-builders/ngx-bulma/tabs';
 import { MarkdownModule } from 'ngx-markdown';
 import { TabRoutingModule } from './tab-routing.module';
 import { TabComponent } from './tab.component';

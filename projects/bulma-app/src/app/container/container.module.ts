@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-import { BulmaContainerModule } from 'ngx-bulma';
+import { BulmaContainerModule } from '@ngx-builders/ngx-bulma/container';
 import { MarkdownModule } from 'ngx-markdown';
 import { ContainerRoutingModule } from './container-routing.module';
 import { ContainerComponent } from './container.component';
@@ -12,8 +12,8 @@ import { ContainerComponent } from './container.component';
     CommonModule,
     ContainerRoutingModule,
     BulmaContainerModule,
-    MarkdownModule.forRoot({ loader: HttpClient })
+    MarkdownModule.forRoot({ loader: HttpClient }),
   ],
-  exports: [ContainerComponent]
+  exports: [ContainerComponent],
 })
-export class ContainerModule { }
+export class ContainerModule {}
