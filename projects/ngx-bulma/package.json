@@ -1,12 +1,6 @@
 {
-  "name": "ngx2-bulma",
-  "version": "0.0.1-beta3",
-  "scripts": {
-    "build": "tsc -p tsconfig.schematics.json",
-    "copy:schemas": "cp --parents schematics/*/schema.json ../../dist/ngx-bulma/",
-    "copy:collection": "cp schematics/collection.json ../../dist/ngx-bulma/schematics/collection.json",
-    "postbuild": "npm run copy:schemas && npm run copy:collection"
-  },
+  "name": "@ngx-builders/ngx-bulma",
+  "version": "0.0.2",
   "schematics": "./schematics/collection.json",
   "ng-add": {
     "save": "dependencies"

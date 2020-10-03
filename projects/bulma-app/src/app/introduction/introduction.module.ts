@@ -1,7 +1,9 @@
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-import { BulmaButtonModule, BulmaContainerModule, BulmaHeroModule } from 'ngx-bulma';
+import { BulmaButtonModule } from '@ngx-builders/ngx-bulma/button';
+import { BulmaContainerModule } from '@ngx-builders/ngx-bulma/container';
+import { BulmaHeroModule } from '@ngx-builders/ngx-bulma/hero';
 import { MarkdownModule } from 'ngx-markdown';
 import { IntroductionRoutingModule } from './introduction-routing.module';
 import { IntroductionComponent } from './introduction.component';
@@ -14,9 +16,8 @@ import { IntroductionComponent } from './introduction.component';
     BulmaHeroModule,
     BulmaButtonModule,
     BulmaContainerModule,
-    MarkdownModule.forRoot({ loader: HttpClient })
-
+    MarkdownModule.forRoot({ loader: HttpClient }),
   ],
-  exports: [IntroductionComponent]
+  exports: [IntroductionComponent],
 })
-export class IntroductionModule { }
+export class IntroductionModule {}

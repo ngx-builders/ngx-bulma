@@ -7,9 +7,11 @@ The menu is a vertical navigation component which consists of `menu-header` , `m
 To use a Menu component in your application, you need to import the `BulmaMenuModule` by adding the following lines to your `app.module.ts` file.
 
 ```javascript
-import { BulmaMenuModule} from 'ngx-bulma';
+import { BulmaMenuModule } from 'ngx-bulma';
 
 @NgModule({
   imports: [BulmaMenuModule]
-});
+  // ...
+})
+export class AppModule {}
 ```

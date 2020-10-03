@@ -40,11 +40,29 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "fmalcher",
+      "name": "Ferdinand Malcher",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1683147?v=4",
+      "profile": "https://www.ferdinand-malcher.de",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "shanmukhateja",
+      "name": "shanmukhateja",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/43369891?v=4",
+      "profile": "https://github.com/shanmukhateja",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
   "projectName": "ngx-bulma",
-  "projectOwner": "santoshyadav198613",
+  "projectOwner": "ngx-builders",
   "repoType": "github",
   "repoHost": "https://github.com",
   "skipCi": true

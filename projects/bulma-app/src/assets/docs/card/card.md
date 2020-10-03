@@ -7,11 +7,13 @@ A card is a flexible and extensible content container. It includes options for h
 To use a Card component in your application, you need to import the `BulmaCardModule` by adding the following lines to your `app.module.ts` file.
 
 ```javascript
-import { BulmaCardModule} from 'ngx-bulma';
+import { BulmaCardModule } from 'ngx-bulma';
 
 @NgModule({
-  imports: [BulmaCardModule]
-});
+  imports: [BulmaCardModule],
+  // ...
+})
+export class AppModule {}
 ```
 
 ## Basic Card Details

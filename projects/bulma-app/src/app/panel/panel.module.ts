@@ -1,10 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-import {BulmaPanelModule} from 'ngx-bulma';
+import { BulmaPanelModule } from '@ngx-builders/ngx-bulma/panel';
 import { MarkdownModule } from 'ngx-markdown';
 import { PanelRoutingModule } from './panel-routing.module';
-import {PanelComponent} from './panel.component';
+import { PanelComponent } from './panel.component';
 
 @NgModule({
   declarations: [PanelComponent],
@@ -12,8 +12,8 @@ import {PanelComponent} from './panel.component';
     CommonModule,
     PanelRoutingModule,
     BulmaPanelModule,
-    MarkdownModule.forRoot({ loader: HttpClient })
+    MarkdownModule.forRoot({ loader: HttpClient }),
   ],
-  exports: [PanelComponent]
+  exports: [PanelComponent],
 })
-export class PanelModule { }
+export class PanelModule {}

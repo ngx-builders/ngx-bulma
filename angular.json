@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ngx-bulma": {
+    "@ngx-builders/ngx-bulma": {
       "projectType": "library",
       "root": "projects/ngx-bulma",
       "sourceRoot": "projects/ngx-bulma/src",
@@ -180,7 +180,7 @@
       }
     }
   },
-  "defaultProject": "ngx-bulma",
+  "defaultProject": "@ngx-builders/ngx-bulma",
   "schematics": {
     "@nrwl/angular:application": {
       "unitTestRunner": "jest",
