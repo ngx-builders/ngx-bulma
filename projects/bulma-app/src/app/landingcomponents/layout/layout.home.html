@@ -7,7 +7,7 @@
 <hr />
 
 <div buContainer class="nav-link-parent columns is-multiline">
-  <a class="header column is-6" [routerLink]="['/container']">
+  <a class="header column is-6" [routerLink]="['container']">
     <div class="nav-link-container">
       <i class="fas fa-box" aria-hidden="true"></i> Container
       <p class="nav-link-description subtitle is-5">
@@ -16,7 +16,7 @@
     </div>
   </a>
   <hr />
-  <a class="header column is-6" [routerLink]="['/hero']">
+  <a class="header column is-6" [routerLink]="['hero']">
     <div class="nav-link-container">
       <i class="fas fa-magic" aria-hidden="true"></i> Hero
       <p class="nav-link-description subtitle is-5">
@@ -24,11 +24,19 @@
       </p>
     </div>
   </a>
-  <a class="header column is-6" [routerLink]="['/footer']">
+  <a class="header column is-6" [routerLink]="['footer']">
     <div class="nav-link-container">
       <i class="fas fa-road" aria-hidden="true"></i> Footer
       <p class="nav-link-description subtitle is-5">
         A simple responsive footer which can include anything.
+      </p>
+    </div>
+  </a>
+  <a class="header column is-6" [routerLink]="['tile']">
+    <div class="nav-link-container">
+      <i class="fas fa-th" aria-hidden="true"></i> Tiles
+      <p class="nav-link-description subtitle is-5">
+        A single tile element to build 2-dimensional grids.
       </p>
     </div>
   </a>
