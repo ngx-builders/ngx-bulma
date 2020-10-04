@@ -9,7 +9,7 @@ import {
 @Component({
   selector: 'bu-message-header',
   templateUrl: './message-header.component.html',
-  styleUrls: ['./message-header.component.css'],
+  styleUrls: ['./message-header.component.scss'],
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

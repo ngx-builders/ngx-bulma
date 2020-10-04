@@ -3,7 +3,7 @@ import { ChangeDetectionStrategy, Component, HostBinding, ViewEncapsulation } fr
 @Component({
   selector: 'bu-box',
   templateUrl: './box.component.html',
-  styleUrls: ['./box.component.css'],
+  styleUrls: ['./box.component.scss'],
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

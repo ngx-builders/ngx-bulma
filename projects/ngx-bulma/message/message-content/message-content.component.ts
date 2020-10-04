@@ -9,7 +9,7 @@ import {
 @Component({
   selector: 'bu-message-content',
   templateUrl: './message-content.component.html',
-  styleUrls: ['./message-content.component.css'],
+  styleUrls: ['./message-content.component.scss'],
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

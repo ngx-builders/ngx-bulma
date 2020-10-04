@@ -3,7 +3,7 @@ import { ChangeDetectionStrategy, Component, OnInit, ViewEncapsulation } from '@
 @Component({
   selector: 'bu-menu-header',
   templateUrl: './menu-header.component.html',
-  styleUrls: ['./menu-header.component.css'],
+  styleUrls: ['./menu-header.component.scss'],
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

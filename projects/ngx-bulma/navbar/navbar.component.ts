@@ -16,7 +16,7 @@ import { BulmaNavbarBrandComponent } from './navbar-brand/navbar-brand.component
 @Component({
   selector: 'bu-nav',
   templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.css'],
+  styleUrls: ['./navbar.component.scss'],
   providers: [SharedService],
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,

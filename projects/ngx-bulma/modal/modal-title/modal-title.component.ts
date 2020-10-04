@@ -9,7 +9,7 @@ import {
 @Component({
   selector: 'bu-modal-title',
   templateUrl: './modal-title.component.html',
-  styleUrls: ['./modal-title.component.css'],
+  styleUrls: ['./modal-title.component.scss'],
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

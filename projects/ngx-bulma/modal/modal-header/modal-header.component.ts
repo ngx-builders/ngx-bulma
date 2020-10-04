@@ -3,7 +3,7 @@ import { ChangeDetectionStrategy, Component, OnInit, ViewEncapsulation } from '@
 @Component({
   selector: 'bu-modal-header',
   templateUrl: './modal-header.component.html',
-  styleUrls: ['./modal-header.component.css'],
+  styleUrls: ['./modal-header.component.scss'],
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

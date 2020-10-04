@@ -3,7 +3,7 @@ import { ChangeDetectionStrategy, Component, OnInit, ViewEncapsulation } from '@
 @Component({
   selector: 'bu-panel-heading',
   templateUrl: './panel-heading.component.html',
-  styleUrls: ['./panel-heading.component.css'],
+  styleUrls: ['./panel-heading.component.scss'],
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

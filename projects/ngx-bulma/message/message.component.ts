@@ -10,7 +10,7 @@ import {
 @Component({
   selector: 'bu-message',
   templateUrl: './message.component.html',
-  styleUrls: ['./message.component.css'],
+  styleUrls: ['./message.component.scss'],
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
   // tslint:disable-next-line:no-host-metadata-property

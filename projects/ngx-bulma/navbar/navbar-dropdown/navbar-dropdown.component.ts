@@ -12,7 +12,7 @@ import {
 @Component({
   selector: 'bu-navbar-dropdown',
   templateUrl: './navbar-dropdown.component.html',
-  styleUrls: ['./navbar-dropdown.component.css'],
+  styleUrls: ['./navbar-dropdown.component.scss'],
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

@@ -3,7 +3,7 @@ import { ChangeDetectionStrategy, Component, OnInit, ViewEncapsulation } from '@
 @Component({
   selector: 'bu-panel-block',
   templateUrl: './panel-block.component.html',
-  styleUrls: ['./panel-block.component.css'],
+  styleUrls: ['./panel-block.component.scss'],
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
