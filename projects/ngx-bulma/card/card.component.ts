@@ -9,7 +9,7 @@ import {
 @Component({
   selector: 'bu-card',
   templateUrl: './card.component.html',
-  styleUrls: ['./card.component.css'],
+  styleUrls: ['./card.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
   encapsulation: ViewEncapsulation.None,
 })

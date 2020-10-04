@@ -3,7 +3,7 @@ import { ChangeDetectionStrategy, Component, OnInit, ViewEncapsulation } from '@
 @Component({
   selector: 'bu-bulma-pagination',
   templateUrl: './pagination.component.html',
-  styleUrls: ['./pagination.component.css'],
+  styleUrls: ['./pagination.component.scss'],
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

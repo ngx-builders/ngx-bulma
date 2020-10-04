@@ -9,7 +9,7 @@ import {
 @Component({
   selector: 'bu-navbar-end',
   templateUrl: './navbar-end.component.html',
-  styleUrls: ['./navbar-end.component.css'],
+  styleUrls: ['./navbar-end.component.scss'],
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

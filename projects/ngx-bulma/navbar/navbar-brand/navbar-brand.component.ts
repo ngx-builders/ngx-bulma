@@ -3,7 +3,7 @@ import { ChangeDetectionStrategy, Component, OnInit, ViewEncapsulation } from '@
 @Component({
   selector: 'bu-nav-brand',
   templateUrl: './navbar-brand.component.html',
-  styleUrls: ['./navbar-brand.component.css'],
+  styleUrls: ['./navbar-brand.component.scss'],
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

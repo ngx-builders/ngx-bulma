@@ -12,7 +12,7 @@ import { SharedService } from '@ngx-builders/ngx-bulma/services';
 @Component({
   selector: 'bu-hero',
   templateUrl: './hero.component.html',
-  styleUrls: ['./hero.component.css'],
+  styleUrls: ['./hero.component.scss'],
   providers: [SharedService],
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,

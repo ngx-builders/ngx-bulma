@@ -11,7 +11,7 @@ import {
 @Component({
   selector: 'bu-breadcrumb',
   templateUrl: './breadcrumb.component.html',
-  styleUrls: ['./breadcrumb.component.css'],
+  styleUrls: ['./breadcrumb.component.scss'],
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

@@ -3,7 +3,7 @@ import { ChangeDetectionStrategy, Component, OnInit, ViewEncapsulation } from '@
 @Component({
   selector: 'bu-modal-footer',
   templateUrl: './modal-footer.component.html',
-  styleUrls: ['./modal-footer.component.css'],
+  styleUrls: ['./modal-footer.component.scss'],
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

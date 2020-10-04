@@ -12,7 +12,7 @@ import { SharedService } from '@ngx-builders/ngx-bulma/services';
 @Component({
   selector: 'bu-panel',
   templateUrl: './panel.component.html',
-  styleUrls: ['./panel.component.css'],
+  styleUrls: ['./panel.component.scss'],
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })

@@ -10,7 +10,7 @@ import {
 @Component({
   selector: 'bu-navbar-link',
   templateUrl: './navbar-link.component.html',
-  styleUrls: ['./navbar-link.component.css'],
+  styleUrls: ['./navbar-link.component.scss'],
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
