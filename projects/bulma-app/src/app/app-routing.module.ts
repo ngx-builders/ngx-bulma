@@ -71,6 +71,10 @@ const routes: Routes = [
     loadChildren: () => import('./hero/hero.module').then((hero) => hero.HeroModule),
   },
   {
+    path: 'layout/tiles',
+    loadChildren: () => import('./tile/tile.module').then((tile) => tile.TileModule),
+  },
+  {
     path: 'core-team',
     loadChildren: () => import('./team/team.module').then((team) => team.TeamModule),
   },
