@@ -9,7 +9,7 @@
     "build:lib": "ng build @ngx-builders/ngx-bulma --prod",
     "serve:app": "npm run build:lib && ng serve bulma-app -o",
     "build:lib:watch": "ng build @ngx-builders/ngx-bulma --watch",
-    "build-docs": "npm run build:lib && ng build bulma-app",
+    "build-docs": "ng build bulma-app",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
