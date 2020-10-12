@@ -43,6 +43,9 @@ export class BulmaButtonDirective implements OnInit {
   @Input()
   loading = false;
 
+  @Input()
+  delete = false;
+
   defaultClass = 'button';
 
   constructor(
@@ -87,6 +90,10 @@ export class BulmaButtonDirective implements OnInit {
     }
     if (this.loading) {
       this.renderer.addClass(this.el.nativeElement, 'is-loading');
+    }
+    if (this.delete) {
+      this.renderer.addClass(this.el.nativeElement, 'delete');
+      this.renderer.removeClass(this.el.nativeElement, this.defaultClass);
     }
   }
 }

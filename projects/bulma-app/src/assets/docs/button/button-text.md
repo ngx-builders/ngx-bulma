@@ -30,6 +30,7 @@ To display the Button component in your Angular application, add the `buButton` 
 | `outlined` | Set the outlined style of the Button, default value is false                           |     |
 | `inverted` | Set the inverted style of the Button, default value is false                           |     |
 | `rounded`  | Make the edges rounded, giving the button a capsule like shape, default value is false |     |
+| `delete`   | Render the button as a delete button, default value is false                           |     |
 | `hovered`  | Set the hover state of the Button, default value is false                              |     |
 | `focus`    | Set the focus state of the Button, default value is false                              |     |
 | `active`   | Set the active state of the Button, default value is false                             |     |
