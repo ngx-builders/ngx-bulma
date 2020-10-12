@@ -1,0 +1,116 @@
+<markdown [src]="'assets/docs/tag/tag-description.md'"></markdown>
+
+<h3>Default</h3>
+<div class="parent-container">
+  <div class="component-container">
+    <bu-tag>Tag label</bu-tag>
+  </div>
+  <div class="code-snippet-container">
+    <markdown [src]="'assets/docs/tag/default.md'"></markdown>
+  </div>
+</div>
+<hr />
+<h3>Themes</h3>
+<markdown [src]="'assets/docs/tag/tag-theme.md'"></markdown>
+<br />
+<div class="parent-container">
+  <div class="component-container">
+    <bu-tag theme="black">Black</bu-tag>
+    <bu-tag theme="dark">Dark</bu-tag>
+    <bu-tag theme="light">Light</bu-tag>
+    <bu-tag theme="white">white</bu-tag>
+    <bu-tag theme="primary">Primary</bu-tag>
+    <bu-tag theme="link">Link</bu-tag>
+    <bu-tag theme="info">Info</bu-tag>
+    <bu-tag theme="success">Success</bu-tag>
+    <bu-tag theme="warning">Warning</bu-tag>
+    <bu-tag theme="danger">Danger</bu-tag>
+  </div>
+  <div class="code-snippet-container">
+    <markdown [src]="'assets/docs/tag/theme.md'" lineNumbers></markdown>
+  </div>
+</div>
+<hr />
+<h3>Light theme version</h3>
+<markdown [src]="'assets/docs/tag/tag-light-theme.md'"></markdown>
+<br />
+<div class="parent-container">
+  <div class="component-container">
+    <bu-tag theme="primary" light="true">Primary</bu-tag>
+    <bu-tag theme="link" light="true">Link</bu-tag>
+    <bu-tag theme="info" light="true">Info</bu-tag>
+    <bu-tag theme="success" light="true">Success</bu-tag>
+    <bu-tag theme="warning" light="true">Warning</bu-tag>
+    <bu-tag theme="danger" light="true">Danger</bu-tag>
+  </div>
+  <div class="code-snippet-container">
+    <markdown [src]="'assets/docs/tag/themelight.md'" lineNumbers></markdown>
+  </div>
+</div>
+<hr />
+<h3>Sizes</h3>
+<markdown [src]="'assets/docs/tag/tag-size.md'"></markdown>
+<br />
+<div class="parent-container">
+  <div class="component-container">
+    <bu-tag theme="link" size="normal">Normal</bu-tag>
+    <bu-tag theme="primary" size="medium">Medium</bu-tag>
+    <bu-tag theme="info" size="large">Large</bu-tag>
+  </div>
+  <div class="code-snippet-container">
+    <markdown [src]="'assets/docs/tag/size.md'" lineNumbers></markdown>
+  </div>
+</div>
+<hr />
+<h3>Rounded tags</h3>
+<markdown [src]="'assets/docs/tag/tag-rounded.md'"></markdown>
+<br />
+<div class="parent-container">
+  <div class="component-container">
+    <bu-tag theme="primary" rounded="true">Primary</bu-tag>
+    <bu-tag theme="link" rounded="true">Link</bu-tag>
+    <bu-tag theme="info" rounded="true">Info</bu-tag>
+    <bu-tag theme="success" rounded="true">Success</bu-tag>
+    <bu-tag theme="warning" rounded="true">Warning</bu-tag>
+    <bu-tag theme="danger" rounded="true">Danger</bu-tag>
+  </div>
+  <div class="code-snippet-container">
+    <markdown [src]="'assets/docs/tag/rounded.md'" lineNumbers></markdown>
+  </div>
+</div>
+<hr />
+<h3>Tags as delete buttons</h3>
+<markdown [src]="'assets/docs/tag/tag-delete.md'"></markdown>
+<br />
+<div class="parent-container">
+  <div class="component-container">
+    <bu-tag delete="true"></bu-tag>
+    <bu-tag theme="primary" delete="true"></bu-tag>
+    <bu-tag theme="link" delete="true"></bu-tag>
+    <bu-tag theme="info" delete="true" rounded="true"></bu-tag>
+    <bu-tag theme="success" delete="true" rounded="true"></bu-tag>
+    <bu-tag theme="warning" delete="true" size="medium"></bu-tag>
+    <bu-tag theme="danger" delete="true" rounded="true" size="large"></bu-tag>
+  </div>
+  <div class="code-snippet-container">
+    <markdown [src]="'assets/docs/tag/delete.md'" lineNumbers></markdown>
+  </div>
+</div>
+<hr />
+<h3>Combinations</h3>
+<markdown [src]="'assets/docs/tag/tag-combination.md'"></markdown>
+<br />
+<div class="parent-container">
+  <div class="component-container">
+    <bu-tag theme="success">Bar<button buButton size="small" delete="true"></button></bu-tag>
+    <bu-tag theme="warning" size="medium"
+      >Hello<button buButton size="small" delete="true"></button
+    ></bu-tag>
+    <bu-tag theme="danger" size="large"
+      >World<button buButton size="small" delete="true"></button
+    ></bu-tag>
+  </div>
+  <div class="code-snippet-container">
+    <markdown [src]="'assets/docs/tag/combination.md'" lineNumbers></markdown>
+  </div>
+</div>
