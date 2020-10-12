@@ -17,7 +17,7 @@ import {
   host: {
     '[class.is-black]': 'theme === "black"',
     '[class.is-dark]': 'theme === "dark"',
-    '[class.is-light]': 'theme === "light" || light=== "true"',
+    '[class.is-light]': 'theme === "light" || light',
     '[class.is-white]': 'theme === "white"',
     '[class.is-primary]': 'theme === "primary"',
     '[class.is-link]': 'theme === "link"',
@@ -28,8 +28,8 @@ import {
     '[class.is-normal]': 'size === "normal"',
     '[class.is-medium]': 'size === "medium"',
     '[class.is-large]': 'size === "large"',
-    '[class.is-rounded]': 'rounded === "true"',
-    '[class.is-delete]': 'delete === "true"',
+    '[class.is-rounded]': 'rounded',
+    '[class.is-delete]': 'delete',
   },
 })
 export class BulmaTagComponent implements OnInit {
