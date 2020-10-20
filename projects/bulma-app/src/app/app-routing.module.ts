@@ -82,6 +82,10 @@ const routes: Routes = [
     path: 'elements/box',
     loadChildren: () => import('./box/box.module').then((box) => box.BoxModule),
   },
+  {
+    path: 'elements/tag',
+    loadChildren: () => import('./tag/tag.module').then((tag) => tag.TagModule),
+  },
   // Landing Components routings
   {
     path: 'components',
