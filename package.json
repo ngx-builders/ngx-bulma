@@ -41,7 +41,7 @@
     "marked": "1.1.1",
     "ng-samurai": "^2.0.5",
     "ngx-markdown": "9.1.1",
-    "ngx-semantic-version": "2.1.0",
+    "ngx-semantic-version": "2.3.0",
     "prism-themes": "1.4.0",
     "renamer": "2.0.1",
     "rxjs": "6.6.2",
