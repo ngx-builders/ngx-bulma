@@ -58,6 +58,11 @@ const routes: Routes = [
       import('./progressbar/progressbar.module').then((progress) => progress.ProgressbarModule),
   },
   {
+    path: 'elements/table',
+    loadChildren: () =>
+      import('./table/table.module').then((table) => table.TableModule),
+  },
+  {
     path: 'layout/container',
     loadChildren: () =>
       import('./container/container.module').then((container) => container.ContainerModule),

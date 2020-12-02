@@ -19,3 +19,4 @@ export * from '@ngx-builders/ngx-bulma/footer';
 export * from '@ngx-builders/ngx-bulma/hero';
 export * from '@ngx-builders/ngx-bulma/tile';
 export * from '@ngx-builders/ngx-bulma/tag';
+export * from '@ngx-builders/ngx-bulma/table';
