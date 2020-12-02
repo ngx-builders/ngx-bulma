@@ -1,0 +1,24 @@
+```javascript
+<table class="table" buTable hoverable="true">
+  <thead>
+    <tr>
+      <th>One</th>
+      <th>Two</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Three</td>
+      <td>Four</td>
+    </tr>
+    <tr>
+      <td>Five</td>
+      <td>Six</td>
+    </tr>
+    <tr>
+      <td>Seven</td>
+      <td>Eight</td>
+    </tr>
+  </tbody>
+</table>
+```

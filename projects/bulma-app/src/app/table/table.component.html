@@ -1,74 +1,130 @@
-<table class="table" buTable [hoverable]="true">
-  <thead>
-    <tr>
-      <th><abbr title="Position">Pos</abbr></th>
-      <th>Team</th>
-      <th><abbr title="Played">Pld</abbr></th>
-      <th><abbr title="Won">W</abbr></th>
-      <th><abbr title="Drawn">D</abbr></th>
-      <th><abbr title="Lost">L</abbr></th>
-      <th><abbr title="Goals for">GF</abbr></th>
-      <th><abbr title="Goals against">GA</abbr></th>
-      <th><abbr title="Goal difference">GD</abbr></th>
-      <th><abbr title="Points">Pts</abbr></th>
-      <th>Qualification or relegation</th>
-    </tr>
-  </thead>
-  <tfoot>
-    <tr>
-      <th><abbr title="Position">Pos</abbr></th>
-      <th>Team</th>
-      <th><abbr title="Played">Pld</abbr></th>
-      <th><abbr title="Won">W</abbr></th>
-      <th><abbr title="Drawn">D</abbr></th>
-      <th><abbr title="Lost">L</abbr></th>
-      <th><abbr title="Goals for">GF</abbr></th>
-      <th><abbr title="Goals against">GA</abbr></th>
-      <th><abbr title="Goal difference">GD</abbr></th>
-      <th><abbr title="Points">Pts</abbr></th>
-      <th>Qualification or relegation</th>
-    </tr>
-  </tfoot>
-  <tbody>
-    <tr>
-      <th>1</th>
-      <td><a href="https://en.wikipedia.org/wiki/Leicester_City_F.C." title="Leicester City F.C.">Leicester City</a> <strong>(C)</strong>
-      </td>
-      <td>38</td>
-      <td>23</td>
-      <td>12</td>
-      <td>3</td>
-      <td>68</td>
-      <td>36</td>
-      <td>+32</td>
-      <td>81</td>
-      <td>Qualification for the <a href="https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Group_stage" title="2016–17 UEFA Champions League">Champions League group stage</a></td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td><a href="https://en.wikipedia.org/wiki/Arsenal_F.C." title="Arsenal F.C.">Arsenal</a></td>
-      <td>38</td>
-      <td>20</td>
-      <td>11</td>
-      <td>7</td>
-      <td>65</td>
-      <td>36</td>
-      <td>+29</td>
-      <td>71</td>
-      <td>Qualification for the <a href="https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Group_stage" title="2016–17 UEFA Champions League">Champions League group stage</a></td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td><a href="https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C." title="Tottenham Hotspur F.C.">Tottenham Hotspur</a></td>
-      <td>38</td>
-      <td>19</td>
-      <td>13</td>
-      <td>6</td>
-      <td>69</td>
-      <td>35</td>
-      <td>+34</td>
-      <td>70</td>
-      <td>Qualification for the <a href="https://en.wikipedia.org/wiki/2016%E2%80%9317_UEFA_Champions_League#Group_stage" title="2016–17 UEFA Champions League">Champions League group stage</a></td>
-    </tr>
-  </tbody>
-</table>
+<markdown src="assets/docs/table/table-text.md"></markdown>
+<br />
+
+<h4>Default</h4>
+<div class="columns">
+  <div class="column is-6">
+    <markdown src="assets/docs/table/table-default.md"></markdown>
+  </div>
+  <div class="column is-3">
+    <table class="table" buTable>
+      <thead>
+        <tr>
+          <th>One</th>
+          <th>Two</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Three</td>
+          <td>Four</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<br />
+
+<h4>Bordered</h4>
+<div class="columns">
+  <div class="column is-6">
+    <markdown src="assets/docs/table/table-bordered.md"></markdown>
+  </div>
+  <div class="column is-3">
+    <table class="table" buTable bordered="true">
+      <thead>
+        <tr>
+          <th>One</th>
+          <th>Two</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Three</td>
+          <td>Four</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<br />
+
+<h4>Striped</h4>
+<div class="columns">
+  <div class="column is-6">
+    <markdown src="assets/docs/table/table-striped.md"></markdown>
+  </div>
+  <div class="column is-3">
+    <table class="table" buTable striped="true">
+      <thead>
+        <tr>
+          <th>One</th>
+          <th>Two</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Three</td>
+          <td>Four</td>
+        </tr>
+        <tr>
+          <td>Five</td>
+          <td>Six</td>
+        </tr>
+        <tr>
+          <td>Seven</td>
+          <td>Eight</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<br />
+
+<h4>Hoverable</h4>
+<div class="columns">
+  <div class="column is-6">
+    <markdown src="assets/docs/table/table-hoverable.md"></markdown>
+  </div>
+  <div class="column is-3">
+    <table class="table" buTable hoverable="true">
+      <thead>
+        <tr>
+          <th>One</th>
+          <th>Two</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Three</td>
+          <td>Four</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<br />
+
+<h4>Full Width</h4>
+<div class="columns">
+  <div class="column is-6">
+    <markdown src="assets/docs/table/table-fullWidth.md"></markdown>
+  </div>
+  <div class="column">
+    <table class="table" buTable fullWidth="true">
+      <thead>
+        <tr>
+          <th>One</th>
+          <th>Two</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Three</td>
+          <td>Four</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<br />
