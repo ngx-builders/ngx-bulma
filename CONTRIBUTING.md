@@ -7,11 +7,13 @@ npm install
 ```
 
 ## Build Libraries
+
 ```shell
 npm run build:lib
 ```
 
 ## Build Portal
+
 ```shell
 npm run serve:app
 ```
@@ -65,7 +67,6 @@ to read on GitHub as well as in various git tools.
 
 The footer should contain a [closing reference to an issue](https://help.github.com/articles/closing-issues-via-commit-messages/) if any.
 
-
 ```
 docs(changelog): update changelog to beta.5
 ```
@@ -111,7 +112,7 @@ The following is the list of supported scopes:
 - **panel**
 - **tabs**
 - **dropdown**
-
+- **table**
 
 ### Subject
 
