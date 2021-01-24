@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 body {
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
 }
 
 .parent-container {
@@ -69,4 +69,20 @@ body {
   color: #7a7a7a;
   display: block;
   font-size: 1.25rem;
+}
+
+/** copy to clipboard button css */
+
+div.code-toolbar > .toolbar {
+  opacity: unset !important;
+  top: 0.5em !important;
+  right: 0.5em !important;
+}
+
+div.code-toolbar > .toolbar button {
+  color: white !important;
+  background-color: black !important;
+  padding: 4px !important;
+  font-size: 15px !important;
+  cursor: pointer !important;
 }
