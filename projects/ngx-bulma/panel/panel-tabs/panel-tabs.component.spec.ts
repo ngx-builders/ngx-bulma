@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { BulmaPanelTabsComponent } from './panel-tabs.component';
 
@@ -6,11 +6,13 @@ describe('BulmaPanelTabsComponent', () => {
   let component: BulmaPanelTabsComponent;
   let fixture: ComponentFixture<BulmaPanelTabsComponent>;
 
-  beforeEach(async(() => {
-    TestBed.configureTestingModule({
-      declarations: [BulmaPanelTabsComponent],
-    }).compileComponents();
-  }));
+  beforeEach(
+    waitForAsync(() => {
+      TestBed.configureTestingModule({
+        declarations: [BulmaPanelTabsComponent],
+      }).compileComponents();
+    }),
+  );
 
   beforeEach(() => {
     fixture = TestBed.createComponent(BulmaPanelTabsComponent);

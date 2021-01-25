@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { BulmaBreadcrumbComponent } from './breadcrumb.component';
 
@@ -6,11 +6,13 @@ describe('BulmaBreadcrumbComponent', () => {
   let component: BulmaBreadcrumbComponent;
   let fixture: ComponentFixture<BulmaBreadcrumbComponent>;
 
-  beforeEach(async(() => {
-    TestBed.configureTestingModule({
-      declarations: [BulmaBreadcrumbComponent],
-    }).compileComponents();
-  }));
+  beforeEach(
+    waitForAsync(() => {
+      TestBed.configureTestingModule({
+        declarations: [BulmaBreadcrumbComponent],
+      }).compileComponents();
+    }),
+  );
 
   beforeEach(() => {
     fixture = TestBed.createComponent(BulmaBreadcrumbComponent);

@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { NavbarDropdownComponent } from './navbar-dropdown.component';
 
@@ -6,11 +6,13 @@ describe('NavbarDropdownComponent', () => {
   let component: NavbarDropdownComponent;
   let fixture: ComponentFixture<NavbarDropdownComponent>;
 
-  beforeEach(async(() => {
-    TestBed.configureTestingModule({
-      declarations: [NavbarDropdownComponent],
-    }).compileComponents();
-  }));
+  beforeEach(
+    waitForAsync(() => {
+      TestBed.configureTestingModule({
+        declarations: [NavbarDropdownComponent],
+      }).compileComponents();
+    }),
+  );
 
   beforeEach(() => {
     fixture = TestBed.createComponent(NavbarDropdownComponent);

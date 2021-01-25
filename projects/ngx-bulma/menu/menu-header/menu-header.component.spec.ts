@@ -1,19 +1,21 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
-import { MenuHeaderComponent } from './menu-header.component';
+import { BulmaMenuHeaderComponent } from './menu-header.component';
 
 describe('MenuHeaderComponent', () => {
-  let component: MenuHeaderComponent;
-  let fixture: ComponentFixture<MenuHeaderComponent>;
+  let component: BulmaMenuHeaderComponent;
+  let fixture: ComponentFixture<BulmaMenuHeaderComponent>;
 
-  beforeEach(async(() => {
-    TestBed.configureTestingModule({
-      declarations: [MenuHeaderComponent],
-    }).compileComponents();
-  }));
+  beforeEach(
+    waitForAsync(() => {
+      TestBed.configureTestingModule({
+        declarations: [BulmaMenuHeaderComponent],
+      }).compileComponents();
+    }),
+  );
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MenuHeaderComponent);
+    fixture = TestBed.createComponent(BulmaMenuHeaderComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
