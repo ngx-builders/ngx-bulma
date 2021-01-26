@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { BulmaModalContentComponent } from './modal-content.component';
 
@@ -6,11 +6,13 @@ describe('BulmaModalContentComponent', () => {
   let component: BulmaModalContentComponent;
   let fixture: ComponentFixture<BulmaModalContentComponent>;
 
-  beforeEach(async(() => {
-    TestBed.configureTestingModule({
-      declarations: [BulmaModalContentComponent],
-    }).compileComponents();
-  }));
+  beforeEach(
+    waitForAsync(() => {
+      TestBed.configureTestingModule({
+        declarations: [BulmaModalContentComponent],
+      }).compileComponents();
+    }),
+  );
 
   beforeEach(() => {
     fixture = TestBed.createComponent(BulmaModalContentComponent);

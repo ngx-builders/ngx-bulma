@@ -1,19 +1,21 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
-import { MenuContentComponent } from './menu-content.component';
+import { BulmaMenuContentComponent } from './menu-content.component';
 
 describe('MenuContentComponent', () => {
-  let component: MenuContentComponent;
-  let fixture: ComponentFixture<MenuContentComponent>;
+  let component: BulmaMenuContentComponent;
+  let fixture: ComponentFixture<BulmaMenuContentComponent>;
 
-  beforeEach(async(() => {
-    TestBed.configureTestingModule({
-      declarations: [MenuContentComponent],
-    }).compileComponents();
-  }));
+  beforeEach(
+    waitForAsync(() => {
+      TestBed.configureTestingModule({
+        declarations: [BulmaMenuContentComponent],
+      }).compileComponents();
+    }),
+  );
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MenuContentComponent);
+    fixture = TestBed.createComponent(BulmaMenuContentComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
