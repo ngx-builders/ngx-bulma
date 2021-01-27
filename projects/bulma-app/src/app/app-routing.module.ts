@@ -59,8 +59,7 @@ const routes: Routes = [
   },
   {
     path: 'elements/table',
-    loadChildren: () =>
-      import('./table/table.module').then((table) => table.TableModule),
+    loadChildren: () => import('./table/table.module').then((table) => table.TableModule),
   },
   {
     path: 'layout/container',
@@ -124,7 +123,12 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, { scrollPositionRestoration: 'top' })],
+  imports: [
+    RouterModule.forRoot(routes, {
+      scrollPositionRestoration: 'top',
+      relativeLinkResolution: 'legacy',
+    }),
+  ],
   exports: [RouterModule],
 })
 export class AppRoutingModule {}
