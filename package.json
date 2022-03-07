@@ -38,7 +38,7 @@
     "bulma": "0.9.0",
     "core-js": "3.6.5",
     "font-awesome": "4.7.0",
-    "marked": "1.1.1",
+    "marked": "4.0.10",
     "ng-samurai": "2.0.5",
     "ngx-markdown": "11.0.1",
     "prism-themes": "1.4.0",
